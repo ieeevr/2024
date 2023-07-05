@@ -27,7 +27,7 @@ title_separator: "|"
         <li>Reject</li>
     </ol>
     <p>
-        Inquiries: <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">program [at] ieeevr.org</i>
+        <b>Inquiries:</b> <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">program [at] ieeevr.org</i>
     </p>
 
     <h2 id="important-dates"> Important Dates </h2>
@@ -49,7 +49,7 @@ title_separator: "|"
         Submissions will be accepted through Precision Conference Solutions this year.<br />
         More details will be available in the coming months.
     </div>
-    <p><span class="bold">IMPORTANT:</span> IEEE VR 2024 uses a DOUBLE-BLIND review process. Failure to anonymize submissions will result in desk rejection.</p>
+    <p><b>IMPORTANT:</b> IEEE VR 2024 uses a DOUBLE-BLIND review process. Failure to anonymize submissions will result in desk rejection.</p>
     <p style="text-align: left ! important;">
         Each research paper should provide a contribution covering one or more of the following categories: methodological, technical, applications, and systems.
         <ul>
