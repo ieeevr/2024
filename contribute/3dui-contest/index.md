@@ -6,12 +6,13 @@ title_separator: "|"
 ---
 
 
-<!-- <div>
+<div>
     <p>
         More information coming soon, please watch this space.
     </p>
-</div> -->
+</div>
 
+<script> /***
 <div>
    <h1 id="cfp-3dui-contest"> IEEE Virtual Reality 2023 3DUI Contest <br /> Call for Participation </h1>
 
@@ -137,8 +138,9 @@ Call updates will be posted on the contest page: <a href="https://ieeevr.org/202
         <li>Chao Mei, Meta Reality Labs, USA</li>
         <li>Thammathip Piumsomboon, University of Canterbury, New Zealand</li>
     </ul>
-    <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">contest2023 [at] ieeevr.org</i>
+    <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">contest2024 [at] ieeevr.org</i>
 </p>
 
 
 </div>
+***/ </script>

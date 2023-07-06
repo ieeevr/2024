@@ -17,7 +17,7 @@ title_separator: "|"
         If you wish to report a breach of the code of conduct this can be done via email to:
         <ul>
             <li> 
-                The General Co-Chairs: <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">general [at] ieeevr.org</i>
+                The General Co-Chairs: <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">general2024 [at] ieeevr.org</i>
             </li>
             <li> 
                 The Steering Committee: <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">steering [at] ieeevr.org</i>

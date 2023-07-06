@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 
 <div>
-    <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program [at] ieeevr.org</i></div></h1>
+    <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program2024 [at] ieeevr.org</i></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2024: the 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 16-20, 2024 | Orlando, Florida USA
@@ -27,7 +27,7 @@ title_separator: "|"
         <li>Reject</li>
     </ol>
     <p>
-        <b>Inquiries:</b> <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">program [at] ieeevr.org</i>
+        <b>Inquiries:</b> <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">program2024 [at] ieeevr.org</i>
     </p>
 
     <h2 id="important-dates"> Important Dates </h2>
@@ -213,7 +213,7 @@ title_separator: "|"
     </p>
    
 
-    <h2 id="contacts">Contacts <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program [at] ieeevr.org</i></div></h2>						
+    <h2 id="contacts">Contacts <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program2024 [at] ieeevr.org</i></div></h2>						
     <p>
         <b>Technical Papers Chairs:</b>
         						

@@ -7,7 +7,7 @@ title_separator: "|"
   
 <h1>Conference Committee</h1>
 <div>									
-	<h2>General Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">general [at] ieeevr.org</i></div></h2>
+	<h2>General Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">general2024 [at] ieeevr.org</i></div></h2>
 					
 	<ul>	
 		<li><span class="bold">Carolina Cruz-Neira</span> &#x2012; <i>University of Central Florida, USA</i></li>			
@@ -16,7 +16,7 @@ title_separator: "|"
 	</ul>					
 </div>
 <div>
-	<h2>Program Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program [at] ieeevr.org</i></div></h2>						
+	<h2>Program Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program2024 [at] ieeevr.org</i></div></h2>						
 	<ul>		
 		<li><span class="bold">Yuta Itoh</span> &#x2012; <i>The University of Tokyo, Japan</i></li>						
 		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>	
