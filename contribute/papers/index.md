@@ -74,7 +74,7 @@ title_separator: "|"
         We welcome paper submissions between 4 and 9 pages, not including references. Authors are encouraged to submit videos to aid the program committee in reviewing their submissions.
     </p>
     <p>
-        All paper submissions must be formatted using the IEEE Computer Society TVCG journal format (<a href="https://tc.computer.org/vgtc/publications/journal/" target="_blank">https://tc.computer.org/vgtc/publications/journal/</a>). Accepted papers and posters will have to be formatted by the authors according to the relevant camera-ready guidelines.
+        All paper submissions must be formatted using the IEEE Computer Society TVCG conference format (<a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>). Accepted papers and posters will have to be formatted by the authors according to the relevant camera-ready guidelines.
     </p>
 
     <h2 id="topics"> Topics </h2>
