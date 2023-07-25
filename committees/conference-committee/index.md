@@ -40,6 +40,7 @@ title_separator: "|"
 <div>
 	<h2>Publications Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">publications2024 [at] ieeevr.org</i></div></h2>
 	<ul>
+		<li><span class="bold">Lauren Buck</span> &#x2012; <i>Trinity College Dublin, Ireland</i></li>
 		<li><span class="bold">Daniel Zielasko</span> &#x2012; <i>University of Trier, Germany</i></li>
 	</ul>
 </div>
