@@ -67,7 +67,7 @@ title_separator: "|"
 	<h2>Web Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">web2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Susan Bethel</span> &#x2012; <i>University of Central Florida, USA</i></li>
-		<li><span class="bold">Erica Rectenwald</span> &#x2012; <i>University of Central Florida, USA</i></li>
+		<li><span class="bold">Erica Recktenwald</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Carole McDaniel</span> &#x2012; <i>University of Central Florida, USA</i></li>
 	</ul>
 </div>
