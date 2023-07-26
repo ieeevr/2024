@@ -20,7 +20,7 @@ title_separator: "|"
 		<li><span class="bold">Yuta Itoh</span> &#x2012; <i>The University of Tokyo, Japan</i></li>
 		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>
 		<li><span class="bold">Voicu Popescu</span> &#x2012; <i>Purdue University, USA</i></li>
-		<li><span class="bold">Stephanie Zollman</span> &#x2012; <i>The University of Otago, New Zealand</i></li>
+		<li><span class="bold">Stefanie Zollmann</span> &#x2012; <i>The University of Otago, New Zealand</i></li>
 	</ul>
 </div>
 <div>

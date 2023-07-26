@@ -221,7 +221,7 @@ title_separator: "|"
             <li><span class="bold">Yuta Itoh</span>, <i>The University of Tokyo, Japan</i></li>								
             <li><span class="bold">Tabitha Peck</span>, <i>Davidson College, USA</i></li>	
             <li><span class="bold">Voicu Popescu</span>, <i>Purdue University, USA</i></li>	
-            <li><span class="bold">Stephanie Zollman</span>, <i>The University of Otago, New Zealand</i></li>	
+            <li><span class="bold">Stefanie Zollmann</span>, <i>The University of Otago, New Zealand</i></li>	
         </ul>
     </p>
 </div>
