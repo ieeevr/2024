@@ -33,7 +33,7 @@ title_separator: "|"
 <div>
 	<h2>Diversity, Equity, Inclusion, and Accessibility Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">diversity2024 [at] ieeevr.org</i></div></h2>			
 	<ul>
-		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>SUniversity of North Texas, USA</i></li>
+		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>University of North Texas, USA</i></li>
 	</ul>
 </div>
 <div>
