@@ -31,6 +31,12 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
+	<h2>Diversity, Equity, Inclusion, and Accessibility Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">diversity2024 [at] ieeevr.org</i></div></h2>			
+	<ul>
+		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>SUniversity of North Texas, USA</i></li>
+	</ul>
+</div>
+<div>
 	<h2>Posters Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">posters2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Ramiro Serrano Vergel</span> &#x2012; <i>University of Michigan, USA</i></li>
@@ -40,7 +46,9 @@ title_separator: "|"
 <div>
 	<h2>Publications Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">publications2024 [at] ieeevr.org</i></div></h2>
 	<ul>
-		<li><span class="bold">Lauren Buck</span> &#x2012; <i>Trinity College Dublin, Ireland</i></li>
+		<li><span class="bold">Christos Mousas</span> &#x2012; <i>Purdue University, USA </i></li>
+		<li><span class="bold">Mohammed Safayet Arefin</span> &#x2012; <i>US Army Research Laboratory, USA </i></li>
+		<li><span class="bold">Lauren Buck</span> &#x2012; <i>Trinity College, Dublin, Ireland</i></li>
 		<li><span class="bold">Daniel Zielasko</span> &#x2012; <i>University of Trier, Germany</i></li>
 	</ul>
 </div>
@@ -54,6 +62,7 @@ title_separator: "|"
 	<h2>Student Volunteers Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">studentvolunteers2024 [at] ieeevr.org</i></div></h2>			
 	<ul>
 		<li><span class="bold">Matthew Gottsacker</span> &#x2012; <i>University of Central Florida, USA</i></li>
+		<li><span class="bold">Jason Orlosky</span> &#x2012; <i>Augusta University, USA</i></li>
 	</ul>
 </div>
 <div>
@@ -75,6 +84,6 @@ title_separator: "|"
 	<h2>Workshop Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">workshops2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Dirk Reiners</span> &#x2012; <i>University of Central Florida, USA</i></li>
-		<li><span class="bold">Sergio Casas-Yrurzum</span> &#x2012; <i>Universidad de Valencia,  Spain</i></li>
+		<li><span class="bold">Sergio Casas-Yrurzum</span> &#x2012; <i>Universidad de Valencia, Spain</i></li>
 	</ul>
 </div>
