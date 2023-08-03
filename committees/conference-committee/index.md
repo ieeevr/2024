@@ -37,6 +37,12 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
+	<h2>Finance Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">finance2024 [at] ieeevr.org</i></div></h2>			
+	<ul>
+		<li><span class="bold">Arindam Dey</span> &#x2012; <i>The University of Queensland, Australia</i></li>
+	</ul>
+</div>
+<div>
 	<h2>Posters Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">posters2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Ramiro Serrano Vergel</span> &#x2012; <i>University of Michigan, USA</i></li>
