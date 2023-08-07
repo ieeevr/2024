@@ -34,12 +34,13 @@ title_separator: "|"
 	<h2>Diversity, Equity, Inclusion, and Accessibility Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">diversity2024 [at] ieeevr.org</i></div></h2>			
 	<ul>
 		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>University of North Texas, USA</i></li>
+		<li><span class="bold">Missie Smith</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
 	</ul>
 </div>
 <div>
 	<h2>Finance Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">finance2024 [at] ieeevr.org</i></div></h2>			
 	<ul>
-		<li><span class="bold">Arindam Dey</span> &#x2012; <i>The University of Queensland, Australia</i></li>
+		<li><span class="bold">Arindam Dey</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
 	</ul>
 </div>
 <div>
