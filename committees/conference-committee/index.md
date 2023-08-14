@@ -34,6 +34,7 @@ title_separator: "|"
 	<h2>Diversity, Equity, Inclusion, and Accessibility Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">diversity2024 [at] ieeevr.org</i></div></h2>			
 	<ul>
 		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>University of North Texas, USA</i></li>
+		<li><span class="bold">John Quarles</span> &#x2012; <i>University of Texas at San Antonio, USA</i></li>
 		<li><span class="bold">Missie Smith</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
 	</ul>
 </div>
@@ -41,6 +42,13 @@ title_separator: "|"
 	<h2>Finance Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">finance2024 [at] ieeevr.org</i></div></h2>			
 	<ul>
 		<li><span class="bold">Arindam Dey</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Local Arrangements Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">localarrangements2024 [at] ieeevr.org</i></div></h2>			
+	<ul>
+		<li><span class="bold">Elham "Ellie” Ebrahimi</span> &#x2012; <i>University of North Carolina at Wilmington, USA</i></li>
+		<li><span class="bold">Matias Volonte</span> &#x2012; <i>Clemson University, USA</i></li>
 	</ul>
 </div>
 <div>
