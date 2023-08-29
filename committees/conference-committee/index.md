@@ -118,3 +118,10 @@ title_separator: "|"
 		<li><span class="bold">Misha Sra</span> &#x2012; <i>Univeristy of California, Santa Barbara, USA</i></li>
 	</ul>
 </div>
+<div>
+	<h2>Exhibits and Sponsors Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">exhibitssponsors2024 [at] ieeevr.org</i></div></h2>
+	<ul>
+		<li><span class="bold">Iana Podkosova</span> &#x2012; <i>TU Wien, Austria</i></li>
+		<li><span class="bold">Khrystyna Vasylevska</span> &#x2012; <i>TU Wien, Austria</i></li>
+	</ul>
+</div>
