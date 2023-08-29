@@ -125,3 +125,12 @@ title_separator: "|"
 		<li><span class="bold">Khrystyna Vasylevska</span> &#x2012; <i>TU Wien, Austria</i></li>
 	</ul>
 </div>
+<div>
+	<h2>Conference Awards Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">awards2024 [at] ieeevr.org</i></div></h2>
+	<ul>
+		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>Universität Hamburg, Germany</i></li>
+		<li><span class="bold">Missie Smith</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
+		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>Nara Institute of Science and Technology, Japan</i></li>
+		<li><span class="bold">Shi-Min Hu</span> &#x2012; <i>Tsinghua University, China</i></li>
+	</ul>
+</div>
