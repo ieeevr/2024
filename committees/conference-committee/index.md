@@ -133,5 +133,6 @@ title_separator: "|"
 		<li><span class="bold">Missie Smith</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
 		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>Nara Institute of Science and Technology, Japan</i></li>
 		<li><span class="bold">Shi-Min Hu</span> &#x2012; <i>Tsinghua University, China</i></li>
+		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
 	</ul>
 </div>
