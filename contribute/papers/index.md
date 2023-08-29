@@ -21,7 +21,7 @@ title_separator: "|"
     </p>
     <ol>
         <li>Accept as IEEE TVCG paper, with presentation at IEEE VR 2024</li>
-        <li>Accept as IEEE VR 2024 conference paper</li>
+        <li>Accept as IEEE VR 2024 conference paper, with presentation at IEEE VR 2024</li>
         <li>Major revision to IEEE TVCG</li>
         <li>Accept as IEEE VR 2024 poster</li>
         <li>Reject</li>
