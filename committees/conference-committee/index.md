@@ -24,6 +24,16 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
+	<h2>Conference Awards Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">awards2024 [at] ieeevr.org</i></div></h2>
+	<ul>
+		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>Universität Hamburg, Germany</i></li>
+		<li><span class="bold">Shi-Min Hu</span> &#x2012; <i>Tsinghua University, China</i></li>
+		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>Nara Institute of Science and Technology, Japan</i></li>
+		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
+		<li><span class="bold">Missie Smith</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
+	</ul>
+</div>
+<div>
 	<h2>Doctoral Consortium Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">doctoralconsortium2024 [at] ieeevr.org</i></div></h2>			
 	<ul>
 		<li><span class="bold">Frank Guan</span> &#x2012; <i>Singapore Institute of Technology, Singapore</i></li>
@@ -36,6 +46,13 @@ title_separator: "|"
 		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>University of North Texas, USA</i></li>
 		<li><span class="bold">John Quarles</span> &#x2012; <i>University of Texas at San Antonio, USA</i></li>
 		<li><span class="bold">Missie Smith</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
+	</ul>
+</div>
+<div>
+	<h2>Exhibits and Sponsors Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">exhibitssponsors2024 [at] ieeevr.org</i></div></h2>
+	<ul>
+		<li><span class="bold">Iana Podkosova</span> &#x2012; <i>TU Wien, Austria</i></li>
+		<li><span class="bold">Khrystyna Vasylevska</span> &#x2012; <i>TU Wien, Austria</i></li>
 	</ul>
 </div>
 <div>
@@ -76,8 +93,8 @@ title_separator: "|"
 <div>
 	<h2>Research Demonstrations Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">researchdemos2024 [at] ieeevr.org</i></div></h2>
 	<ul>
-		<li><span class="bold">Juan Sebastian Munoz</span> &#x2012; <i>Unity, Canada</i></li>
 		<li><span class="bold">Kangsoo Kim</span> &#x2012; <i>University of Calgary, Canada</i></li> 
+		<li><span class="bold">Juan Sebastian Munoz</span> &#x2012; <i>Unity, Canada</i></li>
 	</ul>
 </div>
 <div>
@@ -112,27 +129,10 @@ title_separator: "|"
 <div>
 	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">xrfuturefaculty2024 [at] ieeevr.org</i></div></h2>
 	<ul>
+		<li><span class="bold">Grace Ahn</span> &#x2012; <i>University of Georgia, USA</i></li>
 		<li><span class="bold">Matt Gottsacker</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Cassidy R. Nelson</span> &#x2012; <i>Virginia Tech, USA</i></li>
-		<li><span class="bold">Niall L. Williams</span> &#x2012; <i>University of Maryland, USA</i></li>
-		<li><span class="bold">Grace Ahn</span> &#x2012; <i>University of Georgia, USA</i></li>
 		<li><span class="bold">Misha Sra</span> &#x2012; <i>Univeristy of California, Santa Barbara, USA</i></li>
-	</ul>
-</div>
-<div>
-	<h2>Exhibits and Sponsors Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">exhibitssponsors2024 [at] ieeevr.org</i></div></h2>
-	<ul>
-		<li><span class="bold">Iana Podkosova</span> &#x2012; <i>TU Wien, Austria</i></li>
-		<li><span class="bold">Khrystyna Vasylevska</span> &#x2012; <i>TU Wien, Austria</i></li>
-	</ul>
-</div>
-<div>
-	<h2>Conference Awards Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">awards2024 [at] ieeevr.org</i></div></h2>
-	<ul>
-		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>Universität Hamburg, Germany</i></li>
-		<li><span class="bold">Missie Smith</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
-		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>Nara Institute of Science and Technology, Japan</i></li>
-		<li><span class="bold">Shi-Min Hu</span> &#x2012; <i>Tsinghua University, China</i></li>
-		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
+		<li><span class="bold">Niall L. Williams</span> &#x2012; <i>University of Maryland, USA</i></li>
 	</ul>
 </div>
