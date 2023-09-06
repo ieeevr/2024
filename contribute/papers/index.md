@@ -47,7 +47,7 @@ title_separator: "|"
     <h2 id="submission-guidelines">Submission Guidelines</h2>
     <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
         Submissions will be accepted through Precision Conference Solutions this year.<br />
-        More details will be available in the coming months.
+        <a href="https://new.precisionconference.com/vr24a" title="https://new.precisionconference.com/vr24a" target="_blank">https://new.precisionconference.com/vr24a</a>
     </div>
     <p><b>IMPORTANT:</b> IEEE VR 2024 uses a DOUBLE-BLIND review process. Failure to anonymize submissions will result in desk rejection.</p>
     <p style="text-align: left ! important;">
