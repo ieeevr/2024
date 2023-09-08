@@ -73,6 +73,7 @@ title_separator: "|"
 	<ul>
 		<li><span class="bold">Ramiro Serrano Vergel</span> &#x2012; <i>University of Michigan, USA</i></li>
 		<li><span class="bold">Wole Oyekoya</span> &#x2012; <i>Hunter College (CUNY), USA</i></li>
+		<li><span class="bold">Jerald Thomas</span> &#x2012; <i>University of Wisconsin - Milwaukee, USA</i></li>
 	</ul>
 </div>
 <div>
