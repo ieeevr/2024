@@ -66,6 +66,7 @@ title_separator: "|"
 	<ul>
 		<li><span class="bold">Elham "Ellie” Ebrahimi</span> &#x2012; <i>University of North Carolina at Wilmington, USA</i></li>
 		<li><span class="bold">Matias Volonte</span> &#x2012; <i>Clemson University, USA</i></li>
+		<li><span class="bold">John Murray </span> &#x2012; <i>The University of Central Florida, USA</i></li>
 	</ul>
 </div>
 <div>
@@ -74,6 +75,7 @@ title_separator: "|"
 		<li><span class="bold">Ramiro Serrano Vergel</span> &#x2012; <i>University of Michigan, USA</i></li>
 		<li><span class="bold">Wole Oyekoya</span> &#x2012; <i>Hunter College (CUNY), USA</i></li>
 		<li><span class="bold">Jerald Thomas</span> &#x2012; <i>University of Wisconsin - Milwaukee, USA</i></li>
+		<li><span class="bold">Jian Chen</span> &#x2012; <i>The Ohio State University, USA</i></li>
 	</ul>
 </div>
 <div>
