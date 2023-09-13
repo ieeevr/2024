@@ -65,17 +65,17 @@ title_separator: "|"
 	<h2>Local Arrangements Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">localarrangements2024 [at] ieeevr.org</i></div></h2>			
 	<ul>
 		<li><span class="bold">Elham "Ellie” Ebrahimi</span> &#x2012; <i>University of North Carolina at Wilmington, USA</i></li>
-		<li><span class="bold">Matias Volonte</span> &#x2012; <i>Clemson University, USA</i></li>
 		<li><span class="bold">John T. Murray</span> &#x2012; <i>The University of Central Florida, USA</i></li>
+		<li><span class="bold">Matias Volonte</span> &#x2012; <i>Clemson University, USA</i></li>
 	</ul>
 </div>
 <div>
 	<h2>Posters Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">posters2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Ramiro Serrano Vergel</span> &#x2012; <i>University of Michigan, USA</i></li>
+		<li><span class="bold">Jian Chen</span> &#x2012; <i>The Ohio State University, USA</i></li>
 		<li><span class="bold">Wole Oyekoya</span> &#x2012; <i>Hunter College (CUNY), USA</i></li>
 		<li><span class="bold">Jerald Thomas</span> &#x2012; <i>University of Wisconsin - Milwaukee, USA</i></li>
-		<li><span class="bold">Jian Chen</span> &#x2012; <i>The Ohio State University, USA</i></li>
 	</ul>
 </div>
 <div>
