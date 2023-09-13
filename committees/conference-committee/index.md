@@ -66,7 +66,7 @@ title_separator: "|"
 	<ul>
 		<li><span class="bold">Elham "Ellie” Ebrahimi</span> &#x2012; <i>University of North Carolina at Wilmington, USA</i></li>
 		<li><span class="bold">Matias Volonte</span> &#x2012; <i>Clemson University, USA</i></li>
-		<li><span class="bold">John Murray </span> &#x2012; <i>The University of Central Florida, USA</i></li>
+		<li><span class="bold">John T. Murray </span> &#x2012; <i>The University of Central Florida, USA</i></li>
 	</ul>
 </div>
 <div>
