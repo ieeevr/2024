@@ -97,6 +97,7 @@ title_separator: "|"
 	<h2>Research Demonstrations Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">researchdemos2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Kangsoo Kim</span> &#x2012; <i>University of Calgary, Canada</i></li> 
+		<li><span class="bold">Alexandre Gomes de Siqueira </span> &#x2012; <i>The University of Florida, USA</i></li>
 		<li><span class="bold">Juan Sebastian Munoz</span> &#x2012; <i>Unity, Canada</i></li>
 	</ul>
 </div>
