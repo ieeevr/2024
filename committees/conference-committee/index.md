@@ -24,6 +24,13 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
+	<h2>Communications Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">communications2024 [at] ieeevr.org</i></div></h2>
+	<ul>
+		<li><span class="bold">Alexander Giovannelli</span> &#x2012; <i>Virginia Tech, USA</i></li>
+		<li><span class="bold">Brook Bowers</span> &#x2012; <i>University of Georgia, USA</i></li>
+	</ul>
+</div>
+<div>
 	<h2>Conference Awards Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">awards2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>Universität Hamburg, Germany</i></li>
