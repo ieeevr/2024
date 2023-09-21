@@ -26,8 +26,8 @@ title_separator: "|"
 <div>
 	<h2>Communications Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">communications2024 [at] ieeevr.org</i></div></h2>
 	<ul>
-		<li><span class="bold">Alexander Giovannelli</span> &#x2012; <i>Virginia Tech, USA</i></li>
 		<li><span class="bold">Brook Bowers</span> &#x2012; <i>University of Georgia, USA</i></li>
+		<li><span class="bold">Alexander Giovannelli</span> &#x2012; <i>Virginia Tech, USA</i></li>
 	</ul>
 </div>
 <div>
@@ -140,10 +140,10 @@ title_separator: "|"
 <div>
 	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">xrfuturefaculty2024 [at] ieeevr.org</i></div></h2>
 	<ul>
-		<li><span class="bold">Grace Ahn</span> &#x2012; <i>University of Georgia, USA</i></li>
 		<li><span class="bold">Matt Gottsacker</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Cassidy R. Nelson</span> &#x2012; <i>Virginia Tech, USA</i></li>
-		<li><span class="bold">Misha Sra</span> &#x2012; <i>Univeristy of California, Santa Barbara, USA</i></li>
 		<li><span class="bold">Niall L. Williams</span> &#x2012; <i>University of Maryland, USA</i></li>
+		<li><span class="bold">Grace Ahn</span> &#x2012; <i>University of Georgia, USA</i></li>
+		<li><span class="bold">Misha Sra</span> &#x2012; <i>Univeristy of California, Santa Barbara, USA</i></li>
 	</ul>
 </div>
