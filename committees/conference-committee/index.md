@@ -123,6 +123,12 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
+	<h2>Video Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">video2024 [at] ieeevr.org</i></div></h2>
+	<ul>
+		<li><span class="bold">Abdul Mannan Mohammed</span> &#x2012; <i>University of Central Florida, USA</i></li>
+	</ul>
+</div>
+<div>
 	<h2>Web Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">web2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Susan Bethel</span> &#x2012; <i>University of Central Florida, USA</i></li>
