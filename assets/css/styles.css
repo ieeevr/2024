@@ -233,11 +233,13 @@
         font-size: 0.6em;
         color:#14b2d7; 
         font-weight: bold; 
+        text-transform: uppercase;
     }
     .emailText{
         font-size: 0.9em;
         color:#14b2d7; 
-        font-weight: bold; 
+        font-weight: bold;
+        text-transform: uppercase; 
     }
     .emailIcon{
         font-size: 0.9em;
