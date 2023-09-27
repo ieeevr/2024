@@ -5,14 +5,12 @@ subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
 
-
-
-<!-- <div>
+<div>
     <p>
         More information coming soon, please watch this space.
     </p>
-</div> -->
-
+</div>
+<!--
 <div>
     <h1 id="cfp-doctoral-cosortium">Call for Doctoral Consortium</h1>
     <p>
@@ -64,5 +62,5 @@ title_separator: "|"
         </ul>
         doctoralconsortium2024 [at] ieeevr.org
     </p>
-
 </div>
+--->
