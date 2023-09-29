@@ -53,6 +53,7 @@ title_separator: "|"
 		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>University of North Texas, USA</i></li>
 		<li><span class="bold">John Quarles</span> &#x2012; <i>University of Texas at San Antonio, USA</i></li>
 		<li><span class="bold">Missie Smith</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
+		<li><span class="bold">Dylan Fox </span> &#x2012; <i>XR Access, USA</i></li>
 	</ul>
 </div>
 <div>
@@ -120,6 +121,7 @@ title_separator: "|"
 	<ul>
 		<li><span class="bold">Ivan Conde</span> &#x2012; <i>University of Arkansas, USA</i></li>
 		<li><span class="bold">Kapil Chalil Madathil</span> &#x2012; <i>Clemson University, USA</i></li>
+		<li><span class="bold">Heide Lukosch</span> &#x2012; <i>University of Canterbury, New Zealand</i></li>
 	</ul>
 </div>
 <div>
