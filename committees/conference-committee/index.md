@@ -15,6 +15,15 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
+	<h2>Program Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">awards2024 [at] ieeevr.org</i></div></h2>
+	<ul>
+		<li><span class="bold">BoYu Gao</span> &#x2012; <i>Jinan University, China</i></li>
+		<li><span class="bold">Thammathip Piumsomboon</span> &#x2012; <i>University of Canterbury, New Zealand</i></li>
+		<li><span class="bold">Jean-Rémy Chardonnet</span> &#x2012; <i>Arts et Metiers Institute of Technology, France</i></li>
+		<li><span class="bold">Eike Langbehn</span> &#x2012; <i>Hamburg University of Applied Sciences, Germany</i></li>
+	</ul>
+</div>
+<div>
 	<h2>Program Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program2024 [at] ieeevr.org</i></div></h2>
 	<ul>
 		<li><span class="bold">Yuta Itoh</span> &#x2012; <i>The University of Tokyo, Japan</i></li>
