@@ -4,10 +4,75 @@ title: "Conference Committee"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
+<script type="text/javascript">
+	$(document).ready(function(){
+		var email = ""; 
+		var domain = "ieeevr.org"; 
 
+		email = "general2024"; 		
+		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+
+		email = "program2024"; 
+		program.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "contest2024"; 
+		contest.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+
+		email = "communications2024";
+		communications.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "awards2024"; 
+		awards.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "doctoralconsortium2024"; 
+		doctoralconsortium.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "diversity2024"; 
+		diversity.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+	
+		email = "exhibitssponsors2024"; 
+		exhibitssponsors.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+
+		email = "finance2024"; 
+		finance.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "localarrangements2024";
+		localarrangements.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "posters2024"; 
+		posters.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "publications2024"; 
+		publications.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "publicity2024"; 
+		publicity.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "researchdemos2024"; 
+		researchdemos.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "studentvolunteers2024"; 
+		studentvolunteers.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "tutorials2024"; 
+		tutorials.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+
+		email = "videos2024"; 		
+		videos.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "web2024";		
+		web.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "workshops2024"; 		
+		workshops.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		
+		email = "xrfuturefaculty2024"; 		
+		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+	});
+</script>
 <h1>Conference Committee</h1>
 <div>
-	<h2>General Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">general2024 [at] ieeevr.org</i></div></h2>
+	<h2>General Chairs <div class="floatRight"><span id="general"></span></div></h2>
 	<ul>
 		<li><span class="bold">Carolina Cruz-Neira</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Greg Welch</span> &#x2012; <i>University of Central Florida, USA</i></li>
@@ -15,7 +80,7 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Program Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program2024 [at] ieeevr.org</i></div></h2>
+	<h2>Program Chairs <div class="floatRight"><span id="program"></span></div></h2>
 	<ul>
 		<li><span class="bold">Yuta Itoh</span> &#x2012; <i>The University of Tokyo, Japan</i></li>
 		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>
@@ -24,7 +89,7 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>3DUI Contest Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">contest2024 [at] ieeevr.org</i></div></h2>
+	<h2>3DUI Contest Chairs <div class="floatRight"><span id="contest"></span></div></h2>
 	<ul>
 		<li><span class="bold">BoYu Gao</span> &#x2012; <i>Jinan University, China</i></li>
 		<li><span class="bold">Thammathip Piumsomboon</span> &#x2012; <i>University of Canterbury, New Zealand</i></li>
@@ -33,14 +98,14 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Communications Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">communications2024 [at] ieeevr.org</i></div></h2>
+	<h2>Communications Chairs  <div class="floatRight"><span id="communications"></span></div></h2>
 	<ul>
 		<li><span class="bold">Brook Bowers</span> &#x2012; <i>University of Georgia, USA</i></li>
 		<li><span class="bold">Alexander Giovannelli</span> &#x2012; <i>Virginia Tech, USA</i></li>
 	</ul>
 </div>
 <div>
-	<h2>Conference Awards Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">awards2024 [at] ieeevr.org</i></div></h2>
+	<h2>Conference Awards Chairs  <div class="floatRight"><span id="awards"></span></div></h2>
 	<ul>
 		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>Universität Hamburg, Germany</i></li>
 		<li><span class="bold">Shi-Min Hu</span> &#x2012; <i>Tsinghua University, China</i></li>
@@ -50,14 +115,14 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Doctoral Consortium Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">doctoralconsortium2024 [at] ieeevr.org</i></div></h2>			
+	<h2>Doctoral Consortium Chairs <div class="floatRight"><span id="doctoralconsortium"></span></div></h2>			
 	<ul>
 		<li><span class="bold">Frank Guan</span> &#x2012; <i>Singapore Institute of Technology, Singapore</i></li>
 		<li><span class="bold">Jan Springer</span> &#x2012; <i>University of Arkansas, USA</i></li>
 	</ul>
 </div>
 <div>
-	<h2>Diversity, Equity, Inclusion, and Accessibility Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">diversity2024 [at] ieeevr.org</i></div></h2>			
+	<h2>Diversity, Equity, Inclusion, and Accessibility Chairs <div class="floatRight"><span id="diversity"></span></div></h2>			
 	<ul>
 		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>University of North Texas, USA</i></li>
 		<li><span class="bold">John Quarles</span> &#x2012; <i>University of Texas at San Antonio, USA</i></li>
@@ -66,20 +131,20 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Exhibits and Sponsors Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">exhibitssponsors2024 [at] ieeevr.org</i></div></h2>
+	<h2>Exhibits and Sponsors Chairs  <div class="floatRight"><span id="exhibitssponsors"></span></div></h2>
 	<ul>
 		<li><span class="bold">Iana Podkosova</span> &#x2012; <i>TU Wien, Austria</i></li>
 		<li><span class="bold">Khrystyna Vasylevska</span> &#x2012; <i>TU Wien, Austria</i></li>
 	</ul>
 </div>
 <div>
-	<h2>Finance Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">finance2024 [at] ieeevr.org</i></div></h2>			
+	<h2>Finance Chairs <div class="floatRight"><span id="finance"></span></div></h2>			
 	<ul>
 		<li><span class="bold">Arindam Dey</span> &#x2012; <i>Meta Reality Labs, USA</i></li>
 	</ul>
 </div>
 <div>
-	<h2>Local Arrangements Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">localarrangements2024 [at] ieeevr.org</i></div></h2>			
+	<h2>Local Arrangements Chairs <div class="floatRight"><span id="localarrangements"></span></div></h2>			
 	<ul>
 		<li><span class="bold">Elham "Ellie” Ebrahimi</span> &#x2012; <i>University of North Carolina at Wilmington, USA</i></li>
 		<li><span class="bold">John T. Murray</span> &#x2012; <i>The University of Central Florida, USA</i></li>
@@ -87,7 +152,7 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Posters Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">posters2024 [at] ieeevr.org</i></div></h2>
+	<h2>Posters Chairs <div class="floatRight"><span id="posters"></span></div></h2>
 	<ul>
 		<li><span class="bold">Ramiro Serrano Vergel</span> &#x2012; <i>University of Michigan, USA</i></li>
 		<li><span class="bold">Jian Chen</span> &#x2012; <i>The Ohio State University, USA</i></li>
@@ -96,7 +161,7 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Publications Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">publications2024 [at] ieeevr.org</i></div></h2>
+	<h2>Publications Chairs <div class="floatRight"><span id="publications"></span></div></h2>
 	<ul>
 		<li><span class="bold">Christos Mousas</span> &#x2012; <i>Purdue University, USA </i></li>
 		<li><span class="bold">Mohammed Safayet Arefin</span> &#x2012; <i>US Army Research Laboratory, USA </i></li>
@@ -105,13 +170,13 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Publicity Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">publicity2024 [at] ieeevr.org</i></div></h2>
+	<h2>Publicity Chairs <div class="floatRight"><span id="publicity"></span></div></h2>
 	<ul>
 		<li><span class="bold">Rajiv Khadka</span> &#x2012; <i>Idaho National Laboratory, USA</i></li>
 	</ul>
 </div>
 <div>
-	<h2>Research Demonstrations Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">researchdemos2024 [at] ieeevr.org</i></div></h2>
+	<h2>Research Demonstrations Chairs <div class="floatRight"><span id="researchdemos"></span></div></h2>
 	<ul>
 		<li><span class="bold">Kangsoo Kim</span> &#x2012; <i>University of Calgary, Canada</i></li> 
 		<li><span class="bold">Alexandre Gomes de Siqueira</span> &#x2012; <i>The University of Florida, USA</i></li>
@@ -119,14 +184,14 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Student Volunteers Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">studentvolunteers2024 [at] ieeevr.org</i></div></h2>			
+	<h2>Student Volunteers Chairs <div class="floatRight"><span id="studentvolunteers"></span></div></h2>			
 	<ul>
 		<li><span class="bold">Matthew Gottsacker</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Jason Orlosky</span> &#x2012; <i>Augusta University, USA</i></li>
 	</ul>
 </div>
 <div>
-	<h2>Tutorials Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">tutorials2024 [at] ieeevr.org</i></div></h2>
+	<h2>Tutorials Chairs <div class="floatRight"><span id="tutorials"></span></div></h2>
 	<ul>
 		<li><span class="bold">Ivan Conde</span> &#x2012; <i>University of Arkansas, USA</i></li>
 		<li><span class="bold">Kapil Chalil Madathil</span> &#x2012; <i>Clemson University, USA</i></li>
@@ -134,13 +199,13 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Video Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">videos2024 [at] ieeevr.org</i></div></h2>
+	<h2>Video Chairs <div class="floatRight"><span id="videos"></span></div></h2>
 	<ul>
 		<li><span class="bold">Abdul Mannan Mohammed</span> &#x2012; <i>University of Central Florida, USA</i></li>
 	</ul>
 </div>
 <div>
-	<h2>Web Chairs <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">web2024 [at] ieeevr.org</i></div></h2>
+	<h2>Web Chairs <div class="floatRight"><span id="web"></span></div></h2>
 	<ul>
 		<li><span class="bold">Susan Bethel</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Erica Recktenwald</span> &#x2012; <i>University of Central Florida, USA</i></li>
@@ -148,14 +213,14 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
-	<h2>Workshop Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">workshops2024 [at] ieeevr.org</i></div></h2>
+	<h2>Workshop Chairs  <div class="floatRight"><span id="workshops"></span></div></h2>
 	<ul>
 		<li><span class="bold">Dirk Reiners</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Sergio Casas-Yrurzum</span> &#x2012; <i>Universidad de Valencia, Spain</i></li>
 	</ul>
 </div>
 <div>
-	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">xrfuturefaculty2024 [at] ieeevr.org</i></div></h2>
+	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><span id="xrfuturefaculty"></span></div></h2>
 	<ul>
 		<li><span class="bold">Matt Gottsacker</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Cassidy R. Nelson</span> &#x2012; <i>Virginia Tech, USA</i></li>

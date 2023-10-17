@@ -4,9 +4,20 @@ title: "Doctoral Consortium"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
+<script type="text/javascript">
+    $(document).ready(function(){
+		var email = ""; 
+		var domain = "ieeevr.org"; 
 
+		email = "doctoralconsortium2024"; 
+        	
+		$(".doctoralconsortium").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>"); 
+
+        $(".doctoralconsortiumSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");    
+	});
+</script>
 <div>
-    <h1 id="cfp-doctoral-cosortium">Call for Doctoral Consortium</h1>
+    <h1 id="cfp-doctoral-cosortium">Call for Doctoral Consortium<div class="floatRight"><span class="doctoralconsortiumSm"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2024: the 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong>
     <br /> 
@@ -44,7 +55,7 @@ title_separator: "|"
     </p>
     <h2 id="contact">Questions?</h2>
     <p style="text-align: left;">
-        For more information, please contact the Doctoral Consortium Program Chairs at <span style="white-space: nowrap;"><i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">doctoralconsortium2024 [at] ieeevr.org</i></span>.
+        For more information, please contact the Doctoral Consortium Program Chairs at <span class="doctoralconsortiumSm"></span>.
         <ul>
             <li>Frank Guan - <i>Singapore Institute of Technology, Singapore</i></li>
             <li>Jan P. Springer - <i>University of Arkansas, USA</i></li>

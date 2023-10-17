@@ -4,10 +4,18 @@ title: "Steering Committee"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
+<script type="text/javascript">
+    $(document).ready(function(){
+		var email = ""; 
+		var domain = "ieeevr.org"; 
 
-<h1> Steering Committee <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">steering [at] ieeevr.org</i></div></h1>
+		email = "steering"; 		
+		steering.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+	});
+</script>
+<div>
+<h1>Steering Committee <div class="floatRight"><span id="steering"></span></div></h1>
     
-<div>						
     <ul>
         <li><span class="bold">Mark Billinghurst</span> &#x2012; <i> University of South Australia, Australia </i></li>
         <li><span class="bold">Jian Chen</span> &#x2012; <i> Ohio State University, USA </i></li>

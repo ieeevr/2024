@@ -4,9 +4,19 @@ title: "Papers"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
+<script type="text/javascript">
+    $(document).ready(function(){
+		var email = ""; 
+		var domain = "ieeevr.org"; 
 
+        email = "program2024"; 		
+		$(".program").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");   
+        
+        $(".programSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");  
+	});
+</script>
 <div>
-    <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program2024 [at] ieeevr.org</i></div></h1>
+    <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><span class="programSm"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2024: the 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 16-20, 2024 | Orlando, Florida USA
@@ -27,7 +37,7 @@ title_separator: "|"
         <li>Reject</li>
     </ol>
     <p>
-        <b>Inquiries:</b> <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">program2024 [at] ieeevr.org</i>
+        <b>Inquiries:</b> <span class="program"></span>
     </p>
 
     <h2 id="important-dates"> Important Dates </h2>
@@ -213,7 +223,7 @@ title_separator: "|"
     </p>
    
 
-    <h2 id="contacts">Contacts <div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">program2024 [at] ieeevr.org</i></div></h2>						
+    <h2 id="contacts">Contacts <div class="floatRight"><span class="programSm"></span></div></h2>						
     <p>
         <b>Technical Papers Chairs:</b>
         						

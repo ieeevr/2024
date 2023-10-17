@@ -4,9 +4,17 @@ title: "Posters"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
+<script type="text/javascript">
+    $(document).ready(function(){
+		var email = ""; 
+		var domain = "ieeevr.org"; 
 
+	    email = "posters2024"; 		
+		$(".posters").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
+	});
+</script>
 <div>
-    <h1 id="cfp-posters"> Call for Posters<div class="floatRight"><i class="fas fa-fw fa-envelope-square emailIconSm" style=""></i><i class="emailTextSm">posters2024 [at] ieeevr.org</i></div></h1>
+    <h1 id="cfp-posters"> Call for Posters<div class="floatRight"><span class="posters"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2024: the 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 16-20, 2024 | Orlando, Florida USA
@@ -16,7 +24,7 @@ title_separator: "|"
     </p>
 </div>
 
-<!-- 
+<script> /***
 <div>
     <h1 id="cfp-posters"> Call for Posters</h1>
     <p>
@@ -53,7 +61,7 @@ title_separator: "|"
         <a href="https://new.precisionconference.com/submissions">https://new.precisionconference.com/submissions</a>. Supplemental materials, such as a video or image, can be uploaded to the submission site as well, but are not mandatory. Every submission should be anonymous for a peer-review process.
     </p>
     
-    <h2 id="contact">Contacts</h2>
+    <h2 id="contacts">Contacts <div class="floatRight"><span class="posters"></span></div></h2>	
     <p>
         For more information, please contact the Posters Chairs:
         <ul>
@@ -61,8 +69,7 @@ title_separator: "|"
             <li>Frank Guan, <i>Singapore Institute of Technology</i></li>
             <li>Yue Liu, <i>Beijing Institute of Technology, China</i></li>
             <li>Daniel Zielasko, <i>University of Trier, Germany</i></li>
-        </ul>
-        <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">posters2024 [at] ieeevr.org</i>
+        </ul>   
     </p>
 </div>
- -->
+***/ </script>

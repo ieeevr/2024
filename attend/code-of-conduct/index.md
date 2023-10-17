@@ -4,9 +4,30 @@ title: "Code of Conduct"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
+<script type="text/javascript">
+    $(document).ready(function(){
+		var email = ""; 
+		var domain = "ieeevr.org"; 
 
+		email = "general2024"; 		
+		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+
+        email = "steering"; 		
+		steering.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+
+        email = "eventconduct"; 		
+		$(".eventconduct").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");
+
+        email = "eventconduct"; 		
+		$(".eventconductSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
+
+        email = "swan"; 
+		var domain = "acm.org"; 		
+		swan.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
+	});
+</script>
 <div>
-    <h1>Code of Conduct</h1>
+    <h1>Code of Conduct<div class="floatRight"><span class="eventconductSm"></span></div></h1>
     <p>
         IEEE Virtual Reality 2024 is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.
     </p>
@@ -17,13 +38,13 @@ title_separator: "|"
         If you wish to report a breach of the code of conduct this can be done via email to:
         <ul>
             <li> 
-                The General Co-Chairs: <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">general2024 [at] ieeevr.org</i>
+                The General Co-Chairs: <span id="general"></span>
             </li>
             <li> 
-                The Steering Committee: <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">steering [at] ieeevr.org</i>
+                The Steering Committee: <span id="steering"></span>
             </li>
             <li> 
-                The Chair, Ed Swan: <i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">swan [at] acm.org</i>
+                The Chair, Ed Swan: <span id="swan"></span>
             </li>
         </ul>
         All reports will only be sent to the authorized people and will be treated confidentially.
@@ -65,6 +86,6 @@ title_separator: "|"
 
     <p>
         IEEE seeks to provide a secure environment at its events. Participants should report any behavior inconsistent with the principles outlined here, to 
-        on site staff, security or venue personnel, or to <span style="white-space: nowrap"><i class="fas fa-fw fa-envelope-square emailIcon" style=""></i><i class="emailText">eventconduct [at] ieee.org</i></span>  
+        on site staff, security or venue personnel, or to <span class="eventconduct"></span>. 
     </p>
 </div>
