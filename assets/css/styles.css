@@ -945,6 +945,10 @@ img {
     font-weight: bold;
 }
 
+.underline{    
+    text-decoration: underline;
+}
+
 button,input,select,textarea {
     margin: 0;
     font-size: 100%;
