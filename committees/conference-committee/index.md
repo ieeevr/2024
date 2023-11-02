@@ -27,7 +27,7 @@ title_separator: "|"
 		email = "doctoralconsortium2024"; 
 		doctoralconsortium.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "diversity2024"; 
+		email = "deia2024"; 
 		diversity.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 	
 		email = "exhibitssponsors2024"; 
