@@ -44,10 +44,10 @@ title_separator: "|"
     </ul>
     <h2 id="submission-guidelines">Submission Guidelines</h2>
     <p>
-        Submissions to the poster track must be written in English. The submission must be in the form of a two-page extended abstract (references included) with a maximum of 100-word abstract. The submitted extended abstract must be in PDF format with embedded fonts. Accepted two-page extended abstracts will be included in the Abstracts and Workshop Proceedings and will be archived in the IEEE Digital Library, and therefore must be formatted using the IEEE Computer Society format described at <a href="http://junctionpublishing.org/vgtc/Tasks/camera.html" target="_blank">http://junctionpublishing.org/vgtc/Tasks/camera.html</a>. Poster extended abstracts must be submitted through a particular poster track available at the online submission site - <a href="https://new.precisionconference.com/submissions" target="_blank">https://new.precisionconference.com/submissions</a>. Supplemental materials, such as a video or image, can be uploaded to the submission site as well, but are not mandatory.
+        Submissions to the poster track must be written in English. The submission must be in the form of a two-page extended abstract (references included) with a maximum of 100-word abstract. The submitted extended abstract must be in PDF format with embedded fonts. Accepted two-page extended abstracts will be included in the Abstracts and Workshop Proceedings and will be archived in the IEEE Digital Library, and therefore must be formatted using the IEEE Computer Society format described at <a href="http://junctionpublishing.org/vgtc/Tasks/camera.html" target="_blank">http://junctionpublishing.org/vgtc/Tasks/camera.html</a>. Poster extended abstracts must be submitted through a particular poster track available at the online submission site - <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a>. Supplemental materials, such as a video or image, can be uploaded to the submission site as well, but are not mandatory.
     </p>
     <p>
-     After logging into <a href="https://new.precisionconference.com/submissions" target="_blank">PCS</a>, start your submission by selecting VR > IEEE VR 2024 > IEEE VR Posters 2024. 
+     After logging into <a href="https://new.precisionconference.com/vr" target="_blank">PCS</a>, start your submission by selecting VR > IEEE VR 2024 > IEEE VR Posters 2024. 
     </p>
     <h2 id="poster_review_process">Poster Review Process</h2>
     <p>

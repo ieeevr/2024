@@ -33,7 +33,7 @@ title_separator: "|"
     </ul>
 
     <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
-        Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/~vr" target="_blank">https://new.precisionconference.com/~vr</a> by the given deadline.<br />Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations.
+        Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> by the given deadline.<br />Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations.
     </div>
     <p>
        Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.

@@ -23,7 +23,7 @@ title_separator: "|"
             March 16-20, 2024 | Orlando, Florida USA
     </p>
     <p>
-        Contest Registrations can be made via email to  <span class="contest"></span>, final submissions can be made through the Online System: <a href="https://new.precisionconference.com/~vr">https://new.precisionconference.com/~vr</a>.
+        Contest Registrations can be made via email to  <span class="contest"></span>, final submissions can be made through the Online System: <a href="https://new.precisionconference.com/vr">https://new.precisionconference.com/vr</a>.
     </p>
 
     <h2 id="important-dates"> Important Dates - All deadlines are Anywhere on Earth (AoE)</h2>
@@ -120,7 +120,7 @@ title_separator: "|"
     
     <h2>Abstract and Video Submission - due January 19, 2024</h2>
     <p>
-    Teams should submit their abstract paper and a high-quality video through the online submission system: <a href="https://new.precisionconference.com/~vr">https://new.precisionconference.com/~vr</a>
+    Teams should submit their abstract paper and a high-quality video through the online submission system: <a href="https://new.precisionconference.com/vr">https://new.precisionconference.com/vr</a>
     </p>
     <p>
     Submissions must be in English and must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF. We highly encourage authors to use the LaTeX template (<a href="https://www.cspaul.com/vgtc/vgtc_conference_latex.zip">https://www.cspaul.com/vgtc/vgtc_conference_latex.zip</a>). Authors who choose to use the Word template need to ensure that their PDF submission matches the format.

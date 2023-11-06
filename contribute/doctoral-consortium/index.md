@@ -39,7 +39,7 @@ title_separator: "|"
     </p>
     <h2 id="submission-guidelines">Submission Guidelines</h2>
     <p>
-        To apply to the Doctoral Consortium, please submit the following two documents via the Precision Conference Doctoral Consortium track at <a href="https://new.precisionconference.com/~vr" target="_blank">https://new.precisionconference.com/~vr</a> as a single PDF file. All submissions to the Doctoral Consortium should be prepared in IEEE Computer Society VGTC format (see <a href="http://junctionpublishing.org/vgtc/Tasks/camera.html" target="_blank">http://junctionpublishing.org/vgtc/Tasks/camera.html</a>).
+        To apply to the Doctoral Consortium, please submit the following two documents via the Precision Conference Doctoral Consortium track at <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> as a single PDF file. All submissions to the Doctoral Consortium should be prepared in IEEE Computer Society VGTC format (see <a href="http://junctionpublishing.org/vgtc/Tasks/camera.html" target="_blank">http://junctionpublishing.org/vgtc/Tasks/camera.html</a>).
        
         <ol>
             <li><strong style="color: black">Position paper</strong>: Submissions should be two pages in length (including references). This position paper must clearly motivate, discuss, and summarize the proposed PhD research, describe how the research fits into and advances research in the field, and report on your progress. You may additionally focus on a more specific area of the research if desired. In the concluding section, you should identify two to three questions or areas for improvement that you would like to discuss during the Doctoral Consortium.</li>
