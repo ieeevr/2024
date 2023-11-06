@@ -164,7 +164,7 @@ title_separator: "|"
 	<h2>Publications Chairs <div class="floatRight"><span id="publications"></span></div></h2>
 	<ul>
 		<li><span class="bold">Christos Mousas</span> &#x2012; <i>Purdue University, USA </i></li>
-		<li><span class="bold">Mohammed Safayet Arefin</span> &#x2012; <i>US Army Research Laboratory, USA </i></li>
+		<li><span class="bold">Mohammed Safayet Arefin</span> &#x2012; <i>Colorado State University, USA</i></li>
 		<li><span class="bold">Lauren Buck</span> &#x2012; <i>Trinity College, Dublin, Ireland</i></li>
 		<li><span class="bold">Daniel Zielasko</span> &#x2012; <i>University of Trier, Germany</i></li>
 	</ul>
