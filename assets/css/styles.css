@@ -5077,7 +5077,8 @@ body {
     display: flex;
     flex-flow: row wrap;
     background-color:#14b2D7;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
+    text-align: center;
 }
 
 .flexbox .image {
