@@ -5085,6 +5085,11 @@ body {
     padding: 0.5em;
 }
 
+.flexbox a {
+    color: #FFF;
+    font-size: .8em;;
+}
+
 .flexbox img {
     width: auto;
     max-width: 100%;
