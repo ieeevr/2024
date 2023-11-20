@@ -86,9 +86,9 @@ title_separator: "|"
     <p>
         For more information, please contact the Research Demonstration Chairs:
         <ul>
-            <li>Kangsoo Kim ‒ University of Calgary, Canada</li>
-            <li>Alexandre Gomes de Siqueira ‒ University of Florida, USA</li>
-            <li>Juan Sebastian Munoz ‒ Unity, Canada</li>
+            <li><span class="bold">Kangsoo Kim</span>, <i>University of Calgary, Canada</i></li>
+            <li><span class="bold">Alexandre Gomes de Siqueira</span>, <i>University of Florida, USA</i></li>
+            <li><span class="bold">Juan Sebastian Munoz</span>, <i>Unity, Canada</i></li>
         </ul>
     </p>
 </div>

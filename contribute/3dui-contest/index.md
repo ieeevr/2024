@@ -133,10 +133,10 @@ title_separator: "|"
     <p>
         3DUI Contest Chairs:
         <ul>   
-            <li>Jean-Rémy Chardonnet, Arts et Metiers Institute of Technology, France</li>
-            <li>Eike Langbehn, HAW Hamburg, Germany</li>
-            <li>BoYu Gao, Jinan University, China</li>
-            <li>Thammathip Piumsomboon, University of Canterbury, New Zealand</li>
+            <li><span class="bold">Jean-Rémy Chardonnet</span>, <i>Arts et Metiers Institute of Technology, France</i></li>            
+            <li><span class="bold">Eike Langbehn</span>, <i>HAW Hamburg, Germany</i></li>            
+            <li><span class="bold">BoYu Gao</span>, <i>Jinan University, China</i></li>
+            <li><span class="bold">Thammathip Piumsomboon</span>, <i>University of Canterbury, New Zealand</i></li>
         </ul>
     </p>
 </div>

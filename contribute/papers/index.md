@@ -225,8 +225,7 @@ title_separator: "|"
 
     <h2 id="contacts">Contacts <div class="floatRight"><span class="programSm"></span></div></h2>						
     <p>
-        <b>Technical Papers Chairs:</b>
-        						
+        <b>Technical Papers Chairs:</b>        						
         <ul>
             <li><span class="bold">Yuta Itoh</span>, <i>The University of Tokyo, Japan</i></li>								
             <li><span class="bold">Tabitha Peck</span>, <i>Davidson College, USA</i></li>	

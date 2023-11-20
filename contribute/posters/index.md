@@ -76,10 +76,10 @@ title_separator: "|"
     <p>
         For more information, please contact the Posters Chairs:
         <ul>
-            <li>Jian Chen, <i>The Ohio State University, USA</i></li>
-            <li>Wole Oyekoya, <i>Hunter College, City University of New York, USA</i></li>
-            <li>Jerald Thomas, <i>University of Wisconsin - Milwaukee, USA</i></li>
-            <li>Ramiro Serrano Vergel, <i>University of Michigan, USA</i></li>
+            <li><span class="bold">Jian Chen</span>, <i>The Ohio State University, USA</i></li>
+            <li><span class="bold">Wole Oyekoya</span>, <i>Hunter College, City University of New York, USA</i></li>
+            <li><span class="bold">Jerald Thomas</span>, <i>University of Wisconsin - Milwaukee, USA</i></li>
+            <li><span class="bold">Ramiro Serrano Vergel</span>, <i>University of Michigan, USA</i></li>
         </ul>   
     </p>
 </div>

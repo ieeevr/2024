@@ -57,8 +57,8 @@ title_separator: "|"
     <p style="text-align: left;">
         For more information, please contact the Doctoral Consortium Program Chairs at <span class="doctoralconsortiumSm"></span>.
         <ul>
-            <li>Frank Guan - <i>Singapore Institute of Technology, Singapore</i></li>
-            <li>Jan P. Springer - <i>University of Arkansas, USA</i></li>
+            <li><span class="bold">Frank Guan</span>, <i>Singapore Institute of Technology, Singapore</i></li>
+            <li><span class="bold">Jan P. Springer</span>, <i>University of Arkansas, USA</i></li>
         </ul>
     </p>
 </div>
