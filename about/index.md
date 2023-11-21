@@ -22,7 +22,7 @@ title_separator: "|"
     </p>
 
     <div style="display: inline-block">
-        <img src= "{{ "/assets/images/Orlando1.jpg" | relative_url }}"  width="49%" >
-        <img src="{{ "/assets/images/Orlando2.jpg" | relative_url }}" width="49%" >  
+        <img src= "{{ "/assets/images/Orlando1.jpg" | relative_url }}" alt="Orlando" width="49%" >
+        <img src="{{ "/assets/images/Orlando2.jpg" | relative_url }}" alt="Orlando"  width="49%" >  
     </div>
 </div>
