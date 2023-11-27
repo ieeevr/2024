@@ -16,13 +16,13 @@ title_separator: "|"
     </p>
     <br/>
    
-    <h1> About Orlando, Florida </h1>
+    <h1> About Orlando, Florida USA</h1>
     <p>
-        Orlando, Florida is located in the heart of Central Florida. In addition to its famed beautiful weather, Orlando has something for everyone; theme parks, water parks, nearby beaches, art, entertainment, dining and shopping. <a href="https://www.visitorlando.com" target="_blank">Visit Orlando</a> will help you plan your visit and make the most out of all Orlando has to offer. 
+        Orlando is located in the Southeastern United States in the heart of Central Florida. In addition to its famed beautiful weather, Orlando has something for everyone; theme parks, water parks, nearby beaches, art, entertainment, dining and shopping. <a href="https://www.visitorlando.com" target="_blank">Visit Orlando</a> will help you plan your visit and make the most out of all Orlando has to offer. 
     </p>
 
     <div style="display: inline-block">
-        <img src= "{{ "/assets/images/Orlando1.jpg" | relative_url }}" alt="Orlando" width="49%" >
-        <img src="{{ "/assets/images/Orlando2.jpg" | relative_url }}" alt="Orlando"  width="49%" >  
+        <img src= "{{ "/assets/images/Orlando1.jpg" | relative_url }}" alt="Orlando, Florida USA" width="49%" >
+        <img src="{{ "/assets/images/Orlando2.jpg" | relative_url }}" alt="Orlando, Florida USA"  width="49%" >  
     </div>
 </div>
