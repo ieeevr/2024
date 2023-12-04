@@ -20,7 +20,7 @@ title_separator: "|"
     <h1 id="cfp-3dui-contest">Call for 3DUI Contest Entries<div class="floatRight"><span class="contestSm"></span></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2024: the 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
-            March 16-20, 2024 | Orlando, Florida USA
+            March 16-21, 2024 | Orlando, Florida USA
     </p>
     <p>
         Contest Registrations can be made via email to  <span class="contest"></span>, final submissions can be made through the Online System: <a href="https://new.precisionconference.com/vr">https://new.precisionconference.com/vr</a>.
