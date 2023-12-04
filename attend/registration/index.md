@@ -22,8 +22,10 @@ title_separator: "|"
     <strong style="color: black">IEEE VR 2024: the 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br /> 
     March 16-21, 2024 | Orlando, Florida USA
 	</p>
-
-	<p class = "ieeevrmsgbox bold">
+		
+	<div class="ieeevrmsgbox bold alignCenter">
+        <div class = "ieeevrmsgboxInside ">
 	Registration details will be released in the coming months.
-	</p>
+        </div>
+    </div>
 </div>
