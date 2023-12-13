@@ -56,7 +56,6 @@ input[type='checkbox'] {
 .lbl-toggle {
     display: block;
     font-weight: bold;
-    /* font-family: monospace; */
     font-size: 0.8rem;
     text-align: left;
     padding: 0rem;
@@ -109,6 +108,7 @@ input[type='checkbox'] {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     padding: .5rem 1rem;
+    font-size: 20px;
 }
 
 .collapsible-content p {
