@@ -865,9 +865,10 @@ img.mfp-img {
 }
 
 a:focus,button:focus {
-    outline: thin dotted #12a6c9;
+    /* outline: thin dotted #12a6c9;
     outline: 5px auto #12a6c9;
-    outline-offset: -2px
+    outline-offset: -2px;*/
+    outline: none;
 }
 
 * {
@@ -1606,6 +1607,27 @@ tr,td,th {
     border-width: 0;
     border-radius: 50px;
     cursor: pointer;
+}
+
+.specialLink {
+    display: inline-block;
+    margin-bottom: 0.25em;
+    padding: 0.4em 1.5em;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-size: .80em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.specialLink:visited{
+    text-decoration: none;
+}
+
+.specialLink:hover{
+    text-decoration: none;
 }
 
 .btn .icon,#goog-wm-sb .icon {
@@ -5119,6 +5141,12 @@ body {
 .padding_top_xsmall{padding-top: 10px;}
 .resource_inner_div{background-color:#FFFFFF; padding: 10px; margin-bottom: 20px; text-align: center ! important}
 .resource_outer_div{background-color:#12a6c9; padding: 20px;}
+.padding_left_medium{padding-left: 35px;}
+
+ul.extraSpacing li{
+    margin: 20px 0 0 0;
+}
+
 
 @media (min-width: 64em) {
     .wide .sidebar__right {
