@@ -202,7 +202,7 @@
         text-align: center;
         font-size: 16px;
     }
-
+    
     .social-icons {
         text-align: center;
     }
@@ -1056,6 +1056,10 @@ h6 {
 
 small,.small {
     font-size: .75em
+}
+
+med,.med {
+    font-size: .8em
 }
 
 p {
@@ -3889,11 +3893,11 @@ body {
 }
 
 .page__content p,.page__content li,.page__content dl {
-    font-size: 0.9em
+    font-size: 0.8em
 }
 
 .page__content p {
-    margin: 0 0 1em
+    margin: 0 0 1.3em
 }
 
 .page__content a:not(.btn):not(#goog-wm-sb):hover {
@@ -5141,7 +5145,7 @@ body {
 .padding_top_xsmall{padding-top: 10px;}
 .resource_inner_div{background-color:#FFFFFF; padding: 10px; margin-bottom: 20px; text-align: center ! important}
 .resource_outer_div{background-color:#12a6c9; padding: 20px;}
-.padding_left_medium{padding-left: 35px;}
+.padding_left_medium{padding-left: 35px !important;}
 
 ul.extraSpacing li{
     margin: 20px 0 0 0;
