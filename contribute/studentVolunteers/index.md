@@ -46,6 +46,8 @@ title_separator: "|"
             <li>hotel accommodation for non-local volunteers when possible (shared with one or two other SVs))</li>
             <li>an exclusive student volunteer shirt</li>
         </ul>
+    </p>
+    <p>
         * If you are an author, make sure to have one of your co-authors register and pay a full fee according to your publication.
     </p>
 
