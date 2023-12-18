@@ -5,6 +5,8 @@
         text-justify: auto;
     }
 
+    img {max-width:100%; height:auto}
+    
     .topnav {
         overflow: hidden;
         background-color: #0c5789;  
@@ -1979,6 +1981,29 @@ tr,td,th {
 
 .notice--info ul:last-child {
     margin-bottom: 0;
+}
+
+.small_emphasize {
+    font-size: .78em !important;
+}
+
+.tiny_print {
+    font-size: .6em !important;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 719px;
+    margin: auto;
+}
+
+figcaption {
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;   
+    font-style: italic;
+    text-align: center;
+    margin: -.75em auto 0 auto;
 }
 
 .notice--warning {
