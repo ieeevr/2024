@@ -7,6 +7,9 @@ layout: default
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?version=20231218_1">
 
 <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
 <button onclick="topFunction()" id="myBtnTop" title="Go to top">Top</button>
 
 <script>
@@ -62,8 +65,8 @@ layout: default
             <div class="dropdown">
                 <button class="dropbtn">Program &#9662;</button>
                 <div class="dropdown-content">
-                    <a href={{ "/program/tentative_schedule/" | relative_url }}>Tentative Schedule</a>
-                    <!--<a href={{ "/program/overview/" | relative_url }}>Overview</a>-->
+                    <a href={{ "/program/tentative_schedule/" | relative_url }}>Conference Schedule (Tentative)</a>
+                    <a href={{ "/program/overview/" | relative_url }}>Program Overview</a>
                     <!--<a href={{ "/program/keynote-speakers/" | relative_url }}>Keynote Speakers</a>-->
                     <!--<a href={{ "/program/papers/" | relative_url }}>Papers</a>-->
                     <!--<a href={{ "/program/posters/" | relative_url }}>Posters</a>-->
