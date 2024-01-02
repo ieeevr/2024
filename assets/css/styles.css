@@ -3930,7 +3930,8 @@ body {
 }
 
 .page__content a:not(.btn):not(#goog-wm-sb):hover img {
-    box-shadow: 0 0 10px rgba(0,0,0,0.25)
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    box-shadow:none;
 }
 
 .page__content dt {
