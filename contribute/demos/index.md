@@ -75,7 +75,7 @@ title_separator: "|"
         </ul>
     </p>
     <p>
-        Submissions to the demos track must be written in English. The submission materials should clearly describe the overall architecture of the system or technology demonstrated. Authors should put emphasis on the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted demos will be included in the abstract and workshop proceedings and in the IEEE Xplore Digital Library, so they must follow the IEEE Computer Society format at <a href=https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>.
+        Submissions to the demos track must be written in English. The submission materials should clearly describe the overall architecture of the system or technology demonstrated. Authors should put emphasis on the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted demos will be included in the abstract and workshop proceedings and in the IEEE Xplore Digital Library, so they must follow the IEEE Computer Society format at <a href="https://tc.computer.org/vgtc/publications/conference/">https://tc.computer.org/vgtc/publications/conference/</a>.
     </p>
     <p>
         Please note that authors will be asked to do live presentations and/or demos on certain days of the conference. The days and time slots for the live presentations will be determined after the review process is complete. More details about this will be posted on this page later.
