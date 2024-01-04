@@ -24,7 +24,7 @@ title_separator: "|"
 		
 	<div class="ieeevrmsgbox bold alignCenter">
         <div class = "ieeevrmsgboxInside ">
-           Registration details will be released in the coming months.
+           Registration details will be released in the coming days.
         </div>
     </div>
 </div>
