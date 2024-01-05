@@ -18,27 +18,6 @@ title_separator: "|"
 	});
 </script>
 
-<style>
-    .column_gfm {
-        float: left;
-    }
-
-    .left_gfm {
-        width: 70%;
-        padding-right: 20px;
-    }
-
-    .right_gfm {
-        width: 30%;
-    }
-
-    .row_gfm:after {
-        content: "";
-        display: table;
-        clear: both;
-    }   
-</style>
-
 <h1>Support Student Participation</h1>
 <div class="row_gfm">
     <div class="column_gfm left_gfm">            

@@ -266,6 +266,14 @@
         padding: 25px;
         color: #0c5789;
       }
+
+      .ieeevrmsgboxInsideYellow { /* Any boxes with the theme-primary color as background */
+        background-color: #fbedb5;
+        border-radius: 7px;
+        padding: 25px;
+        color: #0c5789;
+      }
+
     .ieeevrmsgboxHR{
         width: 50% !important; 
         margin: 10px auto; 
@@ -283,7 +291,6 @@
     .paddingBottomSmall {
         padding-bottom: 20px;
     }
-
 
     @media screen and (max-width: 900px) {
         .left {
@@ -1036,6 +1043,60 @@ img {
 
 .underline{    
     text-decoration: underline;
+}
+
+.column_gfm {
+    float: left;
+}
+
+.left_gfm {
+    width: 70%;
+    padding-right: 20px;
+}
+
+.right_gfm {
+    width: 30%;
+}
+
+.row_gfm:after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+.column_home {
+    float: left;
+}
+
+.left_home {
+    width: 68%;
+    min-height: 175px;
+}
+
+.right_home {
+    width: 29%;
+    margin-left: 25px;
+    min-height: 175px;
+}
+
+.row_home:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+@media (max-width: 1260px) {
+    .left_home {
+        width: 100%;
+        min-height: 0px;
+    }
+    
+    .right_home {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 25px;
+        min-height: 0px;
+    }
 }
 
 .valignTop {
