@@ -1085,6 +1085,11 @@ img {
     clear: both;
 } 
 
+.warning {
+    color: #db203c;
+    font-weight: bold;
+}
+
 @media (max-width: 1260px) {
     .left_home {
         width: 100%;

@@ -211,7 +211,7 @@ title: "Program Overview"
     Please note that all times are given in Orlando, Florida USA local time, EDT (UTC-4).
 </div>
 <div id="accordion">
-    <h3>Saturday, 16 March 2023</h3>
+    <h3>Saturday, 16 March 2024</h3>
     <div class="schedule-sat" aria-labelledby="March 16 - Workshop Schedule"> 
         {% for workshop in site.data.workshops %}  
             <h2 class="time-slot" style="grid-row: time-0800;">8:00am</h2>
@@ -322,7 +322,7 @@ title: "Program Overview"
         {% endfor %}  
     </div> 
 
-    <h3>Sunday, 17 March 2023</h3> 
+    <h3>Sunday, 17 March 2024</h3> 
     <div class="schedule-sun" aria-labelledby="March 16 - Workshop Schedule">  
         {% for workshop in site.data.workshops %}  
             <h2 class="time-slot" style="grid-row: time-0800;">8:00am</h2>
