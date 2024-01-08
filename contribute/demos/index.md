@@ -27,7 +27,7 @@ title_separator: "|"
 
     <h2 id="important-dates"> Important Dates </h2>
     <ul>
-        <li><b>January 7 Sunday, 2024:</b> Two-page abstract and video material submission.</li>
+        <li><b>January 10 Wednesday, 2024<span style="color:red; text-decoration:Line-through;">January 7 Sunday, 2024</span>:</b> Two-page abstract and video material submission.</li>
         <li><b>January 21 Sunday, 2024:</b> Notification of results.</li>
         <li><b>January 31 Wednesday, 2024:</b> Camera-ready two-page abstract and final video material submission with a 3-5 min video teaser.</li>
     </ul>
