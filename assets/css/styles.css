@@ -1090,6 +1090,26 @@ img {
     font-weight: bold;
 }
 
+/*************************
+* Accordian Styling
+*************************/ 
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #12a6c9;
+    background: #12a6c9;
+    font-weight: normal;
+    color: #ffffff;
+}
+.ui-icon-background,
+.ui-state-active .ui-icon-background {
+    border: #12a6c9;
+    background-color: #ffffff;
+}    
+
 @media (max-width: 1260px) {
     .left_home {
         width: 100%;

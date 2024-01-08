@@ -2,208 +2,18 @@
 layout: ieeevr-default
 title: "Program Overview"
 ---
-
-
-<style>  
-    /*************************
-    * Accordian Styling
-    *************************/ 
-    .ui-state-active,
-    .ui-widget-content .ui-state-active,
-    .ui-widget-header .ui-state-active,
-    a.ui-button:active,
-    .ui-button:active,
-    .ui-button.ui-state-active:hover {
-        border: 1px solid #12a6c9;
-        background: #12a6c9;
-        font-weight: normal;
-        color: #ffffff;
-    }
-    .ui-icon-background,
-    .ui-state-active .ui-icon-background {
-        border: #12a6c9;
-        background-color: #ffffff;
-    }
-
-    /****************************************************************************************************
-    * GRID SCHEDULE LAYOUT: https://css-tricks.com/building-a-conference-schedule-with-css-grid
-    ****************************************************************************************************/
-    @media screen and (min-width:700px) {
-        .schedule-sat {
-            display: grid;
-            grid-gap: 1em;
-            grid-template-rows:
-            [tracks] auto [time-0800] 0.5fr [time-0830] 0.5fr [time-0900] 0.5fr [time-0930] 0.5fr [time-1000] 0.5fr [time-1030] 0.5fr [time-1100] 0.5fr [time-1130] 0.5fr [time-1200] 0.5fr [time-1230] 0.5fr [time-1300] 0.5fr [time-1330] 0.5fr [time-1400] 0.5fr [time-1430] 0.5fr [time-1500] 0.5fr [time-1530] 0.5fr [time-1600] 0.5fr [time-1630] 0.5fr [time-1700] 0.5fr [time-1730] 
-            /*0.5fr [time-1800] 0.5fr [time-1830] 0.5fr [time-1900] 0.5fr*/
-            ;
-            /* Note 1:
-            Use 24hr time for gridline names for simplicity
-
-            Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
-            Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
-            */
+<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240108_1">
             
-            grid-template-columns:
-            [times] 4em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end track-5-start] 1fr [track-5-end track-6-start] 1fr [track-6-end];
-        }
-
-        .schedule-sun {
-            display: grid;
-            grid-gap: 1em;
-            grid-template-rows:
-            [tracks] auto [time-0800] 0.5fr [time-0830] 0.5fr [time-0900] 0.5fr [time-0930] 0.5fr [time-1000] 0.5fr [time-1030] 0.5fr [time-1100] 0.5fr [time-1130] 0.5fr [time-1200] 0.5fr [time-1230] 0.5fr [time-1300] 0.5fr [time-1330] 0.5fr [time-1400] 0.5fr [time-1430] 0.5fr [time-1500] 0.5fr [time-1530] 0.5fr [time-1600] 0.5fr [time-1630] 0.5fr [time-1700] 0.5fr [time-1730] 
-            /*0.5fr [time-1800] 0.5fr [time-1830] 0.5fr [time-1900] 0.5fr*/
-            ;
-            /* Note 1:
-            Use 24hr time for gridline names for simplicity
-
-            Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
-            Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
-            */
-            
-            grid-template-columns:
-            [times] 4em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end track-5-start] 1fr [track-5-end track-6-start] 1fr [track-6-end];
-        }
-    }
-
-    .time-slot {
-        font-size:.75em;
-        font-weight: normal;
-        text-decoration: none;
-        grid-column: times;
-    }
-
-    .track-slot {
-        display: none; /* hidden on small screens and browsers without grid support */
-    }
-
-    @supports( display:grid ) {
-        @media screen and (min-width:700px) {
-            .track-slot {
-                display: block;
-                padding: 10px 5px 5px;
-                position: sticky;
-                top: 0;
-                z-index: 1000;
-                background-color: rgba(255,255,255,.9);
-            }
-        }
-    }
-
-    /* Small-screen & fallback styles */
-    .session {
-        margin-bottom:  1em;
-    }
-
-    @supports( display:grid ) {
-        @media screen and (min-width: 700px) {
-            .session {
-                margin: 0;
-            } 
-        }
-    }
-
-    /*************************
-    * VISUAL STYLES
-    * Design-y stuff ot particularly important to the demo
-    *************************/
-    .session {
-        padding: .5em;
-        border-radius: 2px;
-        font-size: 14px;
-        box-shadow:
-            rgba(255,255,255,.6) 1px 1px 0,
-            rgba(0,0,0,.3) 4px 4px 0;
-    }
-
-    .session-title,
-    .session-time,
-    .session-track,
-    .session-presenter {
-     display: block;
-    }
-
-    .session-title {
-        margin: 0;
-        font-size: 1em;
-    }
-
-    .session-title a {
-        color: #fff;
-        text-decoration-style: solid;
-    
-        &:hover {
-            text-decoration-style: none;
-        }  
-    }
-
-    .track-slot{
-        font-size:.75em;
-    }
-    .track-green {
-        background-color: #1fb55a;
-        color: #fff;
-    }
-    .track-rose {
-        background-color: #d30f45;
-        color: #fff;
-    }
-    .track-lavender {
-        background-color: #c488c3;
-        color: #fff;
-    }
-    .track-orange {
-        background-color: #f5725e;
-        color: #fff;
-    }
-    .track-blue {
-        background-color: #0c5789;
-        color: #fff;
-    }
-    .track-lightpurple {
-        background-color: #c488c3;
-        color: #fff;
-    } 
-    .track-pink {
-        background-color: #EF127F;
-        color: #fff;
-    }
-
-    .track-all {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #ebf5f8;
-        color: #000;
-        box-shadow: none;
-    }
-
-    .text {
-        max-width: 750px;
-        font-size: 18px;
-        margin: 0 auto 50px;
-    }
-
-    .meta {
-        color: #555;
-        font-style: italic;
-    }
-
-    .meta a {
-        color: #555;
-    }
-
-    hr {
-        margin: 40px 0;
-    }     
-</style>
 <script>
-    $( function() {
-        $( "#accordion" ).accordion({
-            collapsible: true,
-			heightStyle: "content"
-        });
-    } );
+    (function($) {
+        $(function() {
+            $("#accordion > div").accordion({ header: "h4", heightStyle: "content", active: false, collapsible: true });
+        })
+    })(jQuery);
+
+   $(document).ready(function(){
+		$('#day1').click(); 
+    });   
 </script>
 
 <h1 id="schedule-heading">Program Overview</h1>
@@ -211,7 +21,8 @@ title: "Program Overview"
     Please note that all times are given in Orlando, Florida USA local time, EDT (UTC-4).
 </div>
 <div id="accordion">
-    <h3>Saturday, 16 March 2024</h3>
+    <div>
+        <h4 id="day1">Saturday, 16 March 2024</h4>
     <div class="schedule-sat" aria-labelledby="March 16 - Workshop Schedule"> 
         {% for workshop in site.data.workshops %}  
             <h2 class="time-slot" style="grid-row: time-0800;">8:00am</h2>
@@ -321,8 +132,9 @@ title: "Program Overview"
             {% endif %}       
         {% endfor %}  
     </div> 
-
-    <h3>Sunday, 17 March 2024</h3> 
+    </div>
+    <div>
+        <h4 id="day2">Sunday, 17 March 2024</h4> 
     <div class="schedule-sun" aria-labelledby="March 16 - Workshop Schedule">  
         {% for workshop in site.data.workshops %}  
             <h2 class="time-slot" style="grid-row: time-0800;">8:00am</h2>
@@ -432,4 +244,5 @@ title: "Program Overview"
             {% endif %}       
         {% endfor %}  
     </div> 
+    </div>
 </div>
