@@ -265,14 +265,14 @@
         border-radius: 7px;
         padding: 25px;
         color: #0c5789;
-      }
+    }
 
-      .ieeevrmsgboxInsideYellow { /* Any boxes with the theme-primary color as background */
-        background-color: #fbedb5;
-        border-radius: 7px;
-        padding: 25px;
-        color: #0c5789;
-      }
+    .ieeevrmsgboxInsideYellow { /* Any boxes with the theme-primary color as background */
+    background-color: #fbedb5;
+    border-radius: 7px;
+    padding: 25px;
+    color: #0c5789;
+    }
 
     .ieeevrmsgboxHR{
         width: 50% !important; 
@@ -1069,14 +1069,14 @@ img {
 }
 
 .left_home {
-    width: 68%;
-    min-height: 175px;
+    width: 73%;
+    min-height: 205px;
 }
 
 .right_home {
-    width: 29%;
+    width: 24%;
     margin-left: 25px;
-    min-height: 175px;
+    min-height: 205px;
 }
 
 .row_home:after {
