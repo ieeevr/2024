@@ -87,7 +87,7 @@ title_separator: "|"
 			<li>The registration deadline for authors is <span class="bold">14 February, 2024.</span></li>
 			<li>Author registrations are <span class="bold">not refundable</span> and must be processed no later than <span class="bold">February 14, 2024</span> for their work to be included in the conference program and publications.</li>		
 			<li>Registration requires a paper ID.</li>
-			<li>To register, select the fee under <span class="bold">Full Conference Registration (Saturday–Thursday) – Paper Authors</span>.</li>		
+			<li>To register, select the fee under <span class="bold">Full Conference Registration (Saturday–Thursday) – PAPER AUTHORS ONLY</span>.</li>
 			<li>Each author registration is valid for <span class="bold">FOUR</span> papers.</li>		
 			<li>For questions regarding paper submissions, please contact IEEE VR 2024 Program Chairs at <span class="program"></span>.</li>
 		</ul>
@@ -148,7 +148,6 @@ title_separator: "|"
 		<table class="registration-table">
 			<tr>
 				<th>Registration Categories</th>
-				<th>Author</th>				
 				<th>Full Conference</th>				
 				<th>Main Conference Only<br>(Mon-Thurs)</th>				
 				<th>Main Conference<br>One Day</th>				
@@ -157,7 +156,6 @@ title_separator: "|"
 			</tr>
 			<tr>
 				<td>IEEE Member</td>
-				<td>$840</td>
 				<td>$1,075</td>
 				<td>$840</td>
 				<td>$350</td>
@@ -166,7 +164,6 @@ title_separator: "|"
 			</tr>
 			<tr>
 				<td>Non-Member</td>
-				<td>$1,010</td>
 				<td>$1,290</td>
 				<td>$1,010</td>
 				<td>$420</td>
@@ -175,7 +172,6 @@ title_separator: "|"
 			</tr>
 			<tr>
 				<td>IEEE Student Member</td>
-				<td>$590</td>
 				<td>$755</td>
 				<td>$590</td>
 				<td>$245</td>
@@ -184,7 +180,6 @@ title_separator: "|"
 			</tr>
 			<tr>
 				<td>Student Non-Member</td>
-				<td>$710</td>
 				<td>$910</td>
 				<td>$710</td>
 				<td>$295</td>
@@ -193,7 +188,6 @@ title_separator: "|"
 			</tr>
 			<tr>
 				<td><a href="https://www.ieee.org/communities/life-members/index.html" target="_blank">IEEE Life Member</a><sup>*</sup></td>
-				<td>$465</td>
 				<td>$595</td>
 				<td>N/A</td>
 				<td>N/A</td>
@@ -210,7 +204,6 @@ title_separator: "|"
 		<table class="registration-table">
 			<tr>
 				<th>Registration Categories</th>
-				<th>Author</th>				
 				<th>Full Conference</th>				
 				<th>Main Conference Only<br>(Mon-Thurs)</th>				
 				<th>Main Conference<br>One Day</th>				
@@ -219,7 +212,6 @@ title_separator: "|"
 			</tr>
 			<tr>
 				<td>IEEE Member</td>
-				<td rowspan="5" style="border: 1px solid #152840 !important">Authors<br>must do<br>early<br>registration</td>
 				<td>$1,300</td>
 				<td>$1,010</td>
 				<td>$420</td>
