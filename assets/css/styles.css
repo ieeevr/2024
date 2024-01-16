@@ -191,6 +191,12 @@
         clear: both;
     }
 
+    .clear{
+        clear: both;
+    }
+
+    .overview_update { background-color:#f7e925 !important; color:#000 !important; font-weight: bold !important;; margin-bottom: 5px !important;; font-size: .9em !important;;}
+
     .sponsorsend {
         display: block;
     }
@@ -1226,6 +1232,10 @@ small,.small {
     font-size: .75em
 }
 
+.xsmall {
+    font-size: .5em
+}
+
 med,.med {
     font-size: .8em
 }
@@ -2095,7 +2105,7 @@ tr,td,th {
 }
 
 .notice--info {
-    margin: 2em 0 !important;
+    margin: 1em 0 !important;
     padding: 1em;
     color: #3d4144;
     font-size: .8em !important;

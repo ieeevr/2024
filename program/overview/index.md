@@ -20,6 +20,8 @@ title: "Program Overview"
 <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
     Please note that all times are given in Orlando, Florida USA local time, EDT (UTC-4).
 </div>
+<div class="small italic alignCenter"><strong>Updated:</strong> 16 January 2024 <br>See highlights below.</div>
+<div class="clear"></div>
 <div id="accordion">
     <div>
         <h4 id="day1">Saturday, 16 March 2024</h4>
@@ -111,8 +113,9 @@ title: "Program Overview"
                         <span class="session-presenter">{{ workshop.organiser }}</span>
                     </div>
                 {% endif %}
-                {% if workshop.id == 'Data4XR' %}
+                {% if workshop.id == 'WSR' %}
                     <div class="session session-12 track-blue" style="grid-column: track-5; grid-row: time-1330 / time-1730;">
+                        <div class="overview_update small alignCenter">Update:<br />2024-01-16</div>
                         <h3 class="session-title"><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">1:30pm - 5:30pm</span>
                         <span class="session-track">Room: 5</span>
@@ -159,8 +162,9 @@ title: "Program Overview"
                         <span class="session-presenter">{{ workshop.organiser }}</span>
                     </div>        
                 {% endif %}
-                {% if workshop.id == 'WSR' %}
-                    <div class="session session-4 track-blue" style="grid-column: track-4; grid-row: time-0800 / time-1200;">
+                {% if workshop.id == 'Data4XR' %}
+                    <div class="session session-4 track-blue" style="grid-column: track-4; grid-row: time-0800 / time-1200;">                    
+                        <div class="overview_update small alignCenter">Update:<br />2024-01-16</div>
                         <h3 class="session-title"><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">8:00am - 12:00pm</span>
                         <span class="session-track">Room: 4</span>
