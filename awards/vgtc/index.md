@@ -4,13 +4,13 @@ title: "IEEEVR VGTC Awards"
 ---
 
 <div>
-    <h1>IEEE 2024 VGTC Virtual Reality Awards</h1>
+    <h1>IEEE 2024 VGTC VR Awards</h1>
     <p>
         The IEEE VGTC Virtual Reality Awards recognize and honor individuals who have made a significant contribution 
         to the community through their research and/or service. 
     </p>
     <p>
-        Except for the Outstanding Dissertation Award (whose nominations are due May 31st of each year), all nominations are due by <strong>January 15<sup>th</sup>, 2024</strong> this year. The awards will be presented at the annual IEEE VR conference.
+        Except for the Outstanding Dissertation Award (whose nominations are due May 31st of each year), all nominations are due by <strong>January 18, 2024 11:59 AOE</strong> <span style="color:red; text-decoration:Line-through;">January 15<sup>th</sup>, 2024</span>. The awards will be presented at the annual IEEE VR conference.
     </p>
     <ul class="extraSpacing">
         <li>
