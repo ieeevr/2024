@@ -9,10 +9,11 @@ title_separator: "|"
     <h1 id="call-for-workshop-papers"> Workshops </h1>
     <table class="styled-table">
         <tr>
-            <th>Workshops</th>
+            <th colspan="2">Workshops</th>
         </tr>
         {% for workshop in site.data.workshops %}
         <tr>
+            <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.id }}</a></td>
             <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.title }}</a></td>
         </tr>
         {% endfor %}
@@ -21,7 +22,7 @@ title_separator: "|"
     <div>
         {% for workshop in site.data.workshops %}
             <!-- Workshop title matter -->
-            <h2 class="padding_top_xsmall" id="{{ workshop.id }}">Workshop: {{ workshop.title }}</h2>                 
+            <h2 class="padding_top_xsmall" id="{{ workshop.id }}">Workshop: {{ workshop.title }} ({{ workshop.id }})</h2>                 
             <div class="padding_left_medium">
                 {% if workshop.url %}
                     <med><b style="color: black;">Website:</b> <a href="{{ workshop.url }}" target="_blank">{{ workshop.url }}</a></med><br />
