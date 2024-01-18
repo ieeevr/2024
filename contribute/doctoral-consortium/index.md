@@ -19,7 +19,7 @@ title_separator: "|"
 <div>
     <h1 id="cfp-doctoral-cosortium">Call for Doctoral Consortium<div class="floatRight"><span class="doctoralconsortiumSm"></span></div></h1>
     <p>
-        <strong style="color: black">IEEE VR 2024: the 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong>
+        <strong style="color: black">IEEE VR 2024: The 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong>
     <br /> 
     March 16-21, 2024 | Orlando, Florida USA
     </p>
