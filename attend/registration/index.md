@@ -87,7 +87,7 @@ title_separator: "|"
 			<li>The registration deadline for authors is <span class="bold">14 February, 2024.</span></li>
 			<li>Author registrations are <span class="bold">not refundable</span> and must be processed no later than <span class="bold">February 14, 2024</span> for their work to be included in the conference program and publications.</li>		
 			<li>Registration requires a paper ID.</li>
-			<li>To register, select the fee under <span class="bold">Full Conference Registration (Saturday–Thursday) – PAPER AUTHORS ONLY</span>.</li>
+			<li>To register, open the CVENT Registration using one of the buttons above.  Under the Registrations Options section, select the fee under <span class="bold">Full Conference Registration (Saturday–Thursday) – PAPER AUTHORS ONLY</span>.</li>
 			<li>Each author registration is valid for <span class="bold">FOUR</span> papers.</li>		
 			<li>For questions regarding paper submissions, please contact IEEE VR 2024 Program Chairs at <span class="program"></span>.</li>
 		</ul>
