@@ -1092,6 +1092,11 @@ img {
     min-height: 205px;
 }
 
+.full_home {
+    width: 100%;
+    min-height: 205px;
+}
+
 .row_home:after {
     content: "";
     display: table;
