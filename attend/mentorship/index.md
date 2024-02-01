@@ -1,9 +1,8 @@
 ---
 layout: ieeevr-default
-title: "Diversity, Equity, Inclusion, and Accessibility Grants"
+title: "Mentorship Program"
 ---
-<script type="text/javascript">  
-
+<script type="text/javascript">
     $(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
