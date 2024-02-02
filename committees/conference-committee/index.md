@@ -225,6 +225,7 @@ title_separator: "|"
 		<li><span class="bold">Matt Gottsacker</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Cassidy R. Nelson</span> &#x2012; <i>Virginia Tech, USA</i></li>
 		<li><span class="bold">Niall L. Williams</span> &#x2012; <i>University of Maryland, USA</i></li>
+		<li><span class="bold">Lee Lisle</span> &#x2012; <i>Virginia Tech, USA</i></li>		
 		<li><span class="bold">Grace Ahn</span> &#x2012; <i>University of Georgia, USA</i></li>
 		<li><span class="bold">Misha Sra</span> &#x2012; <i>Univeristy of California, Santa Barbara, USA</i></li>
 	</ul>
