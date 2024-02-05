@@ -9,11 +9,13 @@ title: "Mentorship Program"
 
 		email = "deia2024"; 		
 		$(".deia").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");   
+        
+        $(".deiaSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>"); 
 	});
 </script>
 
 <div>
-    <h1>Mentorship Program<div class="floatRight"><span class="deia"></span></div></h1>
+    <h1>Mentorship Program<div class="floatRight"><span class="deiaSm"></span></div></h1>
     
     <p>
         <strong style="color: black">IEEE VR 2024: The 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces </strong>
