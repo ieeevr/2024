@@ -41,7 +41,6 @@ title: "Future Faculty Forum (F3)"
         </ul>
     </p>
 
-
     <h2 id="overview">Overview & Goals</h2>
     <p>
         This forum meeting is designed to foster mentorship, education, and collaboration among students who are curious about becoming AR/VR (or XR) faculty someday.
@@ -63,7 +62,7 @@ title: "Future Faculty Forum (F3)"
     <p>
         In order to facilitate more personalized discussions, we will also host a “speed advising” session. In this session, attendees will be paired with a professor for 15 minutes for a 1-on-1 conversation. This conversation gives aspiring professors the opportunity to get advice regarding their specific situations and questions, unlike the more general advice from panel sessions. After each 15 minute session, attendees will be rotated out so that more people can get the chance to speak to a professor.
     </p>
-    <h2 id="schedule">Forum Schedule (Tentative)</h2>    
+    <h2 id="schedule">Forum Schedule - Sunday, March 17, 2024 (Tentative)</h2>    
     <table class="f3-table">
         <tr>
             <th>Start </th>
