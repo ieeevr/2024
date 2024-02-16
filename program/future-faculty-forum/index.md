@@ -70,24 +70,24 @@ title: "Future Faculty Forum (F3)"
             <th>Event</th>
         </tr>
         <tr>
+            <td>8:45am</td>
             <td>9:00am</td>
-            <td>9:15am</td>
             <td>Welcome and opening remarks</td>
         </tr>
         <tr>
-            <td>9:15am</td>
+            <td>9:00am</td>
             <td>10:00am</td>
-            <td>Panel 1: Challenges and opportunities of interdisciplinary research</td>
+            <td>Tutorial: Professor application process</td>
         </tr>
         <tr>
             <td class="bold">10:00am</td>
-            <td class="bold">10:15am</td>
+            <td class="bold">10:30am</td>
             <td class="bold">Break</td>
         </tr>
         <tr>
-            <td>10:15am</td>
+            <td>10:30am</td>
             <td>11:15am</td>
-            <td>Tutorial: Professor application process</td>
+            <td>Panel 1: Differences in universities (geographical, research vs. teaching allocations)</td>
         </tr>
         <tr>
             <td>11:15am</td>
@@ -102,7 +102,7 @@ title: "Future Faculty Forum (F3)"
         <tr>
             <td>1:30pm</td>
             <td>2:15pm</td>
-            <td>Panel 3: Differences in universities (geographical, research vs. teaching allocations)</td>
+            <td>Panel 3: Challenges and opportunities of interdisciplinary research</td>
         </tr>
         <tr>
             <td>2:15pm</td>
