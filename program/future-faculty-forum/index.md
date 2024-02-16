@@ -124,11 +124,6 @@ title: "Future Faculty Forum (F3)"
             <td>5:00pm</td>
             <td>Closing remarks and feedback for future F3 events</td>
         </tr>
-        <tr>
-            <td>5:00pm</td>
-            <td>?</td>
-            <td>Informal dinner/social event</td>
-        </tr>
     </table>
     <h2 id="CFP">Call for Participation</h2>
     <p>
