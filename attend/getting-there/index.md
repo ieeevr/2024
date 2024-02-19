@@ -19,7 +19,7 @@ title: "Getting Around at IEEE VR"
         </p>
     </div>    
     <div class="column img-right">
-        <img src= "{{ "/assets/images/Contemporary.jpeg" | relative_url }}"  style="border-radius: 20px;" alt="Area Map">
+        <img src= "{{ "/assets/images/Contemporary.png" | relative_url }}"  style="border-radius: 20px;" alt="Contemporaty Resort">
     </div>
     <div class="clear padding_top_small">    
     <p>Attendees can fly to <a href="https://www.orlandoairports.net/" target="_blank">Orlando International Airport (MCO)</a>. There are several different ways to get to Walt Disney's Contemporary Resort from Orlando International Airport (MCO).</p>

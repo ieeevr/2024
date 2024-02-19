@@ -16,19 +16,19 @@
         display: grid;
         grid-gap: 1em;
         grid-template-rows:
-        [tracks] auto [time-0800] 0.5fr [time-0830] 0.5fr 
+        [tracks] auto 
+        [time-0800] 0.5fr [time-0830] 0.5fr
         [time-0900] 0.5fr [time-0930] 0.5fr 
-        [time-1000] 0.5fr [time-1030] 0.5fr 
-        [time-1100] 0.5fr [time-1130] 0.5fr 
-        [time-1200] 0.5fr [time-1230] 0.5fr 
-        [time-1300] 0.5fr [time-1330] 0.5fr 
-        [time-1400] 0.5fr [time-1430] 0.5fr 
-        [time-1500] 0.5fr [time-1530] 0.5fr 
-        [time-1600] 0.5fr [time-1630] 0.5fr 
+        [time-1000] auto [time-1030] 0.5fr
+        [time-1100] 0.5fr [time-1130] 0.5fr
+        [time-1200] auto [time-1330] 0.5fr
+        [time-1400] 0.5fr [time-1430] 0.5fr       
+        [time-1500] 0.5fr [time-1530] auto
+        [time-1600] 0.5fr [time-1630] 0.5fr
         [time-1700] 0.5fr [time-1730];
         
         grid-template-columns:
-        [times] 3.5em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end track-5-start] 1fr [track-5-end track-6-start] 1fr [track-6-end];
+        [times] 3.5em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end track-5-start] 1fr [track-5-end track-6-start] 1fr [track-6-end track-7-start]1fr [track-7-end];
     }
 
     .schedule-sun {
@@ -38,20 +38,19 @@
             [tracks] auto 
             [time-0800] 0.3fr [time-0815] 0.3fr [time-0830] 0.3fr [time-0845] 0.3fr 
             [time-0900] 0.3fr [time-0915] 0.3fr [time-0930] 0.3fr [time-0945] 0.3fr 
-            [time-1000] 0.3fr [time-1015] 0.3fr [time-1030] 0.3fr [time-1045] 0.3fr 
+            [time-1000] auto [time-1030] 0.3fr [time-1045] 0.3fr 
             [time-1100] 0.3fr [time-1115] 0.3fr [time-1130] 0.3fr [time-1145] 0.3fr 
-            [time-1200] 0.3fr [time-1215] 0.3fr [time-1230] 0.3fr [time-1245] 0.3fr 
-            [time-1300] 0.3fr [time-1315] 0.3fr [time-1330] 0.3fr [time-1345] 0.3fr 
+            [time-1200] auto [time-1330] 0.3fr [time-1345] 0.3fr 
             [time-1400] 0.3fr [time-1415] 0.3fr [time-1430] 0.3fr [time-1445] 0.3fr             
-            [time-1500] 0.3fr [time-1515] 0.3fr [time-1530] 0.3fr [time-1545] 0.3fr 
+            [time-1500] 0.3fr [time-1515] 0.3fr [time-1530] auto
             [time-1600] 0.3fr [time-1615] 0.3fr [time-1630] 0.3fr [time-1645] 0.3fr 
-            [time-1700];
+            [time-1700] 0.3fr [time-1730]; 
             /* 0.3fr [time-1715] 0.3fr [time-1730] 0.3fr [time-1745] 0.3fr 
             [time-1800] 0.3fr [time-1815] 0.3fr [time-1830] 0.3fr [time-1845] 0.3fr 
             [time-1900] 0.3fr [time-1915] 0.3fr [time-1930] 0.3fr [time-1945] 0.3fr [time-2000]; */
         
         grid-template-columns:
-        [times] 3.5em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end track-5-start] 1fr [track-5-end track-6-start] 1fr [track-6-end track-7-start] 1fr [track-7-end];
+        [times] 3.5em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end track-5-start] 1fr [track-5-end track-6-start] 1fr [track-6-end track-7-start]1fr [track-7-end track-8-start]1fr [track-8-end];
     }
     
     .schedule-mon {
@@ -200,7 +199,19 @@
 .session-track,
 .session-presenter {
     display: block;
+    font-size: .85em !important;
 }
+
+.smalltext{    
+    font-size: .85em !important;
+}
+
+.overview_update { 
+    background-color:#f7e925 !important; 
+    color:#000 !important; 
+    font-weight: bold !important; 
+    margin-bottom: 5px !important;
+    font-size: .8em !important;}
 
 .session-title {
     margin: 0;
@@ -216,9 +227,6 @@
     }  
 }
 
-.smalltext{
-    font-size: .85em !important;
-}
 
 .track-slot{
     font-size:.75em;
@@ -272,6 +280,10 @@
 }
 
 .track-demos{
+    background-color: #87D0F1;
+    color: #000;
+}
+.track-tutorials{
     background-color: #87D0F1;
     color: #000;
 }

@@ -62,7 +62,8 @@ title: "Future Faculty Forum (F3)"
     <p>
         In order to facilitate more personalized discussions, we will also host a “speed advising” session. In this session, attendees will be paired with a professor for 15 minutes for a 1-on-1 conversation. This conversation gives aspiring professors the opportunity to get advice regarding their specific situations and questions, unlike the more general advice from panel sessions. After each 15 minute session, attendees will be rotated out so that more people can get the chance to speak to a professor.
     </p>
-    <h2 id="schedule">Forum Schedule - Sunday, March 17, 2024 (Tentative)</h2>    
+    <h2 id="schedule">Forum Schedule - Sunday, March 17, 2024 (Tentative)</h2> 
+    <p>All times are given in Orlando, Florida USA local time, EDT (UTC-4)</p> 
     <table class="f3-table">
         <tr>
             <th>Start </th>
@@ -70,58 +71,58 @@ title: "Future Faculty Forum (F3)"
             <th>Event</th>
         </tr>
         <tr>
-            <td>8:45am</td>
-            <td>9:00am</td>
+            <td>8:45</td>
+            <td>9:00</td>
             <td>Welcome and opening remarks</td>
         </tr>
         <tr>
-            <td>9:00am</td>
-            <td>10:00am</td>
+            <td>9:00</td>
+            <td>10:00</td>
             <td>Tutorial: Professor application process</td>
         </tr>
         <tr>
-            <td class="bold">10:00am</td>
-            <td class="bold">10:30am</td>
+            <td class="bold">10:00</td>
+            <td class="bold">10:30</td>
             <td class="bold">Break</td>
         </tr>
         <tr>
-            <td>10:30am</td>
-            <td>11:15am</td>
+            <td>10:30</td>
+            <td>11:15</td>
             <td>Panel 1: Differences in universities (geographical, research vs. teaching allocations)</td>
         </tr>
         <tr>
-            <td>11:15am</td>
-            <td>12:00pm</td>
+            <td>11:15</td>
+            <td>12:00</td>
             <td>Panel 2: Lab formation and management</td>
         </tr>
         <tr>
-            <td class="bold">12:00pm</td>
-            <td class="bold">1:30pm</td>
+            <td class="bold">12:00</td>
+            <td class="bold">13:30</td>
             <td class="bold">Lunch</td>
         </tr>
         <tr>
-            <td>1:30pm</td>
-            <td>2:15pm</td>
+            <td>13:30</td>
+            <td>14:15</td>
             <td>Panel 3: Challenges and opportunities of interdisciplinary research</td>
         </tr>
         <tr>
-            <td>2:15pm</td>
-            <td>3:30pm</td>
+            <td>14:15</td>
+            <td>15:30</td>
             <td>Tutorial: Review and critique of application materials (research, teaching, and diversity statements)</td>
         </tr>
         <tr>
-            <td class="bold">3:30pm</td>
-            <td class="bold">4:00pm</td>
+            <td class="bold">15:30</td>
+            <td class="bold">16:00</td>
             <td class="bold">Break</td>
         </tr>
         <tr>
-            <td>4:00pm</td>
-            <td>4:45pm</td>
+            <td>16:00</td>
+            <td>16:45</td>
             <td>Speed Advising</td>
         </tr>
         <tr>
-            <td>4:45pm</td>
-            <td>5:00pm</td>
+            <td>16:45</td>
+            <td>17:00</td>
             <td>Closing remarks and feedback for future F3 events</td>
         </tr>
     </table>
