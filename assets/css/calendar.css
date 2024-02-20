@@ -231,6 +231,7 @@
 .track-slot{
     font-size:.75em;
 }
+
 .track-green {
     background-color: #1fb55a;
     color: #fff;
@@ -247,10 +248,15 @@
     background-color: #EF8E81;
     color: #fff;
 }
+
 .track-yellow {
     background-color:#FFD966;
     color: #000;
 }
+.track-yellow a{    
+    color: #000 !important;
+}
+
 .track-blue {
     background-color: #0c5789;
     color: #fff;
@@ -259,9 +265,13 @@
     background-color: #EF127F;
     color: #fff;
 }
+
 .track-lightblue {
     background-color: #ebf5f8;
     color: #000;
+}
+.track-lightblue a{    
+    color: #000 !important;
 }
 
 .track-keynote {
@@ -283,15 +293,26 @@
     background-color: #87D0F1;
     color: #000;
 }
+.track-demos a{    
+    color: #000 !important;
+}
+
 .track-tutorials{
     background-color: #87D0F1;
     color: #000;
+}
+.track-tutorials a{    
+    color: #000 !important;
 }
 
 .track-f3{
     background-color: #FFD966;
     color: #000;
 }
+.track-f3 a{    
+    color: #000 !important;
+}
+
 
 .track-all {
     display: flex;
