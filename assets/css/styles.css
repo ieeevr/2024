@@ -292,7 +292,7 @@
     .ieeevrmsgboxInsideNoColor { /* Any boxes with the theme-primary color as background */
         background-color: #FFF;
         border-radius: 7px;
-        padding: 25px;        
+        padding: 15px;        
     }
 
     .ieeevrmsgboxInsideYellow { /* Any boxes with the theme-primary color as background */

@@ -37,7 +37,7 @@ title: "Getting Around at IEEE VR"
         <p>
             Check out <a href="https://orlandoairports.net/parking-transportation/" target="_blank">Orlando international Airport MCO Parking & Transportation</a> for approximate pricing and more information on ground transport.
         </p>
-        <h2>Getting Around During the Week</h2>
+        <h2 id="trans">Getting Around During the Week</h2>
         <h3>Transportation and Parking</h3>
         <div class="ieeevrmsgbox">
             <div class = "ieeevrmsgboxInsideNoColor small_emphasize">
