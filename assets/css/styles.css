@@ -271,11 +271,14 @@
         color:#c90c80;  
     }
 
+    .pink{
+        color:#c90c80;
+    }
+
     .ieeevrmsgbox { /* Any boxes with the theme-primary color as background */
       background-color: #12a6c9;
       border-radius: 7px;
       padding: 25px;
-      color: #FFF;
       margin-bottom: 20px;
     }
 
@@ -284,6 +287,12 @@
         border-radius: 7px;
         padding: 25px;
         color: #0c5789;
+    }
+
+    .ieeevrmsgboxInsideNoColor { /* Any boxes with the theme-primary color as background */
+        background-color: #FFF;
+        border-radius: 7px;
+        padding: 25px;        
     }
 
     .ieeevrmsgboxInsideYellow { /* Any boxes with the theme-primary color as background */
@@ -309,6 +318,10 @@
 
     .paddingBottomSmall {
         padding-bottom: 20px;
+    }
+
+    .paddingBottomxSmall {
+        padding-bottom: 10px;
     }
 
     @media screen and (max-width: 700px) {
@@ -1279,7 +1292,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.125em
+    font-size: 0.9em;
 }
 
 h4 {
