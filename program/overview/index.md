@@ -35,7 +35,7 @@ title: "Program Overview"
                 {% endif %}   
             {% endfor %}             
             {% for workshop in site.data.workshops %}   
-                {% if workshop.id == 'KELVAR' %}
+                {% if workshop.id == 'WSR' %}
                     <div class="session session-w2a track-blue" style="grid-column: track-2; grid-row: time-0800 / time-1000;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">8:00-10:00</span>
@@ -44,7 +44,7 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}                  
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'LocXR' %}
+                {% if workshop.id == 'XRIOS' %}
                     <div class="session session-w3a track-blue" style="grid-column: track-3; grid-row: time-0800 / time-1000;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">8:00-10:00</span>
@@ -53,7 +53,7 @@ title: "Program Overview"
                 {% endif %}   
             {% endfor %}                  
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'CLEVER' %}
+                {% if workshop.id == 'LocXR' %}
                     <div class="session session-w4a track-blue" style="grid-column: track-4; grid-row: time-0800 / time-1000;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">8:00-10:00</span>
@@ -62,7 +62,7 @@ title: "Program Overview"
                 {% endif %}    
             {% endfor %}                  
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'XRIOS' %}
+                {% if workshop.id == 'KELVAR' %}
                     <div class="session session-w5a track-blue" style="grid-column: track-5; grid-row: time-0800 / time-1000;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">8:00-10:00</span>
@@ -104,7 +104,7 @@ title: "Program Overview"
                 {% endif %}   
             {% endfor %}           
             {% for workshop in site.data.workshops %}   
-                {% if workshop.id == 'KELVAR' %}
+                {% if workshop.id == 'WSR' %}
                     <div class="session session-w2b track-blue" style="grid-column: track-2; grid-row: time-1030 / time-1200;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">10:30-12:00</span>
@@ -113,7 +113,7 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}                  
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'LocXR' %}
+                {% if workshop.id == 'XRIOS' %}
                     <div class="session session-w3b track-blue" style="grid-column: track-3; grid-row: time-1030 / time-1200;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">10:30-12:00</span>
@@ -122,7 +122,7 @@ title: "Program Overview"
                 {% endif %}   
             {% endfor %}                  
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'CLEVER' %}
+                {% if workshop.id == 'LocXR' %}
                     <div class="session session-w4b track-blue" style="grid-column: track-4; grid-row: time-1030 / time-1200;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">10:30-12:00</span>
@@ -131,7 +131,7 @@ title: "Program Overview"
                 {% endif %}    
             {% endfor %}                  
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'XRIOS' %}
+                {% if workshop.id == 'KELVAR' %}
                     <div class="session session-w5b track-blue" style="grid-column: track-5; grid-row: time-1030 / time-1200;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">10:30-12:00</span>
@@ -172,7 +172,7 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'VHCIE' %}
+                {% if workshop.id == 'GEMINI' %}
                     <div class="session session-8a track-blue" style="grid-column: track-2; grid-row: time-1330 / time-1530;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
@@ -181,7 +181,7 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'GEMINI' %}
+                {% if workshop.id == 'VHCIE' %}
                     <div class="session session-9a track-blue" style="grid-column: track-3; grid-row: time-1330 / time-1530;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
@@ -190,7 +190,7 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'ENPTXR' %}
+                {% if workshop.id == 'CLEVER' %}
                     <div class="session session-10a track-blue" style="grid-column: track-4; grid-row: time-1330 / time-1530;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
@@ -199,9 +199,8 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'WSR' %}
+                {% if workshop.id == 'ENPTXR' %}
                     <div class="session session-11a track-blue" style="grid-column: track-5; grid-row: time-1330 / time-1530;">
-                        <div class="overview_update small alignCenter">Update:<br />2024-01-16</div>
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
                         <span class="session-presenter">{{ workshop.organiser }}</span>
@@ -232,7 +231,7 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'VHCIE' %}
+                {% if workshop.id == 'GEMINI' %}
                     <div class="session session-8b track-blue" style="grid-column: track-2; grid-row: time-1600 / time-1730;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
@@ -241,7 +240,7 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'GEMINI' %}
+                {% if workshop.id == 'VHCIE' %}
                     <div class="session session-9b track-blue" style="grid-column: track-3; grid-row: time-1600 / time-1730;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
@@ -250,7 +249,7 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'ENPTXR' %}
+                {% if workshop.id == 'CLEVER' %}
                     <div class="session session-10b track-blue" style="grid-column: track-4; grid-row: time-1600 / time-1730;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
@@ -259,9 +258,8 @@ title: "Program Overview"
                 {% endif %}     
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'WSR' %}
+                {% if workshop.id == 'ENPTXR' %}
                     <div class="session session-11b track-blue" style="grid-column: track-5; grid-row: time-1600 / time-1730;">
-                        <div class="overview_update small alignCenter">Update:<br />2024-01-16</div>
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
                         <span class="session-presenter">{{ workshop.organiser }}</span>
@@ -320,9 +318,8 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'Data4XR' %}
-                    <div class="session session-w15a track-blue" style="grid-column: track-4; grid-row: time-0800 / time-1000;">                    
-                        <div class="overview_update small alignCenter">Update:<br />2024-01-16</div>
+                {% if workshop.id == 'NIDIT' %}
+                    <div class="session session-w15a track-blue" style="grid-column: track-4; grid-row: time-0800 / time-1000;"> 
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">8:00-10:00</span>
                         <span class="session-presenter">{{ workshop.organiser }}</span>
@@ -330,7 +327,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'PANDAS' %}
+                {% if workshop.id == 'Data4XR' %}
                     <div class="session session-w16a track-blue" style="grid-column: track-5; grid-row: time-0800 / time-1000;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">8:00-10:00</span>
@@ -339,7 +336,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}  
             {% for workshop in site.data.workshops %}   
-                {% if workshop.id == 'NIDIT' %}
+                {% if workshop.id == 'PANDAS' %}
                     <div class="session session-w17a track-blue" style="grid-column: track-6; grid-row: time-0800 / time-1000;">                   
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">8:00-10:00</span>
@@ -402,9 +399,8 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'Data4XR' %}
-                    <div class="session session-w15b track-blue" style="grid-column: track-4; grid-row: time-1030 / time-1200;">                    
-                        <div class="overview_update small alignCenter">Update:<br />2024-01-16</div>
+                {% if workshop.id == 'NIDIT' %}
+                    <div class="session session-w15b track-blue" style="grid-column: track-4; grid-row: time-1030 / time-1200;"> 
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">10:30-12:00</span>
                         <span class="session-presenter">{{ workshop.organiser }}</span>
@@ -412,7 +408,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'PANDAS' %}
+                {% if workshop.id == 'Data4XR' %}
                     <div class="session session-w16b track-blue" style="grid-column: track-5; grid-row: time-1030 / time-1200;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">10:30-12:00</span>
@@ -421,7 +417,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}  
             {% for workshop in site.data.workshops %}   
-                {% if workshop.id == 'NIDIT' %}
+                {% if workshop.id == 'PANDAS' %}
                     <div class="session session-w17b track-blue" style="grid-column: track-6; grid-row: time-1030 / time-1200;">                   
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">10:30-12:00</span>
@@ -453,7 +449,7 @@ title: "Program Overview"
             </div>             
             <p class="time-slot" style="grid-row: time-1330;">13:30</p>             
             {% for workshop in site.data.workshops %} 
-                {% if workshop.id == 'TrainingXR' %}
+                {% if workshop.id == 'AVR' %}
                     <div class="session session-8 track-blue" style="grid-column: track-1; grid-row: time-1330 / time-1530;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
@@ -471,7 +467,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'AVR' %}
+                {% if workshop.id == 'TrainingXR' %}
                     <div class="session session-10 track-blue" style="grid-column: track-3; grid-row: time-1330 / time-1530;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
@@ -480,16 +476,16 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'xrWORKS' %}
+                {% if workshop.id == 'NIDIT' %}
                     <div class="session session-11 track-blue" style="grid-column: track-4; grid-row: time-1330 / time-1530;">
-                        <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
+                        <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
                         <span class="session-presenter">{{ workshop.organiser }}</span>
                     </div>
                 {% endif %}      
             {% endfor %}  
             {% for workshop in site.data.workshops %}   
-                {% if workshop.id == 'ANIVAE' %}
+                {% if workshop.id == 'xrWORKS' %}
                     <div class="session session-12 track-blue" style="grid-column: track-5; grid-row: time-1330 / time-1530;">
                         <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
@@ -498,9 +494,9 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'NIDIT' %}
+                {% if workshop.id == 'ANIVAE' %}
                     <div class="session session-13 track-blue" style="grid-column: track-6; grid-row: time-1330 / time-1530;">
-                        <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
+                        <h3 class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">13:30-15:30</span>
                         <span class="session-presenter">{{ workshop.organiser }}</span>
                     </div>
@@ -531,7 +527,7 @@ title: "Program Overview"
             </div>  
             <p class="time-slot" style="grid-row: time-1600;">16:00</p>
             {% for workshop in site.data.workshops %} 
-                {% if workshop.id == 'TrainingXR' %}
+                {% if workshop.id == 'AVR' %}
                     <div class="session session-8 track-blue" style="grid-column: track-1; grid-row: time-1600 / time-1730;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
@@ -549,7 +545,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'AVR' %}
+                {% if workshop.id == 'TrainingXR' %}
                     <div class="session session-10 track-blue" style="grid-column: track-3; grid-row: time-1600 / time-1730;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
@@ -558,7 +554,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'xrWORKS' %}
+                {% if workshop.id == 'NIDIT' %}
                     <div class="session session-11 track-blue" style="grid-column: track-4; grid-row: time-1600 / time-1730;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
@@ -567,7 +563,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}  
             {% for workshop in site.data.workshops %}   
-                {% if workshop.id == 'ANIVAE' %}
+                {% if workshop.id == 'xrWORKS' %}
                     <div class="session session-12 track-blue" style="grid-column: track-5; grid-row: time-1600 / time-1730;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
@@ -576,7 +572,7 @@ title: "Program Overview"
                 {% endif %}      
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'NIDIT' %}
+                {% if workshop.id == 'ANIVAE' %}
                     <div class="session session-13 track-blue" style="grid-column: track-6; grid-row: time-1600 / time-1730;">
                         <h3 class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></h3><br/>
                         <span class="session-time">16:00-17:30</span>
