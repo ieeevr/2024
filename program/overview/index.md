@@ -13,6 +13,7 @@ title: "Program Overview"
 
    $(document).ready(function(){
 		$('#day1').click(); 
+		$('#day2').click(); 
     });   
 </script>
 
@@ -354,16 +355,16 @@ title: "Program Overview"
                 {% endif %}   
             {% endfor %}                  
              <div class="session session-f31 track-f3" style="grid-column: track-7; grid-row: time-0830 / time-0845;">                        
-                <h3 class="session-title">Future Faculty Forum (F3)</h3>
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">Future Faculty Forum (F3)</a></h3>
             </div>    
             <p class="time-slot" style="grid-row: time-0845;">8:45</p>         
             <div class="session session-f32 track-f3" style="grid-column: track-7; grid-row: time-0845 / time-0900;">                        
-                <h3 class="session-title">F3 | Welcome & Opening Remarks</h3>
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Welcome & Opening Remarks</h3>
                 <span class="session-time">8:45-9:00</span>
             </div>                
             <p class="time-slot" style="grid-row: time-0900;">9:00</p>           
             <div class="session session-f33 track-f3" style="grid-column: track-7; grid-row: time-0900 / time-1000;">  
-                <h3 class="session-title">F3 | Tutorial: Professor Application Process</h3>                      
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Professor Application Process</h3>                      
                 <span class="session-time">9:00-10:00</span>
             </div>            
             <p class="time-slot" style="grid-row: time-1000;">10:00</p>
@@ -435,12 +436,12 @@ title: "Program Overview"
                 {% endif %}   
             {% endfor %}   
             <div class="session session-f34 track-f3" style="grid-column: track-7; grid-row: time-1030 / time-1115;">                        
-                <h3 class="session-title">F3 | Panel 1: Differences in Universities (Geo, Research vs. Teaching Alloc.)</h3>
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 1: Differences in Universities (Geo, Research vs. Teaching Alloc.)</h3>
                 <span class="session-time">10:30-11:15</span>
             </div>      
             <p class="time-slot" style="grid-row: time-1115;">11:15</p>          
             <div class="session session-f35 track-f3" style="grid-column: track-7; grid-row: time-1115 / time-1200;">                        
-                <h3 class="session-title">F3 | Panel 2: Lab Formation & Management</h3>
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 2: Lab Formation & Management</h3>
                 <span class="session-time">11:15-12:00</span>
             </div>   
             <p class="time-slot" style="grid-row: time-1200;">12:00</p>
@@ -503,7 +504,7 @@ title: "Program Overview"
                 {% endif %}       
             {% endfor %}           
             <div class="session session-19 track-f3" style="grid-column: track-7; grid-row: time-1330 / time-1415;">                  
-                <h3 class="session-title">F3 | Panel 3: Challenges & Opportunities&nbsp;of Interdisciplinary Research</h3>
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Challenges & Opportunities&nbsp;of Interdisciplinary Research</h3>
                 <span class="session-time">13:30-14:15</span>
             </div>  
             <p class="time-slot" style="grid-row: time-1400;">14:00</p> 
@@ -518,7 +519,7 @@ title: "Program Overview"
             {% endfor %}  
             <p class="time-slot" style="grid-row: time-1415;">14:15</p>          
             <div class="session session-20 track-f3" style="grid-column: track-7; grid-row: time-1415 / time-1530;">                        
-                <h3 class="session-title">F3 | Tutorial: Review & Critique of Application Materials (Research, Teaching & Diversity Statements)</h3>
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Review & Critique of Application Materials (Research, Teaching & Diversity Statements)</h3>
                 <span class="session-time">14:15-15:30</span>
             </div>
             <p class="time-slot" style="grid-row: time-1530;">15:30</p>
@@ -581,7 +582,7 @@ title: "Program Overview"
                 {% endif %}       
             {% endfor %}          
             <div class="session session-22 track-f3" style="grid-column: track-7; grid-row: time-1600 / time-1645;">                        
-                <h3 class="session-title">F3 | Speed Advising</h3>
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Speed Advising</h3>
                 <span class="session-time">16:00-16:45</span>
             </div>       
             {% for tutorial in site.data.tutorials %}  
@@ -595,7 +596,7 @@ title: "Program Overview"
             {% endfor %}     
             <p class="time-slot" style="grid-row: time-1645;">16:45</p>   
             <div class="session session-23 track-f3" style="grid-column: track-7; grid-row: time-1645 / time-1700;">                        
-                <h3 class="session-title">F3 | Closing Remarks & Feedback for Future F3 Events</h3>
+                <h3 class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Closing Remarks & Feedback for Future F3 Events</h3>
                 <span class="session-time">16:45-17:00</span>
             </div> 
         </div> 
