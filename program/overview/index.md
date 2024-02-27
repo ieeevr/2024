@@ -413,7 +413,7 @@ title: "Program Overview"
             {% endfor %}                          
              {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T3' %}
-                    <div class="session session-t3a track-tutorials" style="grid-column: track-8; grid-row: time-0830 / time-1000;">                    
+                    <div class="session session-t3a track-tutorials" style="grid-column: track-7; grid-row: time-0830 / time-1000;">                    
                         <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">8:30-10:00</span>
                         <span class="session-time">Room: Fantasia, K-M</span>
@@ -421,17 +421,17 @@ title: "Program Overview"
                     </div>
                 {% endif %}   
             {% endfor %}                  
-             <div class="session session-f31 track-f3" style="grid-column: track-7; grid-row: time-0830 / time-0845;">                        
+             <div class="session session-f31 track-f3" style="grid-column: track-8; grid-row: time-0830 / time-0845;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">Future Faculty Forum (F3)</a></span>
             </div>    
             <p class="time-slot" style="grid-row: time-0845;">8:45</p>         
-            <div class="session session-f32 track-f3" style="grid-column: track-7; grid-row: time-0845 / time-0900;">                        
+            <div class="session session-f32 track-f3" style="grid-column: track-8; grid-row: time-0845 / time-0900;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Welcome & Opening Remarks</span>
                 <span class="session-time">8:45-9:00</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
             </div>                
             <p class="time-slot" style="grid-row: time-0900;">9:00</p>           
-            <div class="session session-f33 track-f3" style="grid-column: track-7; grid-row: time-0900 / time-1000;">  
+            <div class="session session-f33 track-f3" style="grid-column: track-8; grid-row: time-0900 / time-1000;">  
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Professor Application Process</span>                      
                 <span class="session-time">9:00-10:00</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
@@ -503,7 +503,7 @@ title: "Program Overview"
             {% endfor %}                          
             {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T3' %}
-                    <div class="session session-t3b track-tutorials" style="grid-column: track-8; grid-row: time-1030 / time-1200;">                    
+                    <div class="session session-t3b track-tutorials" style="grid-column: track-7; grid-row: time-1030 / time-1200;">                    
                         <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">10:30-12:00</span>
                         <span class="session-time">Room: Fantasia, K-M</span>
@@ -511,13 +511,13 @@ title: "Program Overview"
                     </div>
                 {% endif %}   
             {% endfor %}   
-            <div class="session session-f34 track-f3" style="grid-column: track-7; grid-row: time-1030 / time-1115;">                        
+            <div class="session session-f34 track-f3" style="grid-column: track-8; grid-row: time-1030 / time-1115;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 1: Differences in Universities (Geo, Research vs. Teaching Alloc.)</span>
                 <span class="session-time">10:30-11:15</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
             </div>      
             <p class="time-slot" style="grid-row: time-1115;">11:15</p>          
-            <div class="session session-f35 track-f3" style="grid-column: track-7; grid-row: time-1115 / time-1200;">                        
+            <div class="session session-f35 track-f3" style="grid-column: track-8; grid-row: time-1115 / time-1200;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 2: Lab Formation & Management</span>
                 <span class="session-time">11:15-12:00</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
@@ -587,7 +587,7 @@ title: "Program Overview"
                     </div>
                 {% endif %}       
             {% endfor %}           
-            <div class="session session-19 track-f3" style="grid-column: track-7; grid-row: time-1330 / time-1415;">                  
+            <div class="session session-19 track-f3" style="grid-column: track-8; grid-row: time-1330 / time-1415;">                  
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Challenges & Opportunities&nbsp;of Interdisciplinary Research</span>
                 <span class="session-time">13:30-14:15</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
@@ -595,7 +595,7 @@ title: "Program Overview"
             <p class="time-slot" style="grid-row: time-1400;">14:00</p> 
             {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T4' %}
-                    <div class="session session-t3b track-tutorials" style="grid-column: track-8; grid-row: time-1400 / time-1530;">                    
+                    <div class="session session-t3b track-tutorials" style="grid-column: track-7; grid-row: time-1400 / time-1530;">                    
                         <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">14:00-15:30</span>
                         <span class="session-time">Room: Fantasia, A</span>
@@ -604,7 +604,7 @@ title: "Program Overview"
                 {% endif %}   
             {% endfor %}  
             <p class="time-slot" style="grid-row: time-1415;">14:15</p>          
-            <div class="session session-20 track-f3" style="grid-column: track-7; grid-row: time-1415 / time-1530;">                        
+            <div class="session session-20 track-f3" style="grid-column: track-8; grid-row: time-1415 / time-1530;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Review & Critique of Application Materials (Research, Teaching & Diversity Statements)</span>
                 <span class="session-time">14:15-15:30</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
@@ -674,14 +674,14 @@ title: "Program Overview"
                     </div>
                 {% endif %}       
             {% endfor %}          
-            <div class="session session-22 track-f3" style="grid-column: track-7; grid-row: time-1600 / time-1645;">                        
+            <div class="session session-22 track-f3" style="grid-column: track-8; grid-row: time-1600 / time-1645;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Speed Advising</span>
                 <span class="session-time">16:00-16:45</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
             </div>       
             {% for tutorial in site.data.tutorials %}  
                 {% if tutorial.id == 'T5' %}
-                    <div class="session session-t3b track-tutorials" style="grid-column: track-8; grid-row: time-1600 / time-1730;">                    
+                    <div class="session session-t3b track-tutorials" style="grid-column: track-7; grid-row: time-1600 / time-1730;">                    
                         <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">16:00-17:30</span>
                         <span class="session-time">Room: Fantasia, K-M</span>
@@ -690,7 +690,7 @@ title: "Program Overview"
                 {% endif %}   
             {% endfor %}     
             <p class="time-slot" style="grid-row: time-1645;">16:45</p>   
-            <div class="session session-23 track-f3" style="grid-column: track-7; grid-row: time-1645 / time-1700;">                        
+            <div class="session session-23 track-f3" style="grid-column: track-8; grid-row: time-1645 / time-1700;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Closing Remarks & Feedback for Future F3 Events</span>
                 <span class="session-time">16:45-17:00</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
