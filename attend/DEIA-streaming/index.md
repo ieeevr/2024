@@ -41,7 +41,7 @@ title: "DEIA Accessibility Streaming"
     </p>
     <h2>APPLICATION GUIDELINES AND PROCESS</h2>
     <p>
-        We will be accepting applications through the end of the conference. Those selected for DEIA Accessibility Streaming access will be informed on a rolling basis as their applications are approved and provided with instructions to promptly access the stream. 
+        We will be accepting applications through the end of the conference (i.e., Closing Ceremony, March 21st). Those selected for DEIA Accessibility Streaming access will be informed on a rolling basis as their applications are approved and provided with instructions to promptly access the stream. 
     </p>
     <p>
         Interested individuals may apply via this Google Form: <a href="https://forms.gle/5D54Ux7eu3sR9JC4A" target="_blank"> https://forms.gle/5D54Ux7eu3sR9JC4A</a>.
