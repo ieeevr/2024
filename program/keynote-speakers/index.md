@@ -1,6 +1,8 @@
 ---
 layout: ieeevr-default
 title: "Keynote Speakers"
+subtitle: "IEEE VR 2024"
+title_separator: "|"
 ---
 
 <h1>Keynote Speakers</h1>
