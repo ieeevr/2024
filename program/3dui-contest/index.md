@@ -1,6 +1,7 @@
 ---
 layout: ieeevr-default
 title: "3DUI Contest"
+subtitle: "IEEE VR 2024"
 ---
 <h1>3DUI Contest</h1>
   
