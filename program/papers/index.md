@@ -9,17 +9,17 @@ title_separator: "|"
     {% for day in site.data.days %}
         <div>
             <div>
-            <table class="styled-table" style="font-size: 0.9em; ">
+            <table class="styled-table">
                     <tr>
                         <th colspan="4">{{ day.day }} ({{ day.timezone }})</th>
                     </tr>
                     {% for session in site.data.sessions %}
                         {% if session.day == day.day' %}
                             <tr>
-                                <td style="font-size: 0.8em;"><a href="#{{ session.id }}">{{ session.id }}</a></td>
-                                <td style="font-size: 0.8em;"><a href="#{{ session.id }}">{{ session.name }}</a></td>
-                                <td style="font-size: 0.8em;">{{ session.starttime }}&#8209;{{ session.endtime }}</td>
-                                <td style="font-size: 0.8em;" class="nowrap">{{ session.room }}</td>
+                                <td style="font-size: 0.9em;"><a href="#{{ session.id }}">{{ session.id }}</a></td>
+                                <td style="font-size: 0.9em;"><a href="#{{ session.id }}">{{ session.name }}</a></td>
+                                <td style="font-size: 0.9em;">{{ session.starttime }}&#8209;{{ session.endtime }}</td>
+                                <td style="font-size: 0.9em;" class="text-nowrap">{{ session.room }}</td>
                             </tr>
                         {% endif %}
                     {% endfor %}
@@ -34,8 +34,8 @@ title_separator: "|"
         <div>
             {% for session in site.data.sessions %}
                 {% if session.day == day.day' %}
-                    <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session {{ session.id }}: {{ session.name }}</h2>
-                    <p>{{ session.day }}, {{ session.starttime }}-{{ session.endtime }} ({{ session.timezone }}), {{ session.room }}</p>
+                    <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.id }})</h2>
+                    <p class="small">{{ session.day }}, {{ session.starttime }}-{{ session.endtime }} ({{ session.timezone }}), Room: {{ session.room }}</p>
                     {% if session.sessionchair %}
                         <p><small>Session Chair: <b style="font-family: 'Courier New', monospace; color: black;">{{ session.sessionchair }}</b></small></p>
                     {% endif %}    

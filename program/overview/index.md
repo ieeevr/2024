@@ -774,7 +774,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1130;">11:30</p>
             <div class="session track-special-session" style="grid-column: track-1-start / track-3-end; grid-row: time-1130 / time-1230;">
                 <span class="session-title">Special Session</span>
-                <span class="session-title">VR for All: Achieving Longterm DEIA Success in the VR Community</span>
+                <span class="session-title">Putting DEIA in our DNA</span>
                 <span class="session-time">11:30-12:30</span>
                 <span class="session-time">Room: Fantasia Ballroom H</span>
             </div>             

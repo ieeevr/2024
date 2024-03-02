@@ -7,22 +7,33 @@ title_separator: "|"
 
 <div>
     <h1 id="call-for-workshop-papers"> Workshops </h1>
-    <table class="styled-table">
-        <tr>
-            <th colspan="2">Workshops</th>
-        </tr>
-        {% for workshop in site.data.workshops %}
-        <tr>
-            <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.id }}</a></td>
-            <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.title }}</a></td>
-        </tr>
-        {% endfor %}
-    </table>
-
+      {% for day in site.data.workshopdays %}
+        <div>
+            <div>
+                <table class="styled-table">
+                    <tr>
+                        <th colspan="4">{{ day.day }} ({{ day.timezone }})</th>
+                    </tr>                   
+                    {% assign ws = site.data.workshops | sort: "id" %}
+                    {% for workshop in ws %}
+                        {% if workshop.day == day.day' %}
+                            <tr>
+                                <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.id }}</a></td>
+                                <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.title }}</a></td>
+                                <td style="font-size: 0.9em;" class="text-nowrap">{{ workshop.starttime }}-{{ workshop.endtime }}</td>
+                                <td style="font-size: 0.9em;" class="text-nowrap">{{ workshop.room }}</td>
+                            </tr>
+                        {% endif %}
+                    {% endfor %}
+                </table>
+            </div>
+        <div>
+    {% endfor %}       
     <div>
-        {% for workshop in site.data.workshops %}
+        {% for workshop in ws %}
             <!-- Workshop title matter -->
-            <h2 class="padding_top_xsmall" id="{{ workshop.id }}">Workshop: {{ workshop.title }} ({{ workshop.id }})</h2>                 
+            <h2 class="padding_top_xsmall" id="{{ workshop.id }}">Workshop: {{ workshop.title }} ({{ workshop.id }})</h2> 
+            <p class="small">{{ workshop.day }}, {{ workshop.starttime }}-{{ workshop.endtime }} ({{ workshop.timezone }}), Room: {{ workshop.room }}</p>                
             <div class="padding_left_medium">
                 {% if workshop.url %}
                     <med><b style="color: black;">Website:</b> <a href="{{ workshop.url }}" target="_blank">{{ workshop.url }}</a></med><br />
