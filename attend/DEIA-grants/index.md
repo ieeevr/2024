@@ -1,6 +1,8 @@
 ---
 layout: ieeevr-default
-title: "Diversity, Equity, Inclusion, and Accessibility Grants"
+title: "DEIA Grants"
+subtitle: "IEEE VR 2024"
+title_separator: "|"
 ---
 <script type="text/javascript">  
 

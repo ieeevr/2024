@@ -1,6 +1,8 @@
 ---
 layout: ieeevr-default
 title: "Getting Around at IEEE VR"
+subtitle: "IEEE VR 2024"
+title_separator: "|"
 ---
 <div>
     <h1>Getting Around at IEEE VR</h1>

@@ -1,6 +1,8 @@
 ---
 layout: ieeevr-default
 title: "DEIA Accessibility Streaming"
+subtitle: "IEEE VR 2024"
+title_separator: "|"
 ---
 <script type="text/javascript">  
 

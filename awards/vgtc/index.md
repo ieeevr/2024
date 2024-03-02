@@ -1,6 +1,8 @@
 ---
 layout: ieeevr-default
 title: "IEEEVR VGTC Awards"
+subtitle: "IEEE VR 2024"
+title_separator: "|"
 ---
 
 <div>

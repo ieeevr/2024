@@ -1,6 +1,8 @@
 ---
 layout: ieeevr-default
 title: "Conference Awards Committee IEEE VR 2024"
+subtitle: "IEEE VR 2024"
+title_separator: "|"
 ---
 <script type="text/javascript">
     $(document).ready(function(){

@@ -272,7 +272,7 @@
     }
 
     .pink{
-        color:#c90c80;
+        color:#c90c80 !important;
     }
 
     .ieeevrmsgbox { /* Any boxes with the theme-primary color as background */
