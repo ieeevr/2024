@@ -358,7 +358,7 @@ hr {
     margin: 40px 0;
 }  
 
-@media screen and (max-width:699px) {
+@media screen and (max-width:700px) {
     .time-slot{
         display:none;
     }

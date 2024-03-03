@@ -89,6 +89,20 @@
     .dropdown:checked .dropdown-content {
         display: block;
     }
+    .main_view{
+        display: inline;
+    }
+    .mobile_view{
+        display: none;
+    }
+    @media screen and (max-width: 600px) {
+        .main_view{
+            display: none;
+        }
+        .mobile_view{
+            display: inline;
+        }
+    }
 
     @media screen and (max-width: 600px) {
 
