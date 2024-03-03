@@ -1190,7 +1190,7 @@ title_separator: "|"
                 {% if session.id == 'SS3' %}
                     <div class="session track-special-session" style="grid-column: track-1-start / track-3-end; grid-row: time-1530 / time-1615;">
                         <span class="session-title">Special Session</span>
-                        <span class="session-title"><a href="{{ '/program/special-sessions/' | relative_url }}#SS2">{{ session.title }}</a></span>
+                        <span class="session-title"><a href="{{ '/program/special-sessions/' | relative_url }}#SS3">{{ session.title }}</a></span>
                         <span class="session-time">{{ session.start }}-{{ session.end }}</span>
                         <span class="session-time">Room: {{ session.room }}</span>
                     </div> 
