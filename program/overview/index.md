@@ -4,7 +4,7 @@ title: "Program Overview"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240229">
+<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240303">
     
 <script>
     (function($) {
@@ -30,6 +30,7 @@ title_separator: "|"
             <tr>
                 <th colspan="4">
                 IEEE VR 2024, March 16-21  - Select a date to skip to that day
+                <div class="italic" style="text-align: right; float:right;">Updated: 3 March, 2024 </div>
                 </th>
             </tr>
         </thead>
@@ -48,7 +49,7 @@ title_separator: "|"
             </tr>
             <tr>
                 <td><a href="#day5">Wednesday<br>2024-03-20</a></td>
-                <td>* Papers<br>* Posters<br>* Research Demos & 3DUI Contest<br>* Banquet with Keynote Speaker</td>
+                <td>* Papers<br>* Posters<br>* Research Demos & 3DUI Contest<br>* Banquet with Keynote Speaker<br/>* Dessert + Fireworks Viewing</td>
                 <td><a href="#day6">Thursday<br>2024-03-21</a></td>
                 <td>* Papers<br>* Closing & Awards</td>
             </tr>
@@ -1202,14 +1203,20 @@ title_separator: "|"
                 <span class="session-time">17:00-17:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div> 
-            <p class="time-slot" style="grid-row: time-1800;">18:00</p>                
-            <div class="session track-main" style="grid-column: track-1-start / track-3-end; grid-row: time-1800 / time-2100;">
+            <p class="time-slot" style="grid-row: time-1900;">19:00</p>                
+            <div class="session track-main" style="grid-column: track-1-start / track-3-end; grid-row: time-1900 / time-2015;">
                 <span class="session-title">Conference Banquet with Keynote Speaker</span>
                 <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-richir">Prof. Simon Richir</a></span>
                 <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-richir">The Laval Phenomenon: A Deep Dive into France's VR Capital</a></span>
-                <span class="session-time">18:00-21:00</span>
+                <span class="session-time">19:00-20:15</span>
                 <span class="session-track">Fantasia Ballroom</span>
             </div>            
+            <p class="time-slot" style="grid-row: time-2015;">20:15</p>                
+            <div class="session track-fireworks" style="grid-column: track-1-start / track-3-end; grid-row: time-2015 / time-2100;">
+                <span class="session-title">Dessert + Fireworks Viewing</span>  
+                <span class="session-time">20:15-21:00</span>
+                <span class="session-track">Porte Cochére</span>
+            </div>             
         </div> 
     </div>
     <div>

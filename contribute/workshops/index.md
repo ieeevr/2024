@@ -65,41 +65,41 @@ title_separator: "|"
             <li>
                 The Workshop Proposal is an internal document for decision-making purposes only. Organizers are welcome to email a PDF proposal (two pages max) to the Workshop Chairs at <span class="workshops"></span>, which should address:           
                 <ul>
-                    <li>Workshop title (and acronym if applicable).</li>
-                    <li>The goal of organizing the workshop.</li>
-                    <li>Has the workshop been organized before?
+                    <li style="font-size: inherit;">Workshop title (and acronym if applicable).</li>
+                    <li style="font-size: inherit;">The goal of organizing the workshop.</li>
+                    <li style="font-size: inherit;">Has the workshop been organized before?
                         <ul>
-                            <li>If yes, how many times has it been previously organized?</li>
-                            <li>If the workshop has been organized before, how many people attended the last time it was held in-person and/or last year (online)?</li>
+                            <li style="font-size: inherit;">If yes, how many times has it been previously organized?</li>
+                            <li style="font-size: inherit;">If the workshop has been organized before, how many people attended the last time it was held in-person and/or last year (online)?</li>
                         </ul>
                     </li>
-                    <li>Primary organizer name.</li>
-                    <li>Primary organizer email.</li>
-                    <li>Names, contact information, and short bios of all the organizers (one page max).</li>
-                    <li>Other speakers and/or contributors.</li>                  
-                    <li>List any technical requirements for hosting your workshop, including space, audio/visual, computer, and communication needs.</li>
-                    <li>Target audience and/or attendee prerequisites.</li>
-                    <li>Type of output from the workshop e.g., position paper, videos, collection of short papers, etc.</li>
+                    <li style="font-size: inherit;">Primary organizer name.</li>
+                    <li style="font-size: inherit;">Primary organizer email.</li>
+                    <li style="font-size: inherit;">Names, contact information, and short bios of all the organizers (one page max).</li>
+                    <li style="font-size: inherit;">Other speakers and/or contributors.</li>                  
+                    <li style="font-size: inherit;">List any technical requirements for hosting your workshop, including space, audio/visual, computer, and communication needs.</li>
+                    <li style="font-size: inherit;">Target audience and/or attendee prerequisites.</li>
+                    <li style="font-size: inherit;">Type of output from the workshop e.g., position paper, videos, collection of short papers, etc.</li>
                 </ul>
             </li>
             <li>
                 The Workshop CFP is the public document that will be posted and publicized. Organizers are welcome to email the PDF of the CFP (two pages max), which should include:
                 <ul>
-                    <li>The workshop title and acronym.</li>
-                    <li>Expected workshop date(s) (tentative to change depending on conference limitations).</li>
-                    <li>The workshop website.</li>
-                    <li>A brief overview and description of the workshop (500 words or less).</li>
-                    <li>A list of the workshop's topics.</li>
-                    <li>The workshop's format and submission guidelines, including for example speakers, discussion format, duration, topics, types of acceptable papers (e.g., research papers, position papers), acceptable lengths, and acceptable format (i.e., TVCG format).</li>
-                    <li>A list of important dates (if applicable to the format), including
+                    <li style="font-size: inherit;">The workshop title and acronym.</li>
+                    <li style="font-size: inherit;">Expected workshop date(s) (tentative to change depending on conference limitations).</li>
+                    <li style="font-size: inherit;">The workshop website.</li>
+                    <li style="font-size: inherit;">A brief overview and description of the workshop (500 words or less).</li>
+                    <li style="font-size: inherit;">A list of the workshop's topics.</li>
+                    <li style="font-size: inherit;">The workshop's format and submission guidelines, including for example speakers, discussion format, duration, topics, types of acceptable papers (e.g., research papers, position papers), acceptable lengths, and acceptable format (i.e., TVCG format).</li>
+                    <li style="font-size: inherit;">A list of important dates (if applicable to the format), including
                         <ul>
-                            <li>Abstract deadline (if applicable).</li>
-                            <li>Submission deadline.</li>
-                            <li>Notification deadline.</li>
-                            <li>Camera-ready deadline.</li>
+                            <li style="font-size: inherit;">Abstract deadline (if applicable).</li>
+                            <li style="font-size: inherit;">Submission deadline.</li>
+                            <li style="font-size: inherit;">Notification deadline.</li>
+                            <li style="font-size: inherit;">Camera-ready deadline.</li>
                         </ul>
                     </li>
-                    <li>A list of the workshop organizers, including their affiliations and how to contact them.</li>
+                    <li style="font-size: inherit;">A list of the workshop organizers, including their affiliations and how to contact them.</li>
                 </ul>
             </li>
         </ul>

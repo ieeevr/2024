@@ -276,7 +276,7 @@
     }
 
     .ieeevrmsgbox { /* Any boxes with the theme-primary color as background */
-      background-color: #12a6c9;
+      background-color: #12a6c9;;
       border-radius: 7px;
       padding: 25px;
       margin-bottom: 20px;
@@ -384,7 +384,7 @@
 }
 
 .registration-table thead tr {
-    background-color: #12a6c9;
+    background-color: #0c5789;
     color: #ffffff;
 }
 
@@ -403,7 +403,7 @@
 }
 
 .registration-table th {
-    background: #12a6c9;
+    background: #0c5789;
     color: #fff; 
     vertical-align: bottom;   
 }
@@ -460,7 +460,7 @@
 }
 
 .f3-table thead tr {
-    background-color: #12a6c9;
+    background-color: #0c5789;
     color: #ffffff;
 }
 
@@ -471,7 +471,7 @@
 }
 
 .f3-table th {
-    background: #12a6c9;
+    background: #0c5789;
     color: #fff; 
     vertical-align: bottom;   
 }
@@ -495,7 +495,7 @@
 }
 
 .program-table thead tr {
-    background-color: #0d7ea2;
+    background-color: #0c5789;
     color: #ffffff;
 }
 
@@ -506,7 +506,7 @@
 }
 
 .program-table th {
-    background: #0d7ea2;
+    background: #0c5789;
     color: #fff; 
 }
 
@@ -1053,9 +1053,6 @@ img.mfp-img {
 }
 
 a:focus,button:focus {
-    /* outline: thin dotted #12a6c9;
-    outline: 5px auto #12a6c9;
-    outline-offset: -2px;*/
     outline: none;
 }
 
@@ -1215,14 +1212,14 @@ img {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-    border: 1px solid #0d7ea2;
-    background: #0d7ea2;
+    border: 1px solid #0c5789;
+    background: #0c5789;
     font-weight: normal;
     color: #ffffff;
 }
 .ui-icon-background,
 .ui-state-active .ui-icon-background {
-    border: #0d7ea2;
+    border: #0c5789;
     background-color: #ffffff;
 }   
 .ui-widget-content a {
@@ -2198,7 +2195,7 @@ tr,td,th {
 }
 
 .notice--primary a {
-    color: #12a6c9;
+    color: #0c5789;
 }
 
 .notice--primary a:hover {
@@ -2253,11 +2250,11 @@ tr,td,th {
 }
 
 .notice--info a {
-    color: #3b9cba;
+    color: #c90c80;
 }
 
 .notice--info a:hover {
-    color: #235e70;
+    color: #c90c80;
 }
 
 .notice--info code {

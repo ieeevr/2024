@@ -238,7 +238,7 @@
 }
 
 .track-registration{
-    background-color:  #0d7ea2;;
+    background-color:  #0c5789;;
     color: #fff;
 }
 
@@ -288,6 +288,13 @@
     color: #fff;
 }
 
+.track-fireworks {
+    background: #b7f5bd;
+    color: #000;
+}
+.track-fireworks a{    
+    color: #000 !important;
+}
 .track-papers {
     background-color: #d0c3e9;
     color: #000;
