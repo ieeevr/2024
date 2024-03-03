@@ -11,7 +11,9 @@ title_separator: "|"
         <tr>
             <th>3DUI Contest Entries</th>
         </tr>
+        {% assign i = 0 %}
         {% for entry in site.data.contest3dui %}
+            {% assign i = i | plus:1 %}
             <tr>
                 <td style="font-size: 0.9em;"><a href="#{{ entry.id }}" title="{{ entry.title }}">{{ entry.title }}</a></td>
             </tr>
@@ -62,7 +64,9 @@ title_separator: "|"
 </p>
 <h2>Entries</h2>
 <div>
+    {% assign j = 0 %}
     {% for entry in site.data.contest3dui %}
+        {% assign j = j | plus:1 %}
         <h3 id="{{ entry.id }}">{{ entry.title }}</h3>
         {% if entry.boothid2 %}
             <p><small><strong> Booth {{ entry.boothid2}} - {{ entry.boothid1}}   </strong></small></p>        
@@ -73,6 +77,9 @@ title_separator: "|"
                 <iframe src="https://www.youtube.com/embed/{{ entry.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         {% endif %}
-        <hr>
+        {% if j == i %}
+        {% else %}
+            <hr style="margin: 25px 0 25px 0;">
+        {% endif %}
     {% endfor %}
 </div>
