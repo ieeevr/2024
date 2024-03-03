@@ -11,7 +11,7 @@ title_separator: "|"
         <tr>
             <th>3DUI Contest Entries</th>
         </tr>
-        {% for entry in site.data.3duicontest %}
+        {% for entry in site.data.contest3dui %}
             <tr>
                 <td style="font-size: 0.9em;"><a href="#{{ entry.id }}" title="{{ entry.title }}">{{ entry.title }}</a></td>
             </tr>
@@ -62,7 +62,7 @@ title_separator: "|"
 </p>
 <h2>Entries</h2>
 <div>
-    {% for entry in site.data.3duicontest %}
+    {% for entry in site.data.contest3dui %}
         <h3 id="{{ entry.id }}">{{ entry.title }}</h3>
         {% if entry.boothid2 %}
             <p><small><strong> Booth {{ entry.boothid2}} - {{ entry.boothid1}}   </strong></small></p>        

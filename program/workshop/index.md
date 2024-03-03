@@ -16,7 +16,7 @@ title_separator: "|"
                     </tr>                   
                     {% assign ws = site.data.workshops | sort: "id" %}
                     {% for workshop in ws %}
-                        {% if workshop.day == day.day' %}
+                        {% if workshop.day == day.day %}
                             <tr>
                                 <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.id }}</a></td>
                                 <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.title }}</a></td>
