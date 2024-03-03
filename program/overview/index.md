@@ -757,7 +757,7 @@ title_separator: "|"
             </div> 
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
                 <span class="session-title">Posters, Research Demos & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
-                <span class="session-time">9:45-10:00</span>
+                <span class="session-time">9:45-10:15</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>                         
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
@@ -921,7 +921,7 @@ title_separator: "|"
             </div> 
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
                 <span class="session-title">Posters, Research Demos & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
-                <span class="session-time">9:45-10:00</span>
+                <span class="session-time">9:45-10:15</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>     
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>            
@@ -1067,7 +1067,7 @@ title_separator: "|"
             </div>  
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
                 <span class="session-title">Posters, Research Demos & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
-                <span class="session-time">9:45-10:00</span>
+                <span class="session-time">9:45-10:15</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>   
             <p class="time-slot" style="grid-row: time-1015;">10:15</p> 
