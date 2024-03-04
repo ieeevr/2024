@@ -21,7 +21,7 @@ title_separator: "|"
         </div>
     </div>   
     <div class="main_view"> 
-        <h2 id="Pre">Pre-Conference</h2>
+        <h2 id="pre">Pre-Conference</h2>
         <iframe src="{{"/assets/program/vr2024_overall_schedule-32-public-pre.pdf" | relative_url }}#zoom=40" 
             title="IEEE VR 2024 Schedule (PDF)"
             width="100%"
@@ -29,7 +29,7 @@ title_separator: "|"
             loading="lazy"
             style="border:none;">
         </iframe>
-        <h2 id="Full">Main-Conference</h2>
+        <h2 id="full">Main-Conference</h2>
         <iframe src="{{"/assets/program/vr2024_overall_schedule-32-public-main.pdf" | relative_url }}#zoom=31" 
             title="IEEE VR 2024 Schedule (PDF)"
             width="100%"
