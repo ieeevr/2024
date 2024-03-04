@@ -16,7 +16,7 @@ title_separator: "|"
            This is an 'At a Glance' schedule of activities associated with IEEE VR 2024. <br/>
            For a more detailed view, visit <a href="{{ "/program/overview/" | relative_url }}">Program Overview</a>.<br>
            <span class="main_view"><hr></span>
-           <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#main"> Main Conference</a></div>
+           <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
            <div class="italic med" style="text-align: right;">Updated: 3 March, 2024 </div>
         </div>
     </div>   
@@ -29,7 +29,7 @@ title_separator: "|"
             loading="lazy"
             style="border:none;">
         </iframe>
-        <h2 id="Main">Main-Conference</h2>
+        <h2 id="Full">Main-Conference</h2>
         <iframe src="{{"/assets/program/vr2024_overall_schedule-32-public-main.pdf" | relative_url }}#zoom=31" 
             title="IEEE VR 2024 Schedule (PDF)"
             width="100%"
