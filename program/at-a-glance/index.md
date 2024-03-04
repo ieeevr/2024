@@ -17,6 +17,7 @@ title_separator: "|"
            For a more detailed view, visit <a href="{{ "/program/overview/" | relative_url }}">Program Overview</a>.<br>
            <span class="main_view"><hr></span>
            <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
+           <div><a href="https://wdpromedia.disney.go.com/media/dm/en-us/disneyworld/contemporary-hotel/Contemporary.pdf" target="_blank">Conference Center Map</a></div>
            <div class="italic med" style="text-align: right;">Updated: 3 March, 2024 </div>
         </div>
     </div>   

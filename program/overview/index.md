@@ -36,6 +36,11 @@ title_separator: "|"
         </thead>
         <tbody>
             <tr>
+                <td class="alignCenter" colspan="4">
+                    <a href="https://wdpromedia.disney.go.com/media/dm/en-us/disneyworld/contemporary-hotel/Contemporary.pdf" target="_blank">Conference Center Map</a>
+                </td>
+            </tr>
+            <tr>
                 <td><a href="#day1">Saturday<br>2024-03-16</a></td>
                 <td>* Workshops<br>* Tutorials<br>* Doctoral Consortium</td>
                 <td><a href="#day2">Sunday<br>2024-03-17</a></td>
