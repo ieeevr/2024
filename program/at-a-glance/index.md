@@ -39,6 +39,6 @@ title_separator: "|"
         </iframe>
     </div>
      <div class="mobile_view">         
-         <iframe frameborder="0" scrolling="no" height="600px" width="100%" src="https://docs.google.com/gview?url=https://ieeevr.org/2024-test/assets/program/vr2024_overall_schedule-32-public-mobile.pdf&embedded=true"> </iframe>    
+         <iframe frameborder="0" scrolling="no" height="600px" width="100%" src="https://docs.google.com/gview?url=https://ieeevr.org/2024/assets/program/vr2024_overall_schedule-32-public-mobile.pdf&embedded=true"> </iframe>    
     </div>
 </div>
