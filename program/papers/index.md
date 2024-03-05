@@ -11,7 +11,7 @@ title_separator: "|"
             <div>
             <table class="styled-table">
                     <tr>
-                        <th colspan="4">{{ day.day }} ({{ day.timezone }})</th>
+                        <th colspan="4">{{ day.day }} (Timezone: {{ day.timezone }})</th>
                     </tr>
                     {% for session in site.data.sessions %}
                         {% if session.day == day.day %}

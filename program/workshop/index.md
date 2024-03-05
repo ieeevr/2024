@@ -12,7 +12,7 @@ title_separator: "|"
             <div>
                 <table class="styled-table">
                     <tr>
-                        <th colspan="4">{{ day.day }} ({{ day.timezone }})</th>
+                        <th colspan="4">{{ day.day }} (Timezone: {{ day.timezone }})</th>
                     </tr>                   
                     {% assign ws = site.data.workshops | sort: "id" %}
                     {% for workshop in ws %}

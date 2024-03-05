@@ -25,7 +25,7 @@ title_separator: "|"
     <table class="program-table">
         <thead>
             <tr>
-                <th colspan="4">3DUI&nbsp;Contest&nbsp;Schedule </th>
+                <th colspan="4">3DUI&nbsp;Contest&nbsp;Schedule (Timezone: Orlando, Florida USA UTC-4)</th>
             </tr>
         </thead>
         <tbody>           
