@@ -39,9 +39,8 @@ title_separator: "|"
                     {% if session.sessionchair %}
                         <p><small>Session Chair: <b style="font-family: 'Courier New', monospace; color: black;">{{ session.sessionchair }}</b></small></p>
                     {% endif %}    
-                    <div style="margin-left: 35px;">
                         {% for paper in site.data.papers %}                
-                            {% if session.id == paper.session %}
+                            {% if session.id == paper.session %}                            
                                 {% if paper.type == 'Journal' %}
                                     {% assign source = site.data.journalpapers %}
                                 {% endif %}
@@ -50,39 +49,39 @@ title_separator: "|"
                                 {% endif %}
                                 {% if paper.type == 'Invited Journal' %}
                                     {% assign source = site.data.invitedjournalpapers %}
-                                {% endif %}                                
-                                
+                                {% endif %}
                                 {% for p in source %}
                                     {% if p.id == paper.id %}
-                                        <p id="{{ paper.id }}">
-                                            <strong>{{ paper.type }}: <i>{{ paper.title }} (ID: {{ paper.id }})</i></strong><br>
+                                        <p id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                                            <strong>{{ paper.type }}: <i>{{ paper.title }} (ID: {{ paper.id }})</i></strong>
+                                        </p>
+                                        <p class="small" style="margin-left: 25px;">
                                             {% assign authornames = p.authors | split: ";" %}
-                                            <i>
-                                                {% for name in authornames %}
-                                                    {% assign barename = name | split: ":" %}
-                                                    {% if name == authornames.last %}
-                                                        {{ barename.first | strip }}
-                                                    {% else %}
-                                                        {{ barename.first | strip }}, 
+                                            {% for name in authornames %}
+                                                {% assign barename = name | split: ":" %}
+                                                {% for n in barename %}
+                                                    {% if n == barename.last %}
+                                                        <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                                                    {% else %}                            
+                                                        <span class="bold">{{ n | strip }}</span>
                                                     {% endif %}
-                                                {% endfor %}
-                                            </i>
+                                                {% endfor %} 
+                                            {% endfor %}
                                         </p>
                                         {% if p.abstract %}
-                                            <div id="{{ paper.id }}" class="wrap-collabsible"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> 
+                                            <div id="{{ paper.id }}" class="wrap-collabsible"  style="margin-left: 25px;"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> 
                                                 <label for="collapsible{{ paper.id }}" class="lbl-toggle">Abstract</label>
                                                 <div class="collapsible-content">
                                                     <div class="content-inner">
                                                         <p>{{ p.abstract }}</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>                                                                     
                                         {% endif %}
                                     {% endif %}
                                 {% endfor %}
                             {% endif %}
                         {% endfor %}
-                    </div>
                 {% endif %}
             {% endfor %}
         </div>

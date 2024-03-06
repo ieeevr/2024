@@ -23,8 +23,10 @@ title_separator: "|"
 {% for special-session in site.data.specialsessions %}
     <br />
     <div id="{{ special-session.id }}">
-        <div style="padding-bottom:10px;"><center><strong><big>{{ special-session.title }}</big></strong>
-                <hr style="width: 10%"></center></div>
+        <div class="text-center" style="padding-bottom:15px; font-size: larger;">
+            <strong>{{ special-session.title }}</strong> 
+        </div>           
+        <hr style="width: 10%; margin: auto; padding-bottom:15px; ">
         <p>
             {{ special-session.moderator }}
         </p>
