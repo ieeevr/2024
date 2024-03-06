@@ -23,9 +23,15 @@ title_separator: "|"
 {% for special-session in site.data.specialsessions %}
     <br />
     <div id="{{ special-session.id }}">
-        <div style="padding-bottom:10px;"><center><strong><big>{{ special-session.title }}</big></strong></center></div>
-        <center>{{ special-session.moderator }}</center>    
-        <center><small>{{ special-session.day }}, {{ special-session.start }} - {{ special-session.end }} ({{ special-session.timezone }})<br>Room: {{ special-session.room }}</small></center>    
+        <div style="padding-bottom:10px;"><center><strong><big>{{ special-session.title }}</big></strong>
+                <hr style="width: 10%"></center></div>
+        <p>
+            {{ special-session.moderator }}
+        </p>
+        <p class="text-center small">
+           {{ special-session.day }}, {{ special-session.start }} - {{ special-session.end }} ({{ special-session.timezone }})<br>
+            Room: {{ special-session.room }}
+        </p>    
         <p>
             <strong>Session Topic</strong><br />
             {{ special-session.topic }}
