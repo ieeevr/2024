@@ -55,7 +55,7 @@ title_separator: "|"
                                 {% for p in source %}
                                     {% if p.id == paper.id %}
                                         <p id="{{ paper.id }}">
-                                            <strong>{{ paper.type }}: <i>{{ paper.title }}</i></strong><br>
+                                            <strong>{{ paper.type }}: <i>{{ paper.title }} (ID: {{ paper.id }})</i></strong><br>
                                             {% assign authornames = p.authors | split: ";" %}
                                             <i>
                                                 {% for name in authornames %}
