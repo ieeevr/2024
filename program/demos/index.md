@@ -14,7 +14,7 @@ title_separator: "|"
         {% for demo in site.data.demos %}
             {% assign i = i | plus:1 %}
             <tr>
-                <td style="font-size: 0.9em;"><a href="#{{ demo.id }}">{{ demo.title }}</a></td>
+                <td class="medLarge"><a href="#{{ demo.id }}">{{ demo.title }}</a></td>
             </tr>
         {% endfor %}
     </table>

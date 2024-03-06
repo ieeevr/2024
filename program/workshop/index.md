@@ -18,10 +18,10 @@ title_separator: "|"
                     {% for workshop in ws %}
                         {% if workshop.day == day.day %}
                             <tr>
-                                <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.id }}</a></td>
-                                <td style="font-size: 0.9em;"><a href="#{{ workshop.id }}">{{ workshop.title }}</a></td>
-                                <td style="font-size: 0.9em;" class="text-nowrap">{{ workshop.starttime }}-{{ workshop.endtime }}</td>
-                                <td style="font-size: 0.9em;" class="text-nowrap">{{ workshop.room }}</td>
+                                <td class="medLarge"><a href="#{{ workshop.id }}">{{ workshop.id }}</a></td>
+                                <td class="medLarge"><a href="#{{ workshop.id }}">{{ workshop.title }}</a></td>
+                                <td class="medLarge" class="text-nowrap">{{ workshop.starttime }}-{{ workshop.endtime }}</td>
+                                <td class="medLarge" class="text-nowrap">{{ workshop.room }}</td>
                             </tr>
                         {% endif %}
                     {% endfor %}

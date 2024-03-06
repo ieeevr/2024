@@ -15,7 +15,7 @@ title_separator: "|"
         {% for entry in site.data.contest3dui %}
             {% assign i = i | plus:1 %}
             <tr>
-                <td style="font-size: 0.9em;"><a href="#{{ entry.id }}" title="{{ entry.title }}">{{ entry.title }}</a></td>
+                <td class="medLarge"><a href="#{{ entry.id }}" title="{{ entry.title }}">{{ entry.title }}</a></td>
             </tr>
         {% endfor %}
     </table>

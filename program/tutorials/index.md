@@ -12,10 +12,10 @@ title_separator: "|"
         </tr>
         {% for tutorial in site.data.tutorials %}
             <tr>
-                <td style="font-size: 0.9em;"><a href="#{{ tutorial.id }}">{{ tutorial.title }}</a></td>
-                <td style="font-size: 0.9em;" class="text-nowrap">{{ tutorial.day }}</td>
-                <td style="font-size: 0.9em;" class="text-nowrap">{{ tutorial.starttime }}&#8209;{{ tutorial.endtime }}</td>                
-                <td style="font-size: 0.9em;" class="text-nowrap">{{ tutorial.room }}</td>
+                <td class="medLarge"><a href="#{{ tutorial.id }}">{{ tutorial.title }}</a></td>
+                <td class="medLarge" class="text-nowrap">{{ tutorial.day }}</td>
+                <td class="medLarge" class="text-nowrap">{{ tutorial.starttime }}&#8209;{{ tutorial.endtime }}</td>                
+                <td class="medLarge" class="text-nowrap">{{ tutorial.room }}</td>
             </tr>
         {% endfor %}
     </table>

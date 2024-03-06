@@ -9,17 +9,17 @@ title_separator: "|"
     {% for day in site.data.days %}
         <div>
             <div>
-            <table class="styled-table">
+                <table class="styled-table">
                     <tr>
                         <th colspan="4">{{ day.day }} (Timezone: {{ day.timezone }})</th>
                     </tr>
                     {% for session in site.data.sessions %}
                         {% if session.day == day.day %}
                             <tr>
-                                <td style="font-size: 0.9em;"><a href="#{{ session.id }}">{{ session.id }}</a></td>
-                                <td style="font-size: 0.9em;"><a href="#{{ session.id }}">{{ session.name }}</a></td>
-                                <td style="font-size: 0.9em;">{{ session.starttime }}&#8209;{{ session.endtime }}</td>
-                                <td style="font-size: 0.9em;" class="text-nowrap">{{ session.room }}</td>
+                                <td class="medLarge"><a href="#{{ session.id }}">{{ session.id }}</a></td>
+                                <td class="medLarge"><a href="#{{ session.id }}">{{ session.name }}</a></td>
+                                <td class="medLarge">{{ session.starttime }}&#8209;{{ session.endtime }}</td>
+                                <td class="medLarge" class="text-nowrap">{{ session.room }}</td>
                             </tr>
                         {% endif %}
                     {% endfor %}
