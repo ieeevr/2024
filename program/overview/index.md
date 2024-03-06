@@ -37,7 +37,7 @@ title_separator: "|"
         <tbody>
             <tr>
                 <td class="alignCenter" colspan="4">
-                    <a href="https://wdpromedia.disney.go.com/media/dm/en-us/disneyworld/contemporary-hotel/Contemporary.pdf" target="_blank">Conference Center Map</a>
+                    <a href="{{ "/assets/map/FINAL_Contemporary_CapacityChart_Floorplans_as_of_7.13.16.pdf" | relative_url }}" target="_blank">Conference Center Map</a>
                 </td>
             </tr>
             <tr>
