@@ -33,24 +33,35 @@ title_separator: "|"
     <h2 id="P1" class="pink" style="padding-top:25px;">Monday Posters</h2>    
     {% for poster in site.data.mondayPosters %}
         <p>
-            <strong>{{ poster.title }} (ID: {{ poster.id }})</strong>
-            <p><strong>{{ poster.type }}</strong></p> 
-            {% if poster.booth %}
-                <p> <small><strong style="color: black;"> Booth: {{ poster.booth }} </strong></small> <br> </p>  
-            {% endif %}
-            <p><i>{{ poster.authors }}</i></p>
-            {% if poster.url %}
-                <p>Teaser Video: <a href="{{ poster.url }}" target="_blank">Watch Now</a></p>
-            {% endif %}
-            {% if poster.abstract %}
-                <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
-                    <div class="collapsible-content">
-                        <div class="content-inner">
-                            <p>{{ poster.abstract }}</p>
+            <strong>{{ poster.title }} (ID:&nbsp;{{ poster.id }})</strong>
+            <p><strong>{{ poster.type }}</strong></p>
+            <div style="margin-left: 25px;">
+                <p class="small" >
+                    {% assign authornames = poster.authors | split: ";" %}
+                    {% for name in authornames %}
+                        {% assign barename = name | split: ":" %}
+                        {% for n in barename %}
+                            {% if n == barename.last %}
+                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                            {% else %}                            
+                                <span class="bold">{{ n | strip }}</span>
+                            {% endif %}
+                        {% endfor %} 
+                    {% endfor %}
+                </p>
+                {% if poster.url %}
+                    <p>Teaser Video: <a href="{{ poster.url }}" target="_blank">Watch Now</a></p>
+                {% endif %}
+                {% if poster.abstract %}
+                    <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ poster.abstract }}</p>
+                            </div>
                         </div>
-                    </div>
-                </div>     
-            {% endif %}
+                    </div>   
+                {% endif %}
+            </div>
         </p>
     {% endfor %}
 </div>
@@ -58,24 +69,35 @@ title_separator: "|"
     <h2 id="P2" class="pink" style="padding-top:25px;">Tuesday Posters</h2>
     {% for poster in site.data.tuesdayPosters %}
         <p>
-             <strong>{{ poster.title }} (ID: {{ poster.id }})</strong>
+            <strong>{{ poster.title }} (ID:&nbsp;{{ poster.id }})</strong>
             <p><strong>{{ poster.type }}</strong></p>
-            {% if poster.booth %}
-                <p> <small><strong style="color: black;"> Booth: {{ poster.booth }} </strong></small> <br> </p>  
-            {% endif %}
-            <p><i>{{ poster.authors }}</i></p>
-            {% if poster.url %}
-                <p>Teaser Video: <a href="{{ poster.url }}" target="_blank">Watch Now</a></p>
-            {% endif %}
-            {% if poster.abstract %}
-                <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
-                    <div class="collapsible-content">
-                        <div class="content-inner">
-                            <p>{{ poster.abstract }}</p>
+            <div style="margin-left: 25px;">
+                <p class="small" >
+                    {% assign authornames = poster.authors | split: ";" %}
+                    {% for name in authornames %}
+                        {% assign barename = name | split: ":" %}
+                        {% for n in barename %}
+                            {% if n == barename.last %}
+                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                            {% else %}                            
+                                <span class="bold">{{ n | strip }}</span>
+                            {% endif %}
+                        {% endfor %} 
+                    {% endfor %}
+                </p>
+                {% if poster.url %}
+                    <p>Teaser Video: <a href="{{ poster.url }}" target="_blank">Watch Now</a></p>
+                {% endif %}
+                {% if poster.abstract %}
+                    <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ poster.abstract }}</p>
+                            </div>
                         </div>
-                    </div>
-                </div>       
-            {% endif %}
+                    </div>   
+                {% endif %}
+            </div>
         </p>
     {% endfor %}
 </div>
@@ -83,24 +105,35 @@ title_separator: "|"
     <h2 id="P3" class="pink" style="padding-top:25px;">Wednesday Posters</h2>
     {% for poster in site.data.wednesdayPosters %}
         <p>
-             <strong>{{ poster.title }} (ID: {{ poster.id }})</strong>
+             <strong>{{ poster.title }} (ID:&nbsp;{{ poster.id }})</strong>
             <p><strong>{{ poster.type }}</strong></p>
-            {% if poster.booth %}
-                <p> <small><strong style="color: black;"> Booth: {{ poster.booth }} </strong></small> <br> </p>  
-            {% endif %}
-            <p><i>{{ poster.authors }}</i></p>
-            {% if poster.url %}
-                <p>Teaser Video: <a href="{{ poster.url }}" target="_blank">Watch Now</a></p>
-            {% endif %}
-            {% if poster.abstract %}
-                <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
-                    <div class="collapsible-content">
-                        <div class="content-inner">
-                            <p>{{ poster.abstract }}</p>
+            <div style="margin-left: 25px;">
+                <p class="small" >
+                    {% assign authornames = poster.authors | split: ";" %}
+                    {% for name in authornames %}
+                        {% assign barename = name | split: ":" %}
+                        {% for n in barename %}
+                            {% if n == barename.last %}
+                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                            {% else %}                            
+                                <span class="bold">{{ n | strip }}</span>
+                            {% endif %}
+                        {% endfor %} 
+                    {% endfor %}
+                </p>
+                {% if poster.url %}
+                    <p>Teaser Video: <a href="{{ poster.url }}" target="_blank">Watch Now</a></p>
+                {% endif %}
+                {% if poster.abstract %}
+                    <div id="{{ poster.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ poster.id }}" class="toggle" type="checkbox"> <label for="collapsibleabstract{{ poster.id }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ poster.abstract }}</p>
+                            </div>
                         </div>
-                    </div>
-                </div>   
-            {% endif %}
+                    </div>   
+                {% endif %}
+            </div>
         </p> 
     {% endfor %}
 </div>
