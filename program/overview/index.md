@@ -30,7 +30,7 @@ title_separator: "|"
             <tr>
                 <th colspan="4">
                 IEEE VR 2024, March 16-21 - Select quick links below to skip to a specific day
-                <div class="italic" style="text-align: right; float:right;">Updated: 3 March, 2024 </div>
+                <div class="italic" style="text-align: right; float:right;">Updated: 7 March, 2024 </div>
                 </th>
             </tr>
         </thead>
@@ -905,7 +905,7 @@ title_separator: "|"
             <div class="session track-main" style="grid-column: track-1-start / track-3-end; grid-row: time-1730 / time-1900;">
                 <span class="session-title">Welcome Reception</span>
                 <span class="session-time">17:30-19:00</span>
-                <span class="session-time">Room: Fantasia Ballroom H</span>
+                <span class="session-time">Room: Sorcerer's Apprentice Lobby and Ballroom</span>
             </div>  
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1730 / time-1900;">
                 <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
