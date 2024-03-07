@@ -44,7 +44,7 @@ title_separator: "|"
                             {% if n == barename.last %}
                                 <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
                             {% else %}                            
-                                <span class="bold">{{ n | strip }}</span>
+                                <span class="bold">{{ n | strip }},</span>
                             {% endif %}
                         {% endfor %} 
                     {% endfor %}
@@ -80,7 +80,7 @@ title_separator: "|"
                             {% if n == barename.last %}
                                 <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
                             {% else %}                            
-                                <span class="bold">{{ n | strip }}</span>
+                                <span class="bold">{{ n | strip }},</span>
                             {% endif %}
                         {% endfor %} 
                     {% endfor %}
@@ -116,7 +116,7 @@ title_separator: "|"
                             {% if n == barename.last %}
                                 <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
                             {% else %}                            
-                                <span class="bold">{{ n | strip }}</span>
+                                <span class="bold">{{ n | strip }},</span>
                             {% endif %}
                         {% endfor %} 
                     {% endfor %}

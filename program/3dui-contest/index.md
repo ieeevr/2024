@@ -1,15 +1,15 @@
 ---
 layout: ieeevr-default
-title: "3DUI Contest"
+title: "3DUI Contest Demos"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
-<h1>3DUI Contest</h1>
+<h1>3DUI Contest Demos</h1>
   
 <div>
     <table class="styled-table">
         <tr>
-            <th>3DUI Contest Entries</th>
+            <th>3DUI Contest Demos</th>
         </tr>
         {% assign i = 0 %}
         {% for entry in site.data.contest3dui %}
@@ -68,18 +68,29 @@ title_separator: "|"
     {% for entry in site.data.contest3dui %}
         {% assign j = j | plus:1 %}
         <h3 id="{{ entry.id }}">{{ entry.title }}</h3>
-        {% if entry.boothid2 %}
-            <p><small><strong> Booth {{ entry.boothid2}} - {{ entry.boothid1}}   </strong></small></p>        
-        {% endif %}
-        <p><i>{{ entry.authors }}</i></p>  
-        {% if entry.url-embed %}
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/{{ entry.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        {% endif %}
-        {% if j == i %}
-        {% else %}
-            <hr style="margin: 25px 0 25px 0;">
-        {% endif %}
+        <div style="margin-left: 25px;">
+            <p class="small">
+                {% assign authornames = entry.authors | split: ";" %}
+                {% for name in authornames %}
+                    {% assign barename = name | split: ":" %}
+                    {% for n in barename %}
+                        {% if n == barename.last %}
+                            <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                        {% else %}                            
+                            <span class="bold">{{ n | strip }},</span>
+                        {% endif %}
+                    {% endfor %} 
+                {% endfor %}
+            </p>
+            {% if entry.url-embed %}
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/{{ entry.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            {% endif %}
+            {% if j == i %}
+            {% else %}
+                <hr style="margin: 25px 0 25px 0;">
+            {% endif %}
+        </div>
     {% endfor %}
 </div>
