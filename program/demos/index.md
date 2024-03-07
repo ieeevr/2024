@@ -60,18 +60,19 @@ title_separator: "|"
     {% for demo in site.data.demos %}
         {% assign j = j | plus:1 %}
         <p id="{{ demo.id }}"><strong>{{ demo.title }}</strong><br/></p>
-        <div style="margin-left: 35px;">
-            <p>
+        <div style="margin-left: 25px;">            
+            <p class="small">
                 {% assign authornames = demo.authors | split: ";" %}
-                <i>
-                    {% for name in authornames %}
-                        {% if name == authornames.last %}
-                            {{ name | strip }}                             
-                        {% else %}
-                            {{ name | strip }}, 
+                {% for name in authornames %}
+                    {% assign barename = name | split: ":" %}
+                    {% for n in barename %}
+                        {% if n == barename.last %}
+                            <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                        {% else %}                            
+                            <span class="bold">{{ n | strip }}</span>
                         {% endif %}
-                    {% endfor %}
-                </i>
+                    {% endfor %} 
+                {% endfor %}
             </p>
             <p><strong style="color: black;"> Room: {{ demo.hall }} </strong> <br> </p> 
             {% if demo.abstract %}
