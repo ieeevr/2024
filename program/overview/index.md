@@ -41,22 +41,59 @@ title_separator: "|"
                 </td>
             </tr>
             <tr>
-                <td><a href="#day1">Saturday<br>2024-03-16</a></td>
-                <td>* Workshops<br>* Tutorials<br>* Doctoral Consortium</td>
-                <td><a href="#day2">Sunday<br>2024-03-17</a></td>
-                <td>* Workshops<br>* Tutorials<br>* Faculty Fast Forward (F3)</td>
+                <td class="text-nowrap"><a href="#day1">Saturday<br>2024-03-16</a></td>
+                <td>
+                    * Workshops<br>
+                    * Tutorials<br>
+                    * Doctoral Consortium
+                </td>
+                <td class="text-nowrap"><a href="#day2">Sunday<br>2024-03-17</a></td>
+                <td>
+                    * Workshops<br>
+                    * Tutorials<br>
+                    * Faculty Fast Forward (F3)
+                </td>
             </tr>
             <tr>
-                <td><a href="#day3">Monday<br>2024-03-18</a></td>
-                <td>* Opening & Awards<br>* Keynote Speaker<br>* Special Session<br>* Research Demos and 3DUI Contest Fast Forward<br>* Papers<br>* Posters, Research Demos & 3DUI Contest<br>* Welcome Reception</td>
-                <td><a href="#day4">Tuesday<br>2024-03-19</a></td>
-                <td>* Keynote Speaker<br>* Special Session<br>* Papers<br>* Posters, Research Demos & 3DUI Contest<br></td>
+                <td class="text-nowrap"><a href="#day3">Monday<br>2024-03-18</a></td>
+                <td>
+                    * Opening & Awards<br>
+                    * Keynote Speaker<br>
+                    * Special Session<br>
+                    <div style="text-indent: -.7em; margin-left: .7em;">
+                        * Research Demos & 3DUI Contest Demos Fast Forward<br>
+                    </div>
+                    * Papers<br>
+                    <div style="text-indent: -.7em; margin-left: .7em;">
+                        * Research Demos, 3DUI Contest Demos & Posters<br>
+                    </div>
+                    * Welcome Reception
+                </td>
+                <td class="text-nowrap"><a href="#day4">Tuesday<br>2024-03-19</a></td>
+                <td>    
+                    * Keynote Speaker<br>
+                    * Special Session<br>
+                    * Papers<br>                    
+                    <div style="text-indent: -.7em; margin-left: .7em;">
+                        * Research Demos, 3DUI Contest Demos & Posters
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td><a href="#day5">Wednesday<br>2024-03-20</a></td>
-                <td>* Papers<br>* Posters<br>* Research Demos & 3DUI Contest<br>* Banquet with Keynote Speaker<br/>* Dessert + Fireworks Viewing</td>
-                <td><a href="#day6">Thursday<br>2024-03-21</a></td>
-                <td>* Papers<br>* Closing & Awards</td>
+                <td class="text-nowrap"><a href="#day5">Wednesday<br>2024-03-20</a></td>
+                <td>
+                    * Papers<br>
+                    <div style="text-indent: -.7em; margin-left: .7em;">
+                        * Research Demos, 3DUI Contest Demos & Posters<br>
+                    </div>
+                    * Banquet with Keynote Speaker<br/>
+                    * Dessert + Fireworks Viewing
+                </td>
+                <td class="text-nowrap"><a href="#day6">Thursday<br>2024-03-21</a></td>
+                <td>
+                    * Papers<br>
+                    * Closing & Awards
+                </td>
             </tr>
         </tbody>
     </table>
@@ -153,7 +190,7 @@ title_separator: "|"
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
-            {% endfor %} 
+            {% endfor %}                
             <div class="session session-w1b track-consortium" style="grid-column: track-8; grid-row: time-0830 / time-1000;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 1-6 (10-min talk + 5-min Q&A for each presentation)</span>
                 <span class="session-time">8:30-10:00</span>
@@ -162,7 +199,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1000;">10:00</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-7-end; grid-row: time-1000 / time-1030;">
                 <span class="session-title">Break: 10:00-10:30</span>
-            </div>   
+            </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-8; grid-row: time-1000 / time-1030;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (breakout with mentors)</span>
                 <span class="session-time">10:00-10:30</span>
@@ -247,7 +284,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1200;">12:00</p> 
             <div class="session session-lunch track-all" style="grid-column: track-1-start / track-7-end; grid-row: time-1200 / time-1330;">
                 <span class="session-title">Lunch: 12:00-13:30</span>
-            </div>            
+            </div>                                           
             <div class="session session-w1b track-consortium" style="grid-column: track-8; grid-row: time-1200 / time-1330;">                 
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Lunch (breakout with mentors)</span><br/>
                 <span class="session-time">12:00-13:30</span>
@@ -322,7 +359,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1530;">15:30</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-7-end; grid-row: time-1530 / time-1600;">
                 <span class="session-title">Break: 15:30-16:00</span>
-            </div>    
+            </div>                  
             <div class="session session-w1b track-consortium" style="grid-column: track-8; grid-row: time-1530 / time-1600;">                
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (breakout with mentors)</span>
                 <span class="session-time">15:30-16:00</span>
@@ -409,7 +446,7 @@ title_separator: "|"
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Breakout with mentors</span>
                 <span class="session-time">17:00-17:30</span>
                 <span class="session-time">Room: Sorcerer's Apprentice, 2</span>
-            </div>          
+            </div>                
         </div> 
     </div>
     <div>
@@ -788,7 +825,7 @@ title_separator: "|"
                 <span class="session-title">Break: 9:45-10:15 (Catered)</span>
             </div> 
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">, 3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">9:45-10:15</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>                         
@@ -820,13 +857,13 @@ title_separator: "|"
             </div>  
             <p class="time-slot" style="grid-row: time-1300;">13:00</p>
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1300 / time-1330;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">13:00-13:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>                        
             <p class="time-slot" style="grid-row: time-1330;">13:30</p>  
             <div class="session track-demos" style="grid-column: track-1-start / track-3-end; grid-row: time-1330 / time-1400;">
-                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> and <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a> Fast Forward</span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> and <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> Fast Forward</span>
                 <span class="session-time">13:30-14:00</span>
                 <span class="session-time">Room: Fantasia Ballroom H</span>
             </div>  
@@ -863,7 +900,7 @@ title_separator: "|"
                 <span class="session-title">Break: 15:00-15:30 (Catered)</span>
             </div>    
             <div class="session session-6 track-pd3dui" style="grid-column: track-4-start; grid-row: time-1500 / time-1530;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">15:00-15:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>  
@@ -897,7 +934,7 @@ title_separator: "|"
             {% endfor %}               
             <p class="time-slot" style="grid-row: time-1700;">17:00</p>                
             <div class="session track-pd3dui" style="padding-bottom: 10px; grid-column: track-4-start; grid-row: time-1700 / time-1730;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">17:00-17:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>
@@ -908,7 +945,7 @@ title_separator: "|"
                 <span class="session-time">Room: Sorcerer's Apprentice Lobby and Ballroom</span>
             </div>  
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1730 / time-1900;">
-                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">17:30-19:00</span>
                 <span class="session-time">Room: Sorcerer's Apprentice Ballroom</span>
             </div>
@@ -956,7 +993,7 @@ title_separator: "|"
                 <span class="session-title">Break: 9:45-10:15 (Catered)</span>
             </div> 
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">9:45-10:15</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>     
@@ -988,7 +1025,7 @@ title_separator: "|"
             </div>  
             <p class="time-slot" style="grid-row: time-1300;">13:00</p>
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1300 / time-1330;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">13:00-13:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>   
@@ -1025,7 +1062,7 @@ title_separator: "|"
                 <span class="session-title">Break: 15:00-15:30 (Catered)</span>
             </div>    
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1500 / time-1530;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">15:00-15:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>                 
@@ -1058,7 +1095,7 @@ title_separator: "|"
             {% endfor %}   
             <p class="time-slot" style="grid-row: time-1700;">17:00</p>                
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1700 / time-1730;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">17:00-17:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>
@@ -1106,7 +1143,7 @@ title_separator: "|"
                 <span class="session-title">Break: 9:45-10:15</span>
             </div>  
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">9:45-10:15</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>   
@@ -1176,7 +1213,7 @@ title_separator: "|"
             </div> 
             <p class="time-slot" style="grid-row: time-1300;">13:00</p>
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1300 / time-1330;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">13:00-13:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div> 
@@ -1213,7 +1250,7 @@ title_separator: "|"
                 <span class="session-title">Break: 15:00-15:30 (Catered)</span>
             </div>     
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1500 / time-1530;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">15:00-15:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>             
@@ -1230,7 +1267,7 @@ title_separator: "|"
             {% endfor %}  
             <p class="time-slot" style="grid-row: time-1700;">17:00</p>                
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1700 / time-1730;">
-                <span class="session-title">Posters, <a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> & <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
                 <span class="session-time">17:00-17:30</span>
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div> 

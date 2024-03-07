@@ -25,7 +25,7 @@ title_separator: "|"
 
 <div>
 
-    <h2 id="important-dates"> Important Dates </h2>
+    <h2 id="important-dates">Important Dates</h2>
     <ul>
         <li><b>January 10 Wednesday, 2024 <span style="color:red; text-decoration:Line-through;">January 7 Sunday, 2024</span>:</b> Two-page abstract and video material submission.</li>
         <li><b>January 21 Sunday, 2024:</b> Notification of results.</li>
@@ -62,7 +62,7 @@ title_separator: "|"
 
     <h2 id="Overview">Overview</h2>
     <p>
-        The 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces 2024 seeks research demonstrations from laboratories or research groups (academic, government, or industry). Demos should interest the broad XR community and be presentable in a conference setting exhibiting new and innovative work. The conference will provide basic infrastructure. Additionally, authors of accepted demos will present an overview in a fast-forward research demonstration session to summarize their demo and relate it to research being performed at their lab. The research demonstrations will be an in-person event.
+        The 31<sup>st</sup> IEEE Conference on Virtual Reality and 3D User Interfaces 2024 seeks research demonstrations from laboratories or research groups (academic, government, or industry). Research demos should interest the broad XR community and be presentable in a conference setting exhibiting new and innovative work. The conference will provide basic infrastructure. Additionally, authors of accepted demos will present an overview in a fast-forward research demonstration session to summarize their demo and relate it to research being performed at their lab. The research demonstrations will be an in-person event.
     </p>
 
     <h2 id="submission-guidelines">Submission Guidelines</h2>
@@ -75,7 +75,7 @@ title_separator: "|"
         </ul>
     </p>
     <p>
-        Submissions to the demos track must be written in English. The submission materials should clearly describe the overall architecture of the system or technology demonstrated. Authors should put emphasis on the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted demos will be included in the abstract and workshop proceedings and in the IEEE Xplore Digital Library, so they must follow the IEEE Computer Society format at <a href="https://tc.computer.org/vgtc/publications/conference/">https://tc.computer.org/vgtc/publications/conference/</a>.
+        Submissions to the research demos track must be written in English. The submission materials should clearly describe the overall architecture of the system or technology demonstrated. Authors should put emphasis on the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted research demos will be included in the abstract and workshop proceedings and in the IEEE Xplore Digital Library, so they must follow the IEEE Computer Society format at <a href="https://tc.computer.org/vgtc/publications/conference/">https://tc.computer.org/vgtc/publications/conference/</a>.
     </p>
     <p>
         Please note that authors will be asked to do live presentations and/or demos on certain days of the conference. The days and time slots for the live presentations will be determined after the review process is complete. More details about this will be posted on this page later.

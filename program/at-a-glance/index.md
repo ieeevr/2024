@@ -31,7 +31,7 @@ title_separator: "|"
             style="border:none;">
         </iframe>
         <h2 id="full">Main-Conference</h2>
-        <iframe src="{{"/assets/program/vr2024_overall_schedule-33-public-main.pdf" | relative_url }}#zoom=31" 
+        <iframe src="{{"/assets/program/vr2024_overall_schedule-34-public-main.pdf" | relative_url }}#zoom=31" 
             title="IEEE VR 2024 Schedule (PDF)"
             width="100%"
             height="600px"
@@ -40,6 +40,6 @@ title_separator: "|"
         </iframe>
     </div>
      <div class="mobile_view">         
-         <iframe frameborder="0" scrolling="no" height="600px" width="100%" src="https://docs.google.com/gview?url=https://ieeevr.org/2024/assets/program/vr2024_overall_schedule-33-public-mobile.pdf&embedded=true"> </iframe>    
+         <iframe frameborder="0" scrolling="no" height="600px" width="100%" src="https://docs.google.com/gview?url=https://ieeevr.org/2024/assets/program/vr2024_overall_schedule-34-public-mobile.pdf&embedded=true"> </iframe>    
     </div>
 </div>
