@@ -1258,6 +1258,10 @@ a.ui-button:active,
     vertical-align: top;
 } 
 
+table.valignTop td{
+    vertical-align: top;
+} 
+
 .valignBottom {
     vertical-align: bottom;
 } 
@@ -1341,35 +1345,35 @@ h3 {
 }
 
 h4 {
-    font-size: 1.0625em
+    font-size: 1.0625em;
 }
 
 h5 {
-    font-size: 1.03125em
+    font-size: 1.03125em;
 }
 
 h6 {
-    font-size: 1em
+    font-size: 1em;
 }
 
 small,.small {
-    font-size: .75em
+    font-size: .75em !important;
 }
 
 .xsmall {
-    font-size: .5em
+    font-size: .5em !important;
 }
 
 med,.med {
-    font-size: .8em
+    font-size: .8em !important;
 }
 
 .medLarge{
-    font-size: .9em
+    font-size: .9em !important;
 }
 
 p {
-    margin-bottom: 1.3em
+    margin-bottom: 1.3em;
 }
 
 u,ins {
