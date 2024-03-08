@@ -66,21 +66,21 @@ title_separator: "|"
     </p>
     <h2 id="schedule">Forum Schedule - Sunday, March 17, 2024 (Tentative)</h2> 
     <p>All times are given in Orlando, Florida USA local time, EDT (UTC-4)</p> 
-    <table class="f3-table">
+    <table class="f3-table" Style="vertical-align: top;">
         <tr>
             <th>Start </th>
             <th>End </th>				
             <th>Event</th>
         </tr>
         <tr>
-            <td>8:45</td>
-            <td>9:00</td>
-            <td>Welcome and opening remarks</td>
+            <td class="bold">8:45</td>
+            <td class="bold">9:00</td>
+            <td class="bold">Welcome and Opening Remarks</td>
         </tr>
         <tr>
-            <td>9:00</td>
-            <td>10:00</td>
-            <td>Tutorial: Professor application process</td>
+            <td class="bold">9:00</td>
+            <td class="bold">10:00</td>
+            <td class="bold">Tutorial: Professor Application Process</td>
         </tr>
         <tr>
             <td class="bold">10:00</td>
@@ -88,14 +88,33 @@ title_separator: "|"
             <td class="bold">Break</td>
         </tr>
         <tr>
-            <td>10:30</td>
-            <td>11:15</td>
-            <td>Panel 1: Differences in universities (geographical, research vs. teaching allocations)</td>
+            <td class="valignTop bold">10:30</td>
+            <td class="valignTop bold">11:15</td>
+            <td>
+                <span class="bold">Panel 1: Differences in Universities (Geographical, Research vs. Teaching Allocations)</span><br/>
+                <div style="margin-left:20px;">
+                    Frank Steinicke - <i>Universität Hamburg</i><br/>
+                    Rick Skarbez - <i>La Trobe University</i><br/>
+                    Tabitha Peck - <i>Davidson College</i><br/>
+                    Evan Suma Rosenberg - <i>University of Minnesota</i><br/>
+                    Frank Guan - Singapore <i>Institute of Technology</i><br/>
+                </div>
+            </td>           
         </tr>
         <tr>
-            <td>11:15</td>
-            <td>12:00</td>
-            <td>Panel 2: Lab formation and management</td>
+            <td class="valignTop bold">11:15</td>
+            <td class="valignTop bold">12:00</td>
+            <td>
+                <span class="bold">Panel 2: Lab Formation and Management</span><br/>
+                <div style="margin-left:20px;">
+                    Doug Bowman - <i>Virginia Tech</i><br/>
+                    Steve Feiner - <i>Columbia University</i><br/>
+                    Bruce Thomas - <i>University of South Australia</i><br/>
+                    Maud Marchal - <i>INRIA</i><br/>
+                    Maria Gorlatova - <i>Duke University</i><br/>
+                    Jerald Thomas - <i>University of Wisconsin Milwaukee</i><br/>
+                </div>
+            </td>
         </tr>
         <tr>
             <td class="bold">12:00</td>
@@ -103,14 +122,23 @@ title_separator: "|"
             <td class="bold">Lunch</td>
         </tr>
         <tr>
-            <td>13:30</td>
-            <td>14:15</td>
-            <td>Panel 3: Challenges and opportunities of interdisciplinary research</td>
+            <td class="valignTop bold">13:30</td>
+            <td class="valignTop bold">14:15</td>
+            <td>
+                <span class="bold">Panel 3: Challenges and Opportunities of Interdisciplinary Research</span><br/>
+                <div style="margin-left:20px;">
+                    Joseph Gabbard - <i>Virginia Tech</i><br />
+                    John Quarles - <i>University of Texas San Antonio</i><br/>
+                    Brendan David-John - <i>Virginia Tech</i><br/>
+                    Aniket Bera - <i>Purdue University</i><br/>
+                    Anne-Hélène Olivier - <i>INRIA</i><br/>   
+                </div>
+            </td>
         </tr>
         <tr>
-            <td>14:15</td>
-            <td>15:30</td>
-            <td>Tutorial: Review and critique of application materials (research, teaching, and diversity statements)</td>
+            <td class="bold">14:15</td>
+            <td class="bold">15:30</td>
+            <td class="bold">Tutorial: Review and Critique of Application Materials (Research, Teaching, and Diversity Statements)</td>
         </tr>
         <tr>
             <td class="bold">15:30</td>
@@ -118,14 +146,14 @@ title_separator: "|"
             <td class="bold">Break</td>
         </tr>
         <tr>
-            <td>16:00</td>
-            <td>16:45</td>
-            <td>Speed Advising</td>
+            <td class="bold">16:00</td>
+            <td class="bold">16:45</td>
+            <td class="bold">Speed Advising</td>
         </tr>
         <tr>
-            <td>16:45</td>
-            <td>17:00</td>
-            <td>Closing remarks and feedback for future F3 events</td>
+            <td class="bold">16:45</td>
+            <td class="bold">17:00</td>
+            <td class="bold">Closing Remarks and Feedback for Future F3 Events</td>
         </tr>
     </table>
     <h2 id="CFP">Call for Participation</h2>
