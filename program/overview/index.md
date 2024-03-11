@@ -116,9 +116,9 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-0800;">8:00</p>             
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'XRGaming' %}
-                    <div class="session session-w1a track-workshop" style="grid-column: track-1; grid-row: time-0800 / time-1000;">                    
+                    <div class="session session-w1a track-workshop" style="grid-column: track-1; grid-row: time-0845 / time-1000;">                    
                         <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">8:00-10:00</span>
+                        <span class="session-time">8:40-10:00</span>
                         <span class="session-time">Room: Fantasia, A</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -478,17 +478,7 @@ title_separator: "|"
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>         
                 {% endif %}      
-            {% endfor %}   
-            {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'ReDigiTS' %}
-                    <div class="session session-w14a track-workshop" style="grid-column: track-3; grid-row: time-0800 / time-1000;">
-                        <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">8:00-10:00</span>
-                        <span class="session-time">Room: Fantasia, C</span>
-                        <span class="session-presenter"><br />{{ workshop.organiser }}</span>
-                    </div>        
-                {% endif %}      
-            {% endfor %}   
+            {% endfor %}               
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'NIDIT' %}
                     <div class="session session-w15a track-workshop" style="grid-column: track-4; grid-row: time-0800 / time-1000;"> 
@@ -501,9 +491,9 @@ title_separator: "|"
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'Data4XR' %}
-                    <div class="session session-w16a track-workshop" style="grid-column: track-5; grid-row: time-0800 / time-1000;">
+                    <div class="session session-w16a track-workshop" style="grid-column: track-5; grid-row: time-0900 / time-1000;">
                         <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">8:00-10:00</span>
+                        <span class="session-time">9:00-10:00</span>
                         <span class="session-time">Room: Fantasia, E</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
