@@ -1191,26 +1191,26 @@ img {
 }
 
 .left_home {
-    width: 73%;
-    min-height: 205px;
+    width: 73%;    
+    min-height: 210px;
 }
 
 .right_home {
     width: 24%;
     margin-left: 25px;
-    min-height: 205px;
-}
-
-.full_home {
-    width: 100%;
-    min-height: 205px;
+    min-height: 210px;
 }
 
 .row_home:after {
     content: "";
     display: table;
     clear: both;
-} 
+}
+
+.full_home {
+    width: 100%;
+    min-height: 205px;
+}
 
 .warning {
     color: #db203c;
@@ -1370,6 +1370,10 @@ med,.med {
 
 .medLarge{
     font-size: .9em !important;
+}
+
+.large{
+    font-size: 1.2em !important; 
 }
 
 p {
