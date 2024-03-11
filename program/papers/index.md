@@ -28,7 +28,6 @@ title_separator: "|"
         <div>
     {% endfor %} 
 </div>
-
 <div>
      {% for day in site.data.days %}
         <div>
@@ -38,7 +37,8 @@ title_separator: "|"
                     <p class="small">{{ session.day }}, {{ session.starttime }}-{{ session.endtime }} ({{ session.timezone }}), Room: {{ session.room }}</p>
                     {% if session.sessionchair %}
                         <p><small>Session Chair: <b style="font-family: 'Courier New', monospace; color: black;">{{ session.sessionchair }}</b></small></p>
-                    {% endif %}    
+                    {% endif %} 
+                    <div style="margin-left: 25px;">   
                         {% for paper in site.data.papers %}                
                             {% if session.id == paper.session %}                            
                                 {% if paper.type == 'Journal' %}
@@ -53,9 +53,21 @@ title_separator: "|"
                                 {% for p in source %}
                                     {% if p.id == paper.id %}
                                         <p id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                                            <strong>{{ paper.type }}: <i>{{ paper.title }} (ID: {{ paper.id }})</i></strong>
+                                        {% for a in site.data.awards %}  
+                                            {% if a.type == paper.type %}
+                                                {% if a.id == paper.id %}
+                                                    {% if a.award == "Best Paper" %}
+                                                        <div class="align-left"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" alt="Best Paper Award" ></div>
+                                                    {% endif %}                                                    
+                                                    {% if a.award == "Honorable Mention" %}
+                                                        <div class="align-left"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" alt="Best Paper Honorable Mention" > </div>
+                                                    {% endif %}
+                                                {% endif %}
+                                                {% endif %}
+                                        {% endfor %}
+                                            <strong> <i>{{ paper.title }} ({{ paper.type }}: {{ paper.id }})</i></strong>
                                         </p>
-                                        <p class="small" style="margin-left: 25px;">
+                                        <p class="small" >
                                             {% assign authornames = p.authors | split: ";" %}
                                             {% for name in authornames %}
                                                 {% assign barename = name | split: ":" %}
@@ -69,7 +81,7 @@ title_separator: "|"
                                             {% endfor %}
                                         </p>
                                         {% if p.abstract %}
-                                            <div id="{{ paper.id }}" class="wrap-collabsible"  style="margin-left: 25px;"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> 
+                                            <div id="{{ paper.id }}" class="wrap-collabsible"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> 
                                                 <label for="collapsible{{ paper.id }}" class="lbl-toggle">Abstract</label>
                                                 <div class="collapsible-content">
                                                     <div class="content-inner">
@@ -82,6 +94,7 @@ title_separator: "|"
                                 {% endfor %}
                             {% endif %}
                         {% endfor %}
+                    </div>
                 {% endif %}
             {% endfor %}
         </div>
