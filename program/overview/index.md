@@ -146,9 +146,9 @@ title_separator: "|"
             {% endfor %}             
             {% for workshop in site.data.workshops %}   
                 {% if workshop.id == 'WSR' %}
-                    <div class="session session-w2a track-workshop" style="grid-column: track-4; grid-row: time-0800 / time-1000;">
+                    <div class="session session-w2a track-workshop" style="grid-column: track-4; grid-row: time-0830 / time-1000;">
                         <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">8:00-10:00</span>
+                        <span class="session-time">8:25-10:00</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>         
@@ -240,7 +240,7 @@ title_separator: "|"
                 {% if workshop.id == 'WSR' %}
                     <div class="session session-w2b track-workshop" style="grid-column: track-4; grid-row: time-1030 / time-1200;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:00</span>
+                        <span class="session-time">10:30-12:05</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>         
