@@ -78,7 +78,7 @@ title_separator: "|"
 <div>
     <h2 id="P2" class="pink" style="padding-top:25px;">Tuesday Posters</h2>
     <p class="small">Talk with the authors: 9:45&#8209;10:15, 13:00&#8209;13:30, 15:00&#8209;15:30, 17:00&#8209;17:30, Room:Sorcerer's Apprentice Ballroom</p>  
-    {% for poster in site.data.mondayPosters %}
+    {% for poster in site.data.tuesdayPosters %}
         <div style="margin-left: 25px;">
             {% for a in site.data.awards %}  
                 {% if a.type == 'Poster' %}
@@ -124,7 +124,7 @@ title_separator: "|"
 <div>
     <h2 id="P3" class="pink" style="padding-top:25px;">Wednesday Posters</h2>
     <p class="small">Talk with the authors: 9:45&#8209;10:15, 13:00&#8209;13:30, 15:00&#8209;15:30, 17:00&#8209;17:30, Room:Sorcerer's Apprentice Ballroom</p>  
-    {% for poster in site.data.mondayPosters %}
+    {% for poster in site.data.wednesdayPosters %}
         <div style="margin-left: 25px;">
             {% for a in site.data.awards %}  
                 {% if a.type == 'Poster' %}
