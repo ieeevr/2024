@@ -561,9 +561,9 @@ title_separator: "|"
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'MASSXR' %}
-                    <div class="session session-w12b track-workshop" style="grid-column: track-3; grid-row: time-1030 / time-1200;">                        
+                    <div class="session session-w12b track-workshop" style="grid-column: track-3; grid-row: time-1030 / time-1230;">                        
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:00</span>
+                        <span class="session-time">10:30-12:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>
@@ -621,9 +621,15 @@ title_separator: "|"
                 <span class="session-time">Room: Sorcerer's Apprentice 2</span>
             </div>   
             <p class="time-slot" style="grid-row: time-1200;">12:00</p>
-            <div class="session session-l track-all" style="grid-column: track-1-start / track-8-end; grid-row: time-1200 / time-1330;">
-                <span class="session-title">Lunch: 12:00-13:30</span>
+            <div class="session session-l track-all" style="grid-column: track-1-start / track-2-end; grid-row: time-1200 / time-1330;">
+                <span class="session-title">Lunch: 12:00&#8209;13:30</span>
+            </div> 
+            <div class="session session-l track-all" style="grid-column: track-3-start / track-3-end; grid-row: time-1230 / time-1330;">
+                <span class="session-title">Lunch: 12:30&#8209;13:30</span>
             </div>             
+            <div class="session session-l track-all" style="grid-column: track-4-start / track-8-end; grid-row: time-1200 / time-1330;">
+                <span class="session-title">Lunch: 12:00&#8209;13:30</span>
+            </div>                         
             <p class="time-slot" style="grid-row: time-1330;">13:30</p>             
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'TrainingXR' %}
