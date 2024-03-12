@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Conference Awards Committee IEEE VR 2024"
+title: "Conference Awards"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
@@ -39,8 +39,8 @@ title_separator: "|"
     </tr>
     <tr>
         <td><a href="#papers">Papers</a></td>
-        <td><a href="#conference-best">Best Papers</a></td>
-        <td><a href="#conference-honorable">Honorable Mentions</a></td>
+        <td><a href="#conference-paper-best">Best Papers</a></td>
+        <td><a href="#conference-paper-honorable">Honorable Mentions</a></td>
     </tr> 
     <!--
     <tr>
@@ -73,7 +73,7 @@ title_separator: "|"
 
 <p>The IEEE VR Best Paper Awards honor exceptional papers published and presented at the IEEE VR conference. During the review process, the program committee chairs will choose approximately 3% of submissions to receive an award. Among these chosen submissions, the separate Conference Awards Selection Committee will select the best submissions to receive a Best Paper Award (ca. 1% of total submissions), while a selection of the remaining submissions receive an Honorable Mention Award. Papers that receive an award will be marked in the program, and authors will receive a certificate at the conference.</p>
 
-<h2 id='conference-best' style="text-align: center; color: #00aeef;">Best Papers</h2>
+<h2 id='conference-paper-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Paper Award" alt="Best Paper Award"> Best Papers</h2>
 <div>
     {% for item in site.data.awards %}
         {% if item.type == 'Journal' %}
@@ -137,7 +137,7 @@ title_separator: "|"
 {% endfor %}
 </div>
 
-<h2 id='conference-honorable' style="text-align: center; color: #00aeef;">Best Papers - Honorable Mentions</h2>
+<h2 id='conference-paper-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Award" alt="Best Paper Award"> Best Papers - Honorable Mentions</h2>
 <div>
     {% for item in site.data.awards %}
         {% if item.type == 'Journal' %}
