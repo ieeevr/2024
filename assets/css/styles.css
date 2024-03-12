@@ -1376,6 +1376,23 @@ med,.med {
     font-size: 1.2em !important; 
 }
 
+.font_75 {
+    font-size: .75em !important;
+}
+
+.font_70 {
+    font-size: .70em !important;
+}
+
+.font_65 {
+    font-size: .65em !important;
+}
+
+.font_60 {
+    font-size: .60em !important;
+}
+
+
 p {
     margin-bottom: 1.3em;
 }

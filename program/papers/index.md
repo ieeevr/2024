@@ -29,74 +29,69 @@ title_separator: "|"
     {% endfor %} 
 </div>
 <div>
-     {% for day in site.data.days %}
-        <div>
-            {% for session in site.data.sessions %}
-                {% if session.day == day.day %}
-                    <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.id }})</h2>
-                    <p class="small">{{ session.day }}, {{ session.starttime }}-{{ session.endtime }} ({{ session.timezone }}), Room: {{ session.room }}</p>
-                    {% if session.sessionchair %}
-                        <p><small>Session Chair: <b style="font-family: 'Courier New', monospace; color: black;">{{ session.sessionchair }}</b></small></p>
-                    {% endif %} 
-                    <div style="margin-left: 25px;">   
-                        {% for paper in site.data.papers %}                
-                            {% if session.id == paper.session %}                            
-                                {% if paper.type == 'Journal' %}
-                                    {% assign source = site.data.journalpapers %}
-                                {% endif %}
-                                {% if paper.type == 'Conference' %}
-                                    {% assign source = site.data.conferencepapers %}
-                                {% endif %}
-                                {% if paper.type == 'Invited Journal' %}
-                                    {% assign source = site.data.invitedjournalpapers %}
-                                {% endif %}
-                                {% for p in source %}
-                                    {% if p.id == paper.id %}
-                                        <p id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                                        {% for a in site.data.awards %}  
-                                            {% if a.type == paper.type %}
-                                                {% if a.id == paper.id %}
-                                                    {% if a.award == "Best Paper" %}
-                                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Paper Award" alt="Best Paper Award"></a></div>
-                                                    {% endif %}                                                    
-                                                    {% if a.award == "Honorable Mention" %}
-                                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"></a></div>
-                                                    {% endif %}
-                                                {% endif %}
-                                                {% endif %}
-                                        {% endfor %}
-                                            <strong> <i>{{ paper.title }} ({{ paper.type }}: {{ paper.id }})</i></strong>
-                                        </p>
-                                        <p class="small" >
-                                            {% assign authornames = p.authors | split: ";" %}
-                                            {% for name in authornames %}
-                                                {% assign barename = name | split: ":" %}
-                                                {% for n in barename %}
-                                                    {% if n == barename.last %}
-                                                        <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
-                                                    {% else %}                            
-                                                        <span class="bold">{{ n | strip }},</span>
-                                                    {% endif %}
-                                                {% endfor %} 
-                                            {% endfor %}
-                                        </p>
-                                        {% if p.abstract %}
-                                            <div id="{{ paper.id }}" class="wrap-collabsible"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> 
-                                                <label for="collapsible{{ paper.id }}" class="lbl-toggle">Abstract</label>
-                                                <div class="collapsible-content">
-                                                    <div class="content-inner">
-                                                        <p>{{ p.abstract }}</p>
-                                                    </div>
-                                                </div>
-                                            </div>                                                                     
-                                        {% endif %}
-                                    {% endif %}
-                                {% endfor %}
+    {% for day in site.data.days %}
+        {% for session in site.data.sessions %}
+            {% if session.day == day.day %}
+                <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.id }})</h2>
+                <p class="small">{{ session.day }}, {{ session.starttime }}-{{ session.endtime }} ({{ session.timezone }}), Room: {{ session.room }}</p>
+                {% for paper in site.data.papers %} 
+                    <div style="margin-left: 25px;">                  
+                        {% if session.id == paper.session %}                            
+                            {% if paper.type == 'Journal' %}
+                                {% assign source = site.data.journalpapers %}
                             {% endif %}
-                        {% endfor %}
+                            {% if paper.type == 'Conference' %}
+                                {% assign source = site.data.conferencepapers %}
+                            {% endif %}
+                            {% if paper.type == 'Invited Journal' %}
+                                {% assign source = site.data.invitedjournalpapers %}
+                            {% endif %}
+                            {% for p in source %}
+                                {% if p.id == paper.id %}                                        
+                                    {% for a in site.data.awards %}  
+                                        {% if a.type == paper.type %}
+                                            {% if a.id == paper.id %}
+                                                {% if a.award == "Best Paper" %}
+                                                    <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Paper Award" alt="Best Paper Award"></a></div>
+                                                {% endif %}                                                    
+                                                {% if a.award == "Honorable Mention" %}
+                                                    <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"></a></div>
+                                                {% endif %}
+                                            {% endif %}
+                                            {% endif %}
+                                    {% endfor %}
+                                    <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                                        <strong>{{ paper.title }} ({{ paper.type }}: {{ paper.id }})</strong>
+                                    </p>
+                                    <p class="font_70" >
+                                        {% assign authornames = p.authors | split: ";" %}
+                                        {% for name in authornames %}
+                                            {% assign barename = name | split: ":" %}
+                                            {% for n in barename %}
+                                                {% if n == barename.last %}
+                                                    <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                                                {% else %}                            
+                                                    <span class="bold">{{ n | strip }},</span>
+                                                {% endif %}
+                                            {% endfor %} 
+                                        {% endfor %}
+                                    </p>
+                                    {% if p.abstract %}
+                                        <div id="{{ paper.id }}" class="wrap-collabsible"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> 
+                                            <label for="collapsible{{ paper.id }}" class="lbl-toggle">Abstract</label>
+                                            <div class="collapsible-content">
+                                                <div class="content-inner">
+                                                    <p>{{ p.abstract }}</p>
+                                                </div>
+                                            </div>
+                                        </div>                                                                     
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
                     </div>
-                {% endif %}
-            {% endfor %}
-        </div>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
     {% endfor %}
 </div>
