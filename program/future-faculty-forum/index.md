@@ -107,9 +107,7 @@ title_separator: "|"
             <td>
                 <span class="bold">Panel 2: Lab Formation and Management</span><br/>
                 <div style="margin-left:20px;">
-                    Doug Bowman - <i>Virginia Tech</i><br/>
                     Steve Feiner - <i>Columbia University</i><br/>
-                    Bruce Thomas - <i>University of South Australia</i><br/>
                     Maud Marchal - <i>INRIA</i><br/>
                     Maria Gorlatova - <i>Duke University</i><br/>
                     Jerald Thomas - <i>University of Wisconsin Milwaukee</i><br/>
@@ -131,7 +129,7 @@ title_separator: "|"
                     John Quarles - <i>University of Texas San Antonio</i><br/>
                     Brendan David-John - <i>Virginia Tech</i><br/>
                     Aniket Bera - <i>Purdue University</i><br/>
-                    Anne-Hélène Olivier - <i>INRIA</i><br/>   
+                    Anne-Hélène Olivier - <i>University of Rennes 2, Inria</i><br/>   
                 </div>
             </td>
         </tr>
