@@ -57,10 +57,10 @@ title_separator: "|"
                                             {% if a.type == paper.type %}
                                                 {% if a.id == paper.id %}
                                                     {% if a.award == "Best Paper" %}
-                                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#conference-paper-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Paper Award" alt="Best Paper Award"></a></div>
+                                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Paper Award" alt="Best Paper Award"></a></div>
                                                     {% endif %}                                                    
                                                     {% if a.award == "Honorable Mention" %}
-                                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#conference-paper-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"></a></div>
+                                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"></a></div>
                                                     {% endif %}
                                                 {% endif %}
                                                 {% endif %}
