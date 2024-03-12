@@ -4,7 +4,7 @@ title: "Program Overview"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240312_1">
+<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240312">
     
 <script>
     (function($) {
@@ -198,10 +198,10 @@ title_separator: "|"
             </div>              
             <p class="time-slot" style="grid-row: time-1000;">10:00</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-7-end; grid-row: time-1000 / time-1030;">
-                <span class="session-title">Break: 10:00-10:30</span>
+                <span class="session-title">Break (Catered): 10:00-10:30</span>
             </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-8; grid-row: time-1000 / time-1030;">                    
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (breakout with mentors)</span>
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
                 <span class="session-time">10:00-10:30</span>
                 <span class="session-time">Room: Sorcerer's Apprentice 2</span>
             </div>        
@@ -283,10 +283,10 @@ title_separator: "|"
             </div>            
             <p class="time-slot" style="grid-row: time-1200;">12:00</p> 
             <div class="session session-lunch track-all" style="grid-column: track-1-start / track-7-end; grid-row: time-1200 / time-1330;">
-                <span class="session-title">Lunch: 12:00-13:30</span>
+                <span class="session-title">Lunch (Not Catered): 12:00-13:30</span>
             </div>                                           
             <div class="session session-w1b track-consortium" style="grid-column: track-8; grid-row: time-1200 / time-1330;">                 
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Lunch (breakout with mentors)</span><br/>
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Lunch (Not Catered) (breakout with mentors)</span><br/>
                 <span class="session-time">12:00-13:30</span>
                 <span class="session-time">Room: Sorcerer's Apprentice 2</span>
             </div>          
@@ -358,10 +358,10 @@ title_separator: "|"
             </div>         
             <p class="time-slot" style="grid-row: time-1530;">15:30</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-7-end; grid-row: time-1530 / time-1600;">
-                <span class="session-title">Break: 15:30-16:00</span>
+                <span class="session-title">Break (Catered): 15:30-16:00</span>
             </div>                  
             <div class="session session-w1b track-consortium" style="grid-column: track-8; grid-row: time-1530 / time-1600;">                
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (breakout with mentors)</span>
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
                 <span class="session-time">15:30-16:00</span>
                 <span class="session-time">Room: Sorcerer's Apprentice 2</span>
             </div>          
@@ -398,9 +398,9 @@ title_separator: "|"
             {% endfor %}   
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'GEMINI' %}
-                    <div class="session session-8b track-workshop" style="grid-column: track-4; grid-row: time-1600 / time-1730;">
+                    <div class="session session-8b track-workshop" style="grid-column: track-4; grid-row: time-1600 / time-1700;">
                         <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">16:00-17:30</span>
+                        <span class="session-time">16:00-17:00</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>              
@@ -536,7 +536,7 @@ title_separator: "|"
             </div>            
             <p class="time-slot" style="grid-row: time-1000;">10:00</p>
             <div class="session session-b track-all" style="grid-column:  track-1-start / track-8-end; grid-row: time-1000 / time-1030;">
-                <span class="session-title">Break: 10:00-10:30</span><br />
+                <span class="session-title">Break (Catered): 10:00-10:30</span><br />
             </div> 
             <p class="time-slot" style="grid-row: time-1030;">10:30</p>             
             {% for workshop in site.data.workshops %}  
@@ -622,18 +622,18 @@ title_separator: "|"
             </div>   
             <p class="time-slot" style="grid-row: time-1200;">12:00</p>
             <div class="session session-l track-all" style="grid-column: track-1-start / track-2-end; grid-row: time-1200 / time-1330;">
-                <span class="session-title">Lunch: 12:00&#8209;13:30</span>
+                <span class="session-title">Lunch (Not Catered): 12:00&#8209;13:30</span>
             </div> 
             <div class="session session-l track-all" style="grid-column: track-3-start / track-3-end; grid-row: time-1230 / time-1330;">
-                <span class="session-title">Lunch: 12:30&#8209;13:30</span>
+                <span class="session-title">Lunch (Not Catered): 12:30&#8209;13:30</span>
             </div>             
             <div class="session session-l track-all" style="grid-column: track-4-start / track-8-end; grid-row: time-1200 / time-1330;">
-                <span class="session-title">Lunch: 12:00&#8209;13:30</span>
+                <span class="session-title">Lunch (Not Catered): 12:00&#8209;13:30</span>
             </div>                         
             <p class="time-slot" style="grid-row: time-1330;">13:30</p>             
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'TrainingXR' %}
-                    <div class="session session-10 track-workshop" style="grid-column: track-1; grid-row: time-1330 / time-1530;">
+                    <div class="session session-10 track-workshop" style="grid-column: track-1; grid-row: time-1330 / time-1515;">
                         <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
                         <span class="session-time">13:30-15:30</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
@@ -715,7 +715,7 @@ title_separator: "|"
             </div>
             <p class="time-slot" style="grid-row: time-1530;">15:30</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-8; grid-row: time-1530 / time-1600;">
-                <span class="session-title">Break: 15:30-16:00</span>
+                <span class="session-title">Break (Catered): 15:30-16:00</span>
             </div>  
             <p class="time-slot" style="grid-row: time-1600;">16:00</p>              
             {% for workshop in site.data.workshops %}  
@@ -819,7 +819,7 @@ title_separator: "|"
             </div>            
             <p class="time-slot" style="grid-row: time-0945;">9:45</p>
             <div class="session track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-0945 / time-1015;">
-                <span class="session-title">Break: 9:45-10:15 (Catered)</span>
+                <span class="session-title">Break (Catered): 9:45-10:15</span>
             </div> 
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
                 <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">, 3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
@@ -850,7 +850,7 @@ title_separator: "|"
             {% endfor %}                         
             <p class="time-slot" style="grid-row: time-1230;">12:30</p>
             <div class="session track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-1230 / time-1330;">
-                <span class="session-title">Lunch: 12:30-13:30 (Not Catered)</span>
+                <span class="session-title">Lunch (Not Catered): 12:30-13:30</span>
             </div>  
             <p class="time-slot" style="grid-row: time-1300;">13:00</p>
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1300 / time-1330;">
@@ -894,7 +894,7 @@ title_separator: "|"
             {% endfor %}                
             <p class="time-slot" style="grid-row: time-1500;">15:00</p>
             <div class="session track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-1500 / time-1530;">
-                <span class="session-title">Break: 15:00-15:30 (Catered)</span>
+                <span class="session-title">Break (Catered): 15:00-15:30</span>
             </div>    
             <div class="session session-6 track-pd3dui" style="grid-column: track-4-start; grid-row: time-1500 / time-1530;">
                 <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
@@ -987,7 +987,7 @@ title_separator: "|"
             {% endfor %}   
             <p class="time-slot" style="grid-row: time-0945;">9:45</p>  
             <div class="session track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-0945 / time-1015;">
-                <span class="session-title">Break: 9:45-10:15 (Catered)</span>
+                <span class="session-title">Break (Catered): 9:45-10:15</span>
             </div> 
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
                 <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
@@ -1018,7 +1018,7 @@ title_separator: "|"
             {% endfor %}  
             <p class="time-slot" style="grid-row: time-1230;">12:30</p>
             <div class="session track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-1230 / time-1330;">
-                <span class="session-title">Lunch: 12:30-13:30 (Not Catered)</span>
+                <span class="session-title">Lunch (Not Catered): 12:30-13:30</span>
             </div>  
             <p class="time-slot" style="grid-row: time-1300;">13:00</p>
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1300 / time-1330;">
@@ -1056,7 +1056,7 @@ title_separator: "|"
             {% endfor %}   
             <p class="time-slot" style="grid-row: time-1500;">15:00</p>
             <div class="session track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-1500 / time-1530;">
-                <span class="session-title">Break: 15:00-15:30 (Catered)</span>
+                <span class="session-title">Break (Catered): 15:00-15:30</span>
             </div>    
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1500 / time-1530;">
                 <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
@@ -1137,7 +1137,7 @@ title_separator: "|"
             {% endfor %}     
             <p class="time-slot" style="grid-row: time-0945;">9:45</p>
             <div class="session session-4 track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-0945 / time-1015;">
-                <span class="session-title">Break: 9:45-10:15</span>
+                <span class="session-title">Break (Catered): 9:45-10:15</span>
             </div>  
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-0945 / time-1015;">
                 <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
@@ -1206,7 +1206,7 @@ title_separator: "|"
             {% endfor %}    
             <p class="time-slot" style="grid-row: time-1230;">12:30</p>
             <div class="session session-8 track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-1230 / time-1330;">
-                <span class="session-title">Lunch: 12:30-13:30 (Not Catered)</span>
+                <span class="session-title">Lunch (Not Catered): 12:30-13:30</span>
             </div> 
             <p class="time-slot" style="grid-row: time-1300;">13:00</p>
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1300 / time-1330;">
@@ -1244,7 +1244,7 @@ title_separator: "|"
             {% endfor %}    
             <p class="time-slot" style="grid-row: time-1500;">15:00</p> 
             <div class="session session-12 track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-1500 / time-1530;">
-                <span class="session-title">Break: 15:00-15:30 (Catered)</span>
+                <span class="session-title">Break (Catered): 15:00-15:30</span>
             </div>     
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1500 / time-1530;">
                 <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
@@ -1323,7 +1323,7 @@ title_separator: "|"
             {% endfor %}    
             <p class="time-slot" style="grid-row: time-0945;">9:45</p>  
             <div class="session session-4 track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-0945 / time-1015;">
-                <span class="session-title">Break: 9:45-10:15 (Catered)</span>
+                <span class="session-title">Break (Catered): 9:45-10:15</span>
             </div>  
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>                      
             {% for session in site.data.sessions %}  
@@ -1387,7 +1387,7 @@ title_separator: "|"
             {% endfor %}    
             <p class="time-slot" style="grid-row: time-1230;">12:30</p>
             <div class="session session-8 track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-1230 / time-1330;">
-                <span class="session-title">Lunch: 12:30-13:30 (Not Catered)</span>
+                <span class="session-title">Lunch (Not Catered): 12:30-13:30</span>
             </div> 
             <p class="time-slot" style="grid-row: time-1330;">13:30</p>                                      
             {% for session in site.data.sessions %}  
@@ -1419,7 +1419,7 @@ title_separator: "|"
             {% endfor %}    
             <p class="time-slot" style="grid-row: time-1500;">15:00</p>  
             <div class="session session-12 track-all" style="grid-column: track-1-start / track-3-end; grid-row: time-1500 / time-1530;">
-                <span class="session-title">Break: 15:00-15:30 (Catered)</span>
+                <span class="session-title">Break (Catered): 15:00-15:30</span>
             </div>  
             <p class="time-slot" style="grid-row: time-1530;">15:30</p>   
             <div class="session session-11 track-main" style="grid-column: track-1-start / track-3-end; grid-row: time-1530 / time-1700;">
