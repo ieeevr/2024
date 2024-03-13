@@ -44,7 +44,7 @@ title_separator: "|"
                 Siamak Ahmadzadeh Bazzaz - Jan Springer<br/>
                 Muhammad Twaha Ibrahim - Jan Springer<br/>
                 Xueqi Wang - Frank Guan<br/>
-                Jiachen Liang - Frank Guan</span>
+                Jiachen Liang - Frank Guan
             </td>
         </tr>
         <tr>
@@ -62,7 +62,7 @@ title_separator: "|"
                 Kristen Grinyer - Bruce Thomas<br/>
                 Rachel Masters - Jens Grubert<br/>
                 Sunday Ubur - Shohei Mori<br/>
-                Dahlia Musa - Shohei Mori</span>
+                Dahlia Musa - Shohei Mori
             </td>
         </tr>
         <tr>
