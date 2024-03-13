@@ -38,10 +38,10 @@ title_separator: "|"
                 {% if a.type == 'Poster' %}
                     {% if a.id == poster.id %}
                         {% if a.award == 'Best Poster' %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"></a></div>
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"></a></div>
                         {% endif %}                                                    
                         {% if a.award == "Honorable Mention" %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"></a></div>
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"></a></div>
                         {% endif %}
                     {% endif %}
                 {% endif %}
@@ -84,10 +84,10 @@ title_separator: "|"
                 {% if a.type == 'Poster' %}
                     {% if a.id == poster.id %}
                         {% if a.award == 'Best Poster' %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"></a></div>
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"></a></div>
                         {% endif %}                                                    
                         {% if a.award == "Honorable Mention" %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"></a></div>
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"></a></div>
                         {% endif %}
                     {% endif %}
                 {% endif %}
@@ -130,10 +130,10 @@ title_separator: "|"
                 {% if a.type == 'Poster' %}
                     {% if a.id == poster.id %}
                         {% if a.award == 'Best Poster' %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"></a></div>
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"></a></div>
                         {% endif %}                                                    
                         {% if a.award == "Honorable Mention" %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#paper-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"></a></div>
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"></a></div>
                         {% endif %}
                     {% endif %}
                 {% endif %}

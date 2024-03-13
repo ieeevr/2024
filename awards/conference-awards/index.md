@@ -378,7 +378,7 @@ title_separator: "|"
 
 <p>The IEEE VR Best Doctoral Consortium (DC) Paper Awards honors exceptional DC papers published and presented at the IEEE VR conference. The best DC paper committee consists of three distinguished members chosen by the Conference Awards Committee Chairs and the DC chairs. The DC chairs recommend 20% of all DC papers for such an award. The best DC committee selects one of these DC papers for Best DC Paper Award and one to receive an Honorable Mention Award. DC papers that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
 
-<!--<h2 id='DC-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Award" alt="Best Doctoral Consortium Award"> Best Doctoral Consortium</h2>
+<!--<h2 id='DC-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Award" alt="Best Doctoral Consortium Award">Best Doctoral Consortium</h2>
 <div>
 </div>
 

@@ -9,7 +9,7 @@ title_separator: "|"
 <h1>Doctoral Consortium</h1>
 <div>
     <p>
-        The Doctoral Consortium will be held on 16 March 2024 (Saturday) and all times below are given in local time of Orlando, Florida USA EDT (UTC-4). 
+        The Doctoral Consortium will be held on 16 March 2024 (Saturday) in the Sorcerer's Apprentice Ballroom. All times below are given in local time of Orlando, Florida USA EDT (UTC-4). 
     </p>
     <p>
         Here are the key information for the presenters and mentors:
@@ -24,15 +24,11 @@ title_separator: "|"
         </ul>
     </p>
 </div>
-
-
-
 <div>
-    <div>
-        <table class="styled-table" style="font-size: 0.8em; ">
-            <tr>
-                <th colspan="2">Schedule - 16 March 2024, Saturday</th>
-            </tr>
+    <table class="styled-table" style="font-size: 0.8em; ">
+        <tr>
+            <th colspan="2">Schedule - 16 March 2024, Saturday</th>
+        </tr>
         <tr>
             <td>08:20 - 08:30 am</td>
             <td>
@@ -43,12 +39,12 @@ title_separator: "|"
             <td>08:30 - 10:00 am</td>
             <td>
                 <strong>Presentations 1-6 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
-                Jinwook Kim<br/>
-                Hyeongil Nam<br/>
-                Siamak Ahmadzadeh Bazzaz <br/>
-                Muhammad Twaha Ibrahim<br/>
-                Xueqi Wang<br/>
-                Jiachen Liang
+                Jinwook Kim - Jan Springer<br/>
+                Hyeongil Nam - Jens Grubert<br/>
+                Siamak Ahmadzadeh Bazzaz - Jan Springer<br/>
+                Muhammad Twaha Ibrahim - Jan Springer<br/>
+                Xueqi Wang - Frank Guan<br/>
+                Jiachen Liang - Frank Guan</span>
             </td>
         </tr>
         <tr>
@@ -61,12 +57,12 @@ title_separator: "|"
             <td >10:30 - 12:00 am</td>
             <td>
                 <strong>Presentations 7-12 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
-                Seoyoung Kang<br/>
-                Assem Kroma<br/>
-                Kristen Grinyer<br/>
-                Rachel Masters<br/>
-                Sunday Ubur<br/>
-                Dahlia Musa
+                Seoyoung Kang - Bruce Thomas<br/>
+                Assem Kroma - Bruce Thomas<br/>
+                Kristen Grinyer - Bruce Thomas<br/>
+                Rachel Masters - Jens Grubert<br/>
+                Sunday Ubur - Shohei Mori<br/>
+                Dahlia Musa - Shohei Mori</span>
             </td>
         </tr>
         <tr>
@@ -79,14 +75,14 @@ title_separator: "|"
             <td>13:30 - 15:30 pm</td>            
             <td>
                 <strong>Presentations 13-20 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
-                Dong Woo Yoo<br/>
-                Brett Benda<br/>
-                Seonji Kim<br/>
-                Hail Song<br/>
-                Dongyun Han<br/>
-                Jennifer Cremer<br/>
-                Elham Mohammadrezaei<br/>
-                Nikitha Donekal Chandrashekar
+                Dong Woo Yoo - Guillaume Moreau<br/>
+                Brett Benda - Steve Feiner<br/>
+                Seonji Kim - Dieter Schmalstieg<br/>
+                Hail Song - Jason Orlosky<br/>
+                Dongyun Han - Steve Feiner<br/>
+                Jennifer Cremer - Dieter Schmalstieg<br/>
+                Elham Mohammadrezaei - Guillaume Moreau<br/>
+                Nikitha Donekal Chandrashekar - Guillaume Moreau
             </td>
         </tr>
         <tr>
@@ -99,10 +95,10 @@ title_separator: "|"
             <td>16:00 - 17:00 pm</td>
             <td>
                 <strong>Presentations 21-24 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
-                Danah Omary<br/>
-                Jingyi Zhang<br/>
-                Tomáš Nováček<br/>
-                Ryan Canales<br/>
+                Danah Omary - Isaac Cho<br/>
+                Jingyi Zhang - Frank Guan<br/>
+                Tomáš Nováček - Isaac Cho<br/>
+                Ryan Canales - Isaac Cho<br/>
             </td>
         </tr>
         <tr>
@@ -111,8 +107,42 @@ title_separator: "|"
                 Breakout with mentors
             </td>
         </tr>
-    </table>
+    </table>    
 </div>
-    
+<div>
+    <h2 id="P3" class="pink" style="padding-top:25px;">Accepted Students</h2>
+    {% for dc in site.data.dc %}
+        <div style="margin-left: 25px;">
+            {% for a in site.data.awards %}  
+                {% if a.type == 'DC' %}
+                    {% if a.id == dc.id %}
+                        {% if a.award == 'Best DC' %}
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Consortium Award" alt="Best Doctoral Consortium Award"></a></div>
+                        {% endif %}                                                    
+                        {% if a.award == "Honorable Mention" %}
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Doctoral Consortium Honorable Mention" alt="Best Doctoral Consortium Honorable Mention"></a></div>
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}            
+            <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
+                <strong>{{ dc.title }} (ID:&nbsp;{{ dc.id }})</strong>
+            </p>
+            <p class="med" >
+                <span class="bold">Author:</span> <span class="">{{ dc.author | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
+                <span class="bold">Mentor:</span> <span class="">{{ dc.mentor | strip }}</span>
+            </p>
+            {% if dc.abstract %}
+                <div id="{{ dc.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ dc.id }}" class="toggle" type="checkbox"> 
+                    <label for="collapsibleabstract{{ dc.id }}" class="lbl-toggle">Abstract</label>
+                    <div class="collapsible-content">
+                        <div class="content-inner">
+                            <p>{{ dc.abstract }}</p>
+                        </div>
+                    </div>
+                </div>   
+            {% endif %}
+        </div>
+    {% endfor %}
     
 </div>

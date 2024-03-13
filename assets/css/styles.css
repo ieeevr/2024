@@ -1403,6 +1403,11 @@ med,.med {
 }
 
 
+.font_1 {
+    font-size: 1.0em !important;
+}
+
+
 p {
     margin-bottom: 1.3em;
 }
