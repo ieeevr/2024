@@ -116,9 +116,9 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-0800;">8:00</p>  
              {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'XRIOS' %}
-                    <div class="session session-w3a track-workshop" style="grid-column: track-1; grid-row: time-0800 / time-1000;">
+                    <div class="session session-w3a track-workshop" style="grid-column: track-1; grid-row: time-0800 / time-1200;">
                         <span class="session-title">Workshop<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">8:00-10:00</span>
+                        <span class="session-time">8:00-12:00</span>
                         <span class="session-time">Room: {{ workshop.room }}</span>
                         <span class="session-presenter"><br />{{ workshop.organiser }}</span>
                     </div>        
@@ -197,7 +197,7 @@ title_separator: "|"
                 <span class="session-time">Room: Sorcerer's Apprentice 2</span>
             </div>              
             <p class="time-slot" style="grid-row: time-1000;">10:00</p>
-            <div class="session session-16 track-all" style="grid-column:  track-1-start / track-7-end; grid-row: time-1000 / time-1030;">
+            <div class="session session-16 track-all" style="grid-column:  track-2-start / track-7-end; grid-row: time-1000 / time-1030;">
                 <span class="session-title">Break (Catered): 10:00-10:30</span>
             </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-8; grid-row: time-1000 / time-1030;">                    
@@ -205,17 +205,7 @@ title_separator: "|"
                 <span class="session-time">10:00-10:30</span>
                 <span class="session-time">Room: Sorcerer's Apprentice 2</span>
             </div>        
-             <p class="time-slot" style="grid-row: time-1030;">10:30</p>                                 
-            {% for workshop in site.data.workshops %}  
-                {% if workshop.id == 'XRIOS' %}
-                    <div class="session session-w3b track-workshop" style="grid-column: track-1; grid-row: time-1030 / time-1200;">
-                        <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">10:30-12:00</span>
-                        <span class="session-time">Room: {{ workshop.room }}</span>
-                        <span class="session-presenter"><br />{{ workshop.organiser }}</span>
-                    </div>        
-                {% endif %}   
-            {% endfor %}                  
+             <p class="time-slot" style="grid-row: time-1030;">10:30</p>                                                           
             {% for workshop in site.data.workshops %}  
                 {% if workshop.id == 'LocXR' %}
                     <div class="session session-w4b track-workshop" style="grid-column: track-2; grid-row: time-1030 / time-1200;">
