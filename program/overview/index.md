@@ -697,12 +697,12 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %}  
-            <p class="time-slot" style="grid-row: time-1415;">14:15</p>          
+            <p class="time-slot" style="grid-row: time-1415;">14:15</p>         
             <div class="session session-20 track-f3" style="grid-column: track-8; grid-row: time-1415 / time-1530;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Tutorial: Review & Critique of Application Materials (Research, Teaching & Diversity Statements)</span>
                 <span class="session-time">14:15-15:30</span>
                 <span class="session-time">Room: Sorcerer's Apprentice 2</span>
-            </div>
+            </div>            
             <p class="time-slot" style="grid-row: time-1530;">15:30</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-3; grid-row: time-1530 / time-1600;">
                 <span class="session-title">Break (Catered): 15:30-16:00</span>
@@ -741,16 +741,6 @@ title_separator: "|"
                     </div>            
                 {% endif %}      
             {% endfor %}  
-            <!---{% for workshop in site.data.workshops %}   
-                {% if workshop.id == 'OAT' %}
-                    <div class="session session-9 track-workshop" style="grid-column: track-4; grid-row: time-1600 / time-1730;">
-                        <span class="session-title">Workshop (cont)<br/><a href="{{ '/program/workshop/' | relative_url }}#{{ workshop.id }}">{{ workshop.title }} ({{ workshop.id }})</a></span><br/>
-                        <span class="session-time">16:00-17:30</span>
-                        <span class="session-time">Room: {{ workshop.room }}</span>
-                        <span class="session-presenter"><br />{{ workshop.organiser }}</span>
-                    </div>              
-                {% endif %}      
-            {% endfor %} --->
             {% for workshop in site.data.workshops %}   
                 {% if workshop.id == 'xrWORKS' %}
                     <div class="session session-12 track-workshop" style="grid-column: track-5; grid-row: time-1600 / time-1730;">
@@ -785,7 +775,8 @@ title_separator: "|"
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
-            {% endfor %}     
+            {% endfor %}    
+            <p class="time-slot" style="grid-row: time-1630;">16:30</p>               
             <p class="time-slot" style="grid-row: time-1645;">16:45</p>   
             <div class="session session-23 track-f3" style="grid-column: track-8; grid-row: time-1645 / time-1700;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Closing Remarks & Feedback for Future F3 Events</span>
