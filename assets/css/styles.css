@@ -1386,6 +1386,26 @@ med,.med {
     font-size: 1.2em !important; 
 }
 
+.font_1 {
+    font-size: 1.0em !important;
+}
+
+.font_95 {
+    font-size: .95em !important;
+}
+
+.font_90 {
+    font-size: .90em !important;
+}
+
+.font_85 {
+    font-size: .85em !important;
+}
+
+.font_80 {
+    font-size: .80em !important;
+}
+
 .font_75 {
     font-size: .75em !important;
 }
@@ -1403,9 +1423,6 @@ med,.med {
 }
 
 
-.font_1 {
-    font-size: 1.0em !important;
-}
 
 
 p {
