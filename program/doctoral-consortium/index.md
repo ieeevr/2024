@@ -112,7 +112,6 @@ title_separator: "|"
 <div>
     <h2 id="P3" class="pink" style="padding-top:25px;">Accepted Students</h2>
     {% for dc in site.data.dc %}
-        <div style="margin-left: 25px;">
             {% for a in site.data.awards %}  
                 {% if a.type == 'DC' %}
                     {% if a.id == dc.id %}
@@ -142,7 +141,5 @@ title_separator: "|"
                     </div>
                 </div>   
             {% endif %}
-        </div>
     {% endfor %}
-    
 </div>
