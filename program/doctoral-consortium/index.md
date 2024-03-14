@@ -25,7 +25,7 @@ title_separator: "|"
     </p>
 </div>
 <div>
-    <table class="styled-table" style="font-size: 0.8em; ">
+    <table class="styled-table font_80">
         <tr>
             <th colspan="2">Schedule - 16 March 2024, Saturday</th>
         </tr>
@@ -116,7 +116,7 @@ title_separator: "|"
             {% for a in site.data.awards %}  
                 {% if a.type == 'DC' %}
                     {% if a.id == dc.id %}
-                        {% if a.award == 'Best DC' %}
+                        {% if a.award == "Best DC" %}
                             <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Consortium Paper" alt="Best Doctoral Consortium Paper"></a></div>
                         {% endif %}                                                    
                         {% if a.award == "Honorable Mention" %}
@@ -124,11 +124,11 @@ title_separator: "|"
                         {% endif %}
                     {% endif %}
                 {% endif %}
-            {% endfor %}            
+            {% endfor %}
             <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
                 <strong>{{ dc.title }} (ID:&nbsp;{{ dc.id }})</strong>
             </p>
-            <p class="med" >
+            <p class="clear font_75" >
                 <span class="bold">Author:</span> <span class="">{{ dc.author | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
                 <span class="bold">Mentor:</span> <span class="">{{ dc.mentor | strip }}</span>
             </p>

@@ -197,7 +197,7 @@ title_separator: "|"
                 {% for j in source %}
                     {% if j.id == item.id %}
                         <p id="{{ j.id }}">
-                            <strong>{{ j.title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 {% assign authornames = j.authors | split: ";" %}
                                 {% for name in authornames %}
@@ -244,7 +244,7 @@ title_separator: "|"
                 {% for j in source %}
                     {% if j.id == item.id %}
                         <p id="{{ j.id }}">
-                            <strong>{{ j.title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 {% assign authornames = j.authors | split: ";" %}
                                 {% for name in authornames %}
@@ -286,7 +286,7 @@ title_separator: "|"
                 {% for j in site.data.demos %}
                     {% if j.id == item.id %}                   
                         <p id="{{ j.id }}">
-                            <strong>{{ j.title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 {% assign authornames = j.authors | split: ";" %}
                                 {% for name in authornames %}
@@ -324,7 +324,7 @@ title_separator: "|"
                 {% for j in site.data.demos %}
                     {% if j.id == item.id %}                                      
                         <p id="{{ j.id }}">
-                            <strong>{{ j.title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 {% assign authornames = j.authors | split: ";" %}
                                 {% for name in authornames %}
@@ -366,7 +366,7 @@ title_separator: "|"
                 {% for j in site.data.contest3dui %}
                     {% if j.id == item.id %}                                   
                         <p id="{{ j.id }}">
-                            <strong>{{ j.title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 {% assign authornames = j.authors | split: ";" %}
                                 {% for name in authornames %}
@@ -395,7 +395,7 @@ title_separator: "|"
                 {% for j in site.data.contest3dui %}
                     {% if j.id == item.id %}                                   
                         <p id="{{ j.id }}">
-                            <strong>{{ j.title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 {% assign authornames = j.authors | split: ";" %}
                                 {% for name in authornames %}
@@ -428,7 +428,7 @@ title_separator: "|"
                 {% for j in site.data.dc %}
                     {% if j.id == item.id %}                                      
                         <p id="{{ j.id }}">
-                            <strong>{{ j.title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 <span class="bold">Author:</span> <span class="">{{ j.author | strip }}</span>, <i>{{ j.affiliation | strip }}</i><br />
                                 <span class="bold">Mentor:</span> <span class="">{{ j.mentor | strip }}</span>
@@ -457,7 +457,7 @@ title_separator: "|"
                 {% for j in site.data.dc %}
                     {% if j.id == item.id %}                                      
                         <p id="{{ j.id }}">
-                            <strong>{{ j.title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 <span class="bold">Author:</span> <span class="">{{ j.author | strip }}</span>, <i>{{ j.affiliation | strip }}</i><br />
                                 <span class="bold">Mentor:</span> <span class="">{{ j.mentor | strip }}</span>
@@ -497,7 +497,7 @@ title_separator: "|"
                     {% if j.id == item.id %}
                         {% assign authornames = j.authors | split: ";" %}
                         <p id="{{ j.id }}">
-                            <strong>{{ j.Title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.Title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 {% assign authornames = j.authors | split: ";" %}
                                 {% for name in authornames %}
@@ -543,7 +543,7 @@ title_separator: "|"
                     {% if j.id == item.id %}
                         {% assign authornames = j.authors | split: ";" %}
                         <p id="{{ j.id }}">
-                            <strong>{{ j.Title }} (ID: {{ j.id }})</strong><br/>
+                            <strong>{{ j.Title }} (ID:&nbsp;{{ j.id }})</strong><br/>
                             <span class="font_90">
                                 {% assign authornames = j.authors | split: ";" %}
                                 {% for name in authornames %}

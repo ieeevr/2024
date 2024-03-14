@@ -14,7 +14,7 @@ title_separator: "|"
         {% for demo in site.data.demos %}
             {% assign i = i | plus:1 %}
             <tr>
-                <td class="medLarge"><a href="#{{ demo.id }}">{{ demo.title }}</a></td>
+                <td class="medLarge"><a href="#{{ demo.id }}">{{ demo.title }} (ID:&nbsp;{{ demo.id }})</a></td>
             </tr>
         {% endfor %}
     </table>
@@ -54,14 +54,25 @@ title_separator: "|"
         </tbody>
     </table>
 </p>
-<h2>Entries</h2>
+<h2>Research Demos</h2>
 <div>
     {% assign j = 0 %}
     {% for demo in site.data.demos %}
         {% assign j = j | plus:1 %}
-        <p id="{{ demo.id }}"><strong>{{ demo.title }}</strong><br/></p>
-        <div style="margin-left: 25px;">            
-            <p class="small">
+        {% for a in site.data.awards %}  
+            {% if a.type == 'Demo' %}
+                {% if a.id == demo.id %}
+                    {% if a.award == 'Best Demo' %}
+                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#demo-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Research Demo Award" alt="Best Research Demo Award"></a></div>
+                    {% endif %}                                                    
+                    {% if a.award == "Honorable Mention" %}
+                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#demo-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Research Demo Honorable Mention" alt="Best Research Demo Honorable Mention"></a></div>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+        <p id="{{ demo.id }}"><strong>{{ demo.title }} (ID:&nbsp;{{ demo.id }})</strong><br/>
+            <span class="font_90">
                 {% assign authornames = demo.authors | split: ";" %}
                 {% for name in authornames %}
                     {% assign barename = name | split: ":" %}
@@ -73,27 +84,26 @@ title_separator: "|"
                         {% endif %}
                     {% endfor %} 
                 {% endfor %}
-            </p>
-            <p><strong style="color: black;"> Room: {{ demo.hall }} </strong> <br> </p> 
-            {% if demo.abstract %}
-                <div id="{{ demo.id }}" class="wrap-collabsible"> <input id="collapsible{{ demo.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ demo.id }}" class="lbl-toggle">Abstract</label>
-                    <div class="collapsible-content">
-                        <div class="content-inner">
-                            <p>{{ demo.abstract }}</p>
-                        </div>
+            </span>
+        </p>
+        {% if demo.abstract %}
+            <div id="{{ demo.id }}" class="wrap-collabsible"> <input id="collapsible{{ demo.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ demo.id }}" class="lbl-toggle">Abstract</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <p>{{ demo.abstract }}</p>
                     </div>
                 </div>
+            </div>
+        {% endif %}
+        {% if demo.url-embed %}
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{{ demo.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        {% else %}
+            {% if demo.url %}
+                <p>Teaser Video: <a href="{{ demo.url }}" target="_blank">Watch Now</a></p>
             {% endif %}
-            {% if demo.url-embed %}
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/{{ demo.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            {% else %}
-                {% if demo.url %}
-                    <p>Teaser Video: <a href="{{ demo.url }}" target="_blank">Watch Now</a></p>
-                {% endif %}
-            {% endif %}
-        </div>
+        {% endif %}
         {% if j == i %}
         {% else %}
             <hr style="margin: 25px 0 25px 0;">

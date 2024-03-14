@@ -67,9 +67,21 @@ title_separator: "|"
     {% assign j = 0 %}
     {% for entry in site.data.contest3dui %}
         {% assign j = j | plus:1 %}
-        <h3 id="{{ entry.id }}">{{ entry.title }}</h3>
-        <div style="margin-left: 25px;">
-            <p class="small">
+        {% for a in site.data.awards %}  
+            {% if a.type == '3DUI Contest' %}
+                {% if a.id == entry.id %}
+                    {% if a.award == 'Best 3DUI' %}
+                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#3dui-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best 3DUI Demo Award" alt="Best 3DUI Demo Award"></a></div>
+                    {% endif %}                                                    
+                    {% if a.award == "Honorable Mention" %}
+                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#3dui-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best 3DUI Demo Honorable Mention" alt="Best 3DUI Demo Honorable Mention"></a></div>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}  
+        <p id="{{ entry.id }}">
+            <strong>{{ entry.title }} (ID:&nbsp;{{ entry.id }})</strong><br/>
+            <span class="font_90">
                 {% assign authornames = entry.authors | split: ";" %}
                 {% for name in authornames %}
                     {% assign barename = name | split: ":" %}
@@ -81,16 +93,16 @@ title_separator: "|"
                         {% endif %}
                     {% endfor %} 
                 {% endfor %}
-            </p>
-            {% if entry.url-embed %}
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/{{ entry.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            {% endif %}
-            {% if j == i %}
-            {% else %}
-                <hr style="margin: 25px 0 25px 0;">
-            {% endif %}
-        </div>
+            </span>
+        </p>
+        {% if entry.url-embed %}
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{{ entry.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        {% endif %}
+        {% if j == i %}
+        {% else %}
+            <hr style="margin: 25px 0 25px 0;">
+        {% endif %}
     {% endfor %}
 </div>
