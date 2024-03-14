@@ -117,10 +117,10 @@ title_separator: "|"
                 {% if a.type == 'DC' %}
                     {% if a.id == dc.id %}
                         {% if a.award == 'Best DC' %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Consortium Award" alt="Best Doctoral Consortium Award"></a></div>
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Consortium Paper" alt="Best Doctoral Consortium Paper"></a></div>
                         {% endif %}                                                    
                         {% if a.award == "Honorable Mention" %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Doctoral Consortium Honorable Mention" alt="Best Doctoral Consortium Honorable Mention"></a></div>
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Doctoral Consortium Paper Honorable Mention" alt="Best Doctoral Consortium Paper Honorable Mention"></a></div>
                         {% endif %}
                     {% endif %}
                 {% endif %}
