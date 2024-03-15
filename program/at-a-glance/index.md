@@ -18,12 +18,12 @@ title_separator: "|"
            <span class="main_view"><hr></span>
            <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
            <div><a href="{{ "/assets/map/FINAL_Contemporary_CapacityChart_Floorplans_as_of_7.13.16.pdf" | relative_url }}" target="_blank">Conference Center Map</a></div>
-           <div class="italic med" style="text-align: right;">Updated: 7 March, 2024 </div>
+           <div class="italic med" style="text-align: right;">Updated: 15 March, 2024 </div>
         </div>
     </div>   
     <div class="main_view"> 
         <h2 id="pre">Pre-Conference</h2>
-        <iframe src="{{"/assets/program/vr2024_overall_schedule-32-public-pre.pdf" | relative_url }}#zoom=40" 
+        <iframe src="{{"/assets/program/vr2024_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=40" 
             title="IEEE VR 2024 Schedule (PDF)"
             width="100%"
             height="600px"
@@ -40,6 +40,6 @@ title_separator: "|"
         </iframe>
     </div>
      <div class="mobile_view">         
-         <iframe frameborder="0" scrolling="no" height="600px" width="100%" src="https://docs.google.com/gview?url=https://ieeevr.org/2024/assets/program/vr2024_overall_schedule-34-public-mobile.pdf&embedded=true"> </iframe>    
+         <iframe frameborder="0" scrolling="no" height="600px" width="100%" src="https://docs.google.com/gview?url=https://ieeevr.org/2024/assets/program/vr2024_overall_schedule-36-public-mobile.pdf&embedded=true"> </iframe>    
     </div>
 </div>

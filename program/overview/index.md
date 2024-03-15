@@ -186,7 +186,7 @@ title_separator: "|"
                     <div class="session session-t1a track-tutorials" style="grid-column: track-7; grid-row: time-0830 / time-1000;">                    
                         <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">8:30-10:00</span>
-                        <span class="session-time">Room: Fantasia K-M</span>
+                        <span class="session-time">Room: Fantasia M-P</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
@@ -261,7 +261,7 @@ title_separator: "|"
                     <div class="session session-t1b track-tutorials" style="grid-column: track-7; grid-row: time-1030 / time-1200;">                    
                         <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">10:30-12:00</span>
-                        <span class="session-time">Room: Fantasia K-M</span>
+                        <span class="session-time">Room: Fantasia M-P</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
@@ -421,7 +421,7 @@ title_separator: "|"
                     <div class="session session-t2a track-tutorials" style="grid-column: track-7; grid-row: time-1600 / time-1730;">                    
                         <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">16:00-17:30</span>
-                        <span class="session-time">Room: Fantasia K-M</span>
+                        <span class="session-time">Room: Fantasia M-P</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
@@ -504,7 +504,7 @@ title_separator: "|"
                     <div class="session session-t3a track-tutorials" style="grid-column: track-7; grid-row: time-0830 / time-1000;">                    
                         <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">8:30-10:00</span>
-                        <span class="session-time">Room: Fantasia K-M</span>
+                        <span class="session-time">Room: Fantasia M-P</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
@@ -594,7 +594,7 @@ title_separator: "|"
                     <div class="session session-t3b track-tutorials" style="grid-column: track-7; grid-row: time-1030 / time-1200;">                    
                         <span class="session-title">Tutorial (cont)<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">10:30-12:00</span>
-                        <span class="session-time">Room: Fantasia K-M</span>
+                        <span class="session-time">Room: Fantasia M-P</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
@@ -692,7 +692,7 @@ title_separator: "|"
                     <div class="session session-t3b track-tutorials" style="grid-column: track-7; grid-row: time-1400 / time-1530;">                    
                         <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">14:00-15:30</span>
-                        <span class="session-time">Room: Fantasia K-M</span>
+                        <span class="session-time">Room: Fantasia M-P</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
@@ -771,7 +771,7 @@ title_separator: "|"
                     <div class="session session-t3b track-tutorials" style="grid-column: track-7; grid-row: time-1600 / time-1730;">                    
                         <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
                         <span class="session-time">16:00-17:30</span>
-                        <span class="session-time">Room: Fantasia K-M</span>
+                        <span class="session-time">Room: Fantasia M-P</span>
                         <span class="session-presenter"><br />{{ tutorial.authors }}</span>
                     </div>
                 {% endif %}   
