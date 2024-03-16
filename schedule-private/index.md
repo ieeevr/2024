@@ -11,7 +11,7 @@ keywords: private
         <div class = "ieeevrmsgboxInside med">
             This private schedule of activities associated with IEEE VR 2024 includes support activities and private events.<br/>
            <span class="main_view"><hr></span>
-           <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
+           <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full">Main Conference</a></div>
            <div><a href="{{ "/assets/map/FINAL_Contemporary_CapacityChart_Floorplans_as_of_7.13.16.pdf" | relative_url }}" target="_blank">Conference Center Map</a></div>
            <div class="italic med" style="text-align: right;">Updated: 16 March, 2024 </div>
         </div>
