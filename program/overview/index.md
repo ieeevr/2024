@@ -14,7 +14,6 @@ title_separator: "|"
     })(jQuery);
 
    $(document).ready(function(){
-		$('#day1').click(); 
 		$('#day2').click(); 
 		$('#day3').click(); 
 		$('#day4').click(); 
