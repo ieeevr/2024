@@ -30,7 +30,7 @@ title_separator: "|"
             <tr>
                 <th colspan="4">
                 IEEE VR 2024, March 16-21 - Select quick links below to skip to a specific day
-                <div class="italic" style="text-align: right; float:right;">Updated: 7 March, 2024 </div>
+                <div class="italic" style="text-align: right; float:right;">Updated: 16 March, 2024 </div>
                 </th>
             </tr>
         </thead>

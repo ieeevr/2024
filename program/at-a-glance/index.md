@@ -18,7 +18,7 @@ title_separator: "|"
            <span class="main_view"><hr></span>
            <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
            <div><a href="{{ "/assets/map/FINAL_Contemporary_CapacityChart_Floorplans_as_of_7.13.16.pdf" | relative_url }}" target="_blank">Conference Center Map</a></div>
-           <div class="italic med" style="text-align: right;">Updated: 15 March, 2024 </div>
+           <div class="italic med" style="text-align: right;">Updated: 16 March, 2024 </div>
         </div>
     </div>   
     <div class="main_view"> 
