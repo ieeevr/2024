@@ -924,10 +924,10 @@ title_separator: "|"
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>
             <p class="time-slot" style="grid-row: time-1730;">17:30</p> 
-            <div class="session track-main" style="grid-column: track-1-start / track-3-end; grid-row: time-1700 / time-1900;">
+            <div class="session track-main" style="grid-column: track-1-start / track-3-end; grid-row: time-1700 / time-1830;">
                 <div class="overview_update">New Time</div>
                 <span class="session-title">Welcome Reception</span>
-                <span class="session-time">17:00-19:00</span>
+                <span class="session-time">17:00-18:30</span>
                 <span class="session-time">Room: Sorcerer's Apprentice Lobby and Ballroom</span>
             </div>  
             <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1700 / time-1900;">

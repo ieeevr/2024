@@ -19,7 +19,7 @@ title_separator: "|"
            <!---<div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>--->
            <div>
             <a href="{{ "/assets/map/FINAL_Contemporary_CapacityChart_Floorplans_as_of_7.13.16.pdf" | relative_url }}" target="_blank">Conference Center Map</a></div>
-           <div class="italic med" style="text-align: right;">Updated: 17 March, 2024 </div>
+           <div class="italic med" style="text-align: right;">Updated: 18 March, 2024 </div>
         </div>
     </div>   
     <div class="main_view"> 
@@ -32,7 +32,7 @@ title_separator: "|"
             style="border:none;">
         </iframe>--->
         <h2 id="full">Main-Conference</h2>
-        <iframe src="{{"/assets/program/vr2024_overall_schedule-34-public-main.pdf" | relative_url }}#zoom=31" 
+        <iframe src="{{"/assets/program/vr2024_overall_schedule-38-public-main.pdf" | relative_url }}#zoom=31" 
             title="IEEE VR 2024 Schedule (PDF)"
             width="100%"
             height="600px"
