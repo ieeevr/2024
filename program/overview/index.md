@@ -14,7 +14,6 @@ title_separator: "|"
     })(jQuery);
 
    $(document).ready(function(){
-		$('#day2').click(); 
 		$('#day3').click(); 
 		$('#day4').click(); 
 		$('#day5').click(); 
@@ -29,7 +28,7 @@ title_separator: "|"
             <tr>
                 <th colspan="4">
                 IEEE VR 2024, March 16-21 - Select quick links below to skip to a specific day
-                <div class="italic" style="text-align: right; float:right;">Updated: 16 March, 2024 </div>
+                <div class="italic" style="text-align: right; float:right;">Updated: 17 March, 2024 </div>
                 </th>
             </tr>
         </thead>
@@ -39,7 +38,7 @@ title_separator: "|"
                     <a href="{{ "/assets/map/FINAL_Contemporary_CapacityChart_Floorplans_as_of_7.13.16.pdf" | relative_url }}" target="_blank">Conference Center Map</a>
                 </td>
             </tr>
-            <tr>
+           <!--- <tr>
                 <td class="text-nowrap"><a href="#day1">Saturday<br>2024-03-16</a></td>
                 <td>
                     * Workshops<br>
@@ -52,7 +51,7 @@ title_separator: "|"
                     * Tutorials<br>
                     * Faculty Fast Forward (F3)
                 </td>
-            </tr>
+            </tr>--->
             <tr>
                 <td class="text-nowrap"><a href="#day3">Monday<br>2024-03-18</a></td>
                 <td>
