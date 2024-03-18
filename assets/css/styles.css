@@ -1192,12 +1192,12 @@ img {
 }
 
 .left_home {
-    width: 65%;    
+    width: 57%;    
     min-height: 145px;
 }
 
 .right_home {
-    width: 32%;
+    width: 40%;
     margin-left: 25px;
     min-height: 145px;
 }
@@ -1387,7 +1387,15 @@ med,.med {
     font-size: 1.2em !important; 
 }
 
-.font_1 {
+.font_120 {
+    font-size: 1.2em !important;
+}
+
+.font_110 {
+    font-size: 1.1em !important;
+}
+
+.font_100 {
     font-size: 1.0em !important;
 }
 
@@ -1422,9 +1430,6 @@ med,.med {
 .font_60 {
     font-size: .60em !important;
 }
-
-
-
 
 p {
     margin-bottom: 1.3em;

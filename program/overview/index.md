@@ -28,7 +28,7 @@ title_separator: "|"
             <tr>
                 <th colspan="4">
                 IEEE VR 2024, March 16-21 - Select quick links below to skip to a specific day
-                <div class="italic" style="text-align: right; float:right;">Updated: 17 March, 2024 </div>
+                <div class="italic" style="text-align: right; float:right;">Updated: 18 March, 2024 </div>
                 </th>
             </tr>
         </thead>
@@ -852,6 +852,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1400 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#MO1G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -861,6 +862,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1400 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#MO1H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -870,6 +872,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1400 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#MO1J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -889,6 +892,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1530 / time-1700;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#MO2G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -898,6 +902,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1530 / time-1700;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#MO2H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -907,6 +912,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1530 / time-1700;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#MO2J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -945,6 +951,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU1G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -954,6 +961,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU1H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -963,6 +971,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU1J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1014,6 +1023,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU2G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1023,6 +1033,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU2H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1032,6 +1043,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU2J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1050,6 +1062,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1530 / time-1700;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU3G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1059,6 +1072,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1530 / time-1700;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU3H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1068,6 +1082,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1530 / time-1700;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TU3J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1095,6 +1110,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE1G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1104,6 +1120,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE1H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1113,6 +1130,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE1J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1132,6 +1150,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1015 / time-1115;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE2G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1141,6 +1160,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1015 / time-1115;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE2H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1150,6 +1170,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1015 / time-1115;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE2J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1164,6 +1185,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1130 / time-1230;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE3G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1173,6 +1195,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1130 / time-1230;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE3H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1182,6 +1205,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1130 / time-1230;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE3J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1202,6 +1226,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE4G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1211,6 +1236,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE4H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1220,6 +1246,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#WE4J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1281,6 +1308,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH1G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1290,6 +1318,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH1H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1299,6 +1328,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-0830 / time-0945;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH1J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1313,6 +1343,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1015 / time-1115;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH2G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1322,6 +1353,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1015 / time-1115;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH2H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1331,6 +1363,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1015 / time-1115;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH2J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1345,6 +1378,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1130 / time-1230;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH3G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1354,6 +1388,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1130 / time-1230;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH3H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1363,6 +1398,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1130 / time-1230;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH3J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1377,6 +1413,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-1-start / track-1-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH4G">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1386,6 +1423,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-2-start / track-2-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH4H">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
@@ -1395,6 +1433,7 @@ title_separator: "|"
                 <div class="session track-papers" style="grid-column: track-3-start / track-3-end; grid-row: time-1330 / time-1500;">
                     <span class="session-title"><a href="{{ '/program/papers/' | relative_url }}#TH4J">{{ session.id }}<br>{{ session.name }}</a></span>
                     <span class="session-time">{{ session.starttime }}-{{ session.endtime }}</span>
+                    <span class="session-time">Session Chair: {{ session.sessionchair }}</span>
                     <span class="session-time">Room: {{ session.room }}</span>
                 </div>  
                 {% endif %}   
