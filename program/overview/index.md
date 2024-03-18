@@ -4,7 +4,7 @@ title: "Program Overview"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240312">
+<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240318">
     
 <script>
     (function($) {
@@ -65,7 +65,7 @@ title_separator: "|"
                     <div style="text-indent: -.7em; margin-left: .7em;">
                         * Research Demos, 3DUI Contest Demos & Posters<br>
                     </div>
-                    * Welcome Reception
+                    * <span class="track-main bold">Welcome Reception  - New Time at 17:00</span>
                 </td>
                 <td class="text-nowrap"><a href="#day4">Tuesday<br>2024-03-19</a></td>
                 <td>    
@@ -924,14 +924,15 @@ title_separator: "|"
                 <span class="session-time">Sorcerer's Apprentice BR</span>
             </div>
             <p class="time-slot" style="grid-row: time-1730;">17:30</p> 
-            <div class="session track-main" style="grid-column: track-1-start / track-3-end; grid-row: time-1730 / time-1900;">
+            <div class="session track-main" style="grid-column: track-1-start / track-3-end; grid-row: time-1700 / time-1900;">
+                <div class="overview_update">New Time</div>
                 <span class="session-title">Welcome Reception</span>
-                <span class="session-time">17:30-19:00</span>
+                <span class="session-time">17:00-19:00</span>
                 <span class="session-time">Room: Sorcerer's Apprentice Lobby and Ballroom</span>
             </div>  
-            <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1730 / time-1900;">
+            <div class="session track-pd3dui" style="grid-column: track-4-start; grid-row: time-1700 / time-1900;">
                 <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a>, <a href="{{ '/program/3dui-contest/' | relative_url }}">3DUI Contest Demos</a> & <a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
-                <span class="session-time">17:30-19:00</span>
+                <span class="session-time">17:00-19:00</span>
                 <span class="session-time">Room: Sorcerer's Apprentice Ballroom</span>
             </div>
         </div> 

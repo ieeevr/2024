@@ -229,9 +229,9 @@
     color:#000 !important; 
     font-weight: bold !important; 
     margin-bottom: 5px !important;
-    font-size: .8em !important;}
-
-
+    font-size: .8em !important;
+    padding: 2px;
+}
 
 .track-slot{
     font-size:.75em;
