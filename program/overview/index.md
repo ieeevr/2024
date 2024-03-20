@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 <link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240318">
     
-<script>    
+<script>
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     (function($) {
@@ -15,7 +15,7 @@ title_separator: "|"
         })
     })(jQuery);
 
-  $(document).ready(function(){
+   $(document).ready(function(){
         let now = new Date();       
         let start = new Date("March 16, 2024 00:00:00");
         let end = new Date("March 21, 2024 23:59:59");
