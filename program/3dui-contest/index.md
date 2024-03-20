@@ -9,12 +9,26 @@ title_separator: "|"
 <div>
     <table class="styled-table">
         <tr>
-            <th>3DUI Contest Demos</th>
+            <th colspan="2">3DUI Contest Demos</th>
         </tr>
         {% assign i = 0 %}
         {% for entry in site.data.contest3dui %}
             {% assign i = i | plus:1 %}
             <tr>
+                <td>
+                    {% for a in site.data.awards %}  
+                        {% if a.type == '3DUI Contest' %}
+                            {% if a.id == entry.id %}
+                                {% if a.award == 'Best 3DUI' %}
+                                    <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#3dui-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best 3DUI Demo Award" alt="Best 3DUI Demo Award"></a></div>
+                                {% endif %}                                                    
+                                {% if a.award == "Honorable Mention" %}
+                                    <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#3dui-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best 3DUI Demo Honorable Mention" alt="Best 3DUI Demo Honorable Mention"></a></div>
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}  
+                </td>
                 <td class="medLarge"><a href="#{{ entry.id }}" title="{{ entry.title }}">{{ entry.title }}</a></td>
             </tr>
         {% endfor %}
@@ -78,22 +92,22 @@ title_separator: "|"
                     {% endif %}
                 {% endif %}
             {% endif %}
-        {% endfor %}  
-        <p id="{{ entry.id }}">
-            <strong>{{ entry.title }} (ID:&nbsp;{{ entry.id }})</strong><br/>
-            <span class="font_90">
-                {% assign authornames = entry.authors | split: ";" %}
-                {% for name in authornames %}
-                    {% assign barename = name | split: ":" %}
-                    {% for n in barename %}
-                        {% if n == barename.last %}
-                            <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
-                        {% else %}                            
-                            <span class="bold">{{ n | strip }},</span>
-                        {% endif %}
-                    {% endfor %} 
-                {% endfor %}
-            </span>
+        {% endfor %} 
+        <p class="medLarge" id="{{ entry.id }}" style="margin-bottom: 0.3em;">
+            <strong>{{ entry.title }} (ID:&nbsp;{{ entry.id }})</strong>
+        </p>
+        <p class="font_70" >   
+            {% assign authornames = entry.authors | split: ";" %}
+            {% for name in authornames %}
+                {% assign barename = name | split: ":" %}
+                {% for n in barename %}
+                    {% if n == barename.last %}
+                        <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                    {% else %}                            
+                        <span class="bold">{{ n | strip }},</span>
+                    {% endif %}
+                {% endfor %} 
+            {% endfor %}
         </p>
         {% if entry.url-embed %}
             <div class="video-container">
