@@ -52,8 +52,8 @@ title_separator: "|"
         } 
         */
         
-            $('#day5').click();
-            $('#day6').click();
+        $('#day5').click();
+        $('#day6').click();
     });   
 </script>
 
