@@ -6,7 +6,9 @@ title_separator: "|"
 ---
 <link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240318">
     
-<script>
+<script>    
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
     (function($) {
         $(function() {
             $("#accordion > div").accordion({ header: "h4", heightStyle: "content", active: false, collapsible: true });
