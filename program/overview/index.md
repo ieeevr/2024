@@ -16,7 +16,6 @@ title_separator: "|"
     })(jQuery);
 
    $(document).ready(function(){
-        /* 
         let now = new Date();       
         let start = new Date("March 16, 2024 00:00:00");
         let end = new Date("March 21, 2024 23:59:59");
@@ -50,10 +49,6 @@ title_separator: "|"
             $('#day5').click();
             $('#day6').click();
         } 
-        */
-        
-        $('#day5').click();
-        $('#day6').click();
     });   
 </script>
 
