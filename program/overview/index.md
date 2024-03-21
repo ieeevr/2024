@@ -18,7 +18,7 @@ title_separator: "|"
    $(document).ready(function(){
         let now = new Date();       
         let start = new Date("March 16, 2024 00:00:00");
-        let end = new Date("March 21, 2024 23:59:59");
+        let end = new Date("March 21, 2024 17:30:00");
         let day = days[now.getDay()];
 
         if (start <= now && now <= end) {             

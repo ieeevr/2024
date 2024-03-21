@@ -168,6 +168,9 @@ title_separator: "|"
         {% if item.ptype == 'Conference' %}
             {% assign source = site.data.conferencepapers %}
         {% endif %}
+        {% if item.ptype == 'Invited Journal' %}
+            {% assign source = site.data.invitedjournalpapers %}
+        {% endif %}
         {% for j in source %}
             {% if j.id == item.id %}
                 {% assign authornames = j.authors | split: ";" %}
@@ -215,6 +218,9 @@ title_separator: "|"
         {% if item.ptype == 'Conference' %}
             {% assign source = site.data.conferencepapers %}
         {% endif %}
+        {% if item.ptype == 'Invited Journal' %}
+            {% assign source = site.data.invitedjournalpapers %}
+        {% endif %}
         {% for j in source %}
             {% if j.id == item.id %}
                 {% assign authornames = j.authors | split: ";" %}
@@ -255,7 +261,7 @@ title_separator: "|"
 {% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Best Poster" %}
 {% if award.size > 0  %}
 <div>
-    <h2 id='poster-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"> Best Poster</h2>
+    <h2 id='poster-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"> Best Posters</h2>
 </div>
 {% endif %}    
 <div style="padding-bottom:15px;">
@@ -304,7 +310,7 @@ title_separator: "|"
 {% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Honorable Mention" %}
 {% if award.size > 0  %}
 <div>
-    <h2 id='poster-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"> Best Poster - Honorable Mention</h2>
+    <h2 id='poster-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"> Best Poster - Honorable Mentions</h2>
 </div>
 {% endif %}    
 <div style="padding-bottom:15px;">
@@ -364,7 +370,7 @@ title_separator: "|"
         {% for j in site.data.demos %}
             {% if j.id == item.id %} 
                 <p class="medLarge" id="{{ j.id }}" style="margin-bottom: 0.3em;">
-                    <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong>
+                    <strong><a href="{{ "/program/demos" | relative_url }}#{{ j.id }}">{{ j.title }} (ID:&nbsp;{{ j.id }})</a></strong>
                 </p>
                 <p class="font_70" >
                     {% assign authornames = j.authors | split: ";" %}
@@ -404,7 +410,7 @@ title_separator: "|"
         {% for j in site.data.demos %}
             {% if j.id == item.id %}
                 <p class="medLarge" id="{{ j.id }}" style="margin-bottom: 0.3em;">
-                    <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong>
+                    <strong><a href="{{ "/program/demos" | relative_url }}#{{ j.id }}">{{ j.title }} (ID:&nbsp;{{ j.id }})</a></strong>
                 </p>
                 <p class="font_70" >
                     {% assign authornames = j.authors | split: ";" %}
@@ -439,7 +445,7 @@ title_separator: "|"
 {% assign award = site.data.awards | where: "type", "3DUI Contest" | where: "award", "Best 3DUI" %}
 {% if award.size > 0  %}
 <div>
-    <h2 id='3dui-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best 3DUI Contest Demo Award" alt="Best 3DUI Contest Demo Award">Best 3DUI Contest Demo</h2>
+    <h2 id='3dui-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best 3DUI Contest Demo Award" alt="Best 3DUI Contest Demo Award"> Best 3DUI Contest Demo</h2>
 </div>
 {% endif %}    
 <div style="padding-bottom:15px;">
@@ -447,7 +453,7 @@ title_separator: "|"
         {% for j in site.data.contest3dui %}
             {% if j.id == item.id %}  
                 <p class="medLarge" id="{{ j.id }}" style="margin-bottom: 0.3em;">
-                    <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong>
+                    <strong><a href="{{ "/program/3dui-contest" | relative_url }}#{{ j.id }}">{{ j.title }} (ID:&nbsp;{{ j.id }})</a></strong>
                 </p>
                 <p class="font_70" >
                     {% assign authornames = j.authors | split: ";" %}
@@ -478,7 +484,7 @@ title_separator: "|"
         {% for j in site.data.contest3dui %}
             {% if j.id == item.id %}  
                 <p class="medLarge" id="{{ j.id }}" style="margin-bottom: 0.3em;">
-                    <strong>{{ j.title }} (ID:&nbsp;{{ j.id }})</strong>
+                    <strong><a href="{{ "/program/3dui-contest" | relative_url }}#{{ j.id }}">{{ j.title }} (ID:&nbsp;{{ j.id }})</a></strong>
                 </p>
                 <p class="font_70" >
                     {% assign authornames = j.authors | split: ";" %}
@@ -498,13 +504,13 @@ title_separator: "|"
     {% endfor %}
 </div>
 
-<h2 id="dc">Best DC Paper</h2>
+<h2 id="dc">Best Doctoral Consortium Paper</h2>
 <p>The IEEE VR Best Doctoral Consortium (DC) Paper Awards honors exceptional DC papers published and presented at the IEEE VR conference. The best DC paper committee consists of three distinguished members chosen by the Conference Awards Committee Chairs and the DC chairs. The DC chairs recommend 20% of all DC papers for such an award. The best DC committee selects one of these DC papers for Best DC Paper Award. The DC paper that receives the award will be marked in the program and the author will receive a certificate at the conference. </p>
 
 {% assign award = site.data.awards | where: "type", "DC" | where: "award", "Best DC" %}
 {% if award.size > 0  %}
 <div>
-    <h2 id='DC-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Award" alt="Best Doctoral Consortium Award"> Best Doctoral Consortium</h2>
+    <h2 id='DC-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Award" alt="Best Doctoral Consortium Award"> Best Doctoral Consortium Paper</h2>
 </div>
 {% endif %}    
 <div style="padding-bottom:15px;">  
@@ -535,7 +541,7 @@ title_separator: "|"
 {% assign award = site.data.awards | where: "type", "DC" | where: "award", "Honorable Mention" %}
 {% if award.size > 0  %}
     <div>
-        <h2 id='DC-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best DC Paper Honorable Mention" alt="Best DC Paper Honorable Mention"> Best Doctoral Consortium - Honorable Mention</h2>
+        <h2 id='DC-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best DC Paper Honorable Mention" alt="Best DC Paper Honorable Mention"> Best Doctoral Consortium Paper - Honorable Mention</h2>
     </div>
 {% endif %}    
 <div style="padding-bottom:15px;">
@@ -568,9 +574,9 @@ title_separator: "|"
 
 {% assign award = site.data.awards | where: "type", "Presentation" | where: "award", "Best Presentation" %}
 {% if award.size > 0  %}
-    <div>
-        <h2 id='paper-presentation-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best-star.png" | relative_url }}" title="Best Paper Presentation Award" alt="Best Paper Presentation Award"> Best Paper Presentation</h2>
-    </div>
+<div>
+    <h2 id='paper-presentation-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best-star.png" | relative_url }}" title="Best Paper Presentation Award" alt="Best Paper Presentation Award"> Best Paper Presentations</h2>
+</div>
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for item in award %}
@@ -579,6 +585,9 @@ title_separator: "|"
         {% endif %}
         {% if item.ptype == 'Conference' %}
             {% assign source = site.data.conferencepapers %}
+        {% endif %}
+        {% if item.ptype == 'Invited Journal' %}
+            {% assign source = site.data.invitedjournalpapers %}
         {% endif %}
         {% for j in source %}
             {% if j.id == item.id %} 
@@ -615,9 +624,9 @@ title_separator: "|"
 
 {% assign award = site.data.awards | where: "type", "Presentation" | where: "award", "Honorable Mention" %}
 {% if award.size > 0  %}
-    <div>
-        <h2 id='paper-presentation-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm2.png" | relative_url }}" title="Best Paper Presentation Honorable Mention" alt="Best Paper Presentation Honorable Mention"> Best Paper Presentation - Honorable Mention</h2>
-    </div>
+<div>
+    <h2 id='paper-presentation-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm2.png" | relative_url }}" title="Best Paper Presentation Honorable Mention" alt="Best Paper Presentation Honorable Mention"> Best Paper Presentation - Honorable Mentions</h2>
+</div>
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for item in award %}
@@ -626,6 +635,9 @@ title_separator: "|"
         {% endif %}
         {% if item.ptype == 'Conference' %}
             {% assign source = site.data.conferencepapers %}
+        {% endif %}
+        {% if item.ptype == 'Invited Journal' %}
+            {% assign source = site.data.invitedjournalpapers %}
         {% endif %}
         {% for j in source %}
             {% if j.id == item.id %}
